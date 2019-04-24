@@ -20,81 +20,6 @@
                 information later, when
                 I'm done with a cool text.
               </p>
-              <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                invidunt ut
-                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
-                duo dolores
-                et
-                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-                amet. Lorem
-                ipsum
-                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-                labore et
-                dolore
-                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-                rebum.
-                Stet
-                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-                dolor sit
-                amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                dolore magna
-                aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-                Stet
-                clita
-                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-              </p>
-              <p>
-                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
-                vel illum
-                dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
-                blandit
-                praesent
-                luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit
-                amet,
-                consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-                magna
-                aliquam
-                erat volutpat.
-              </p>
-              <p>
-                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
-                nisl ut
-                aliquip
-                ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit
-                esse
-                molestie
-                consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto
-                odio
-                dignissim
-                qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-              </p>
-              <p>
-                Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod
-                mazim placerat
-                facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                nonummy nibh
-                euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
-                veniam, quis
-                nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-                consequat.
-              </p>
-              <p>
-                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
-                vel illum
-                dolore eu feugiat nulla facilisis.
-              </p>
-              <p>
-                At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-                sea takimata
-                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
-                elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-                voluptua. At vero
-                eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                takimata sanctus est
-                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-              </p>
             </v-flex>
           </v-layout>
         </v-tab-item>
@@ -108,7 +33,7 @@
           </v-layout>
           <v-layout justify-center>
             <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/LS/takumi2P.png')"></v-img>
+              <v-img :src="require ('@/assets/characters/RS/D4_Takumi.png')"></v-img>
             </v-flex>
             <v-flex xs6>
               <h2>Takumi Fujiwara</h2>
@@ -236,150 +161,188 @@
               </p>
             </v-flex>
             <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/LS/keisuke2P.png')"></v-img>
+              <v-img :src="require ('@/assets/characters/RS/D4_Keisuke.png')"></v-img>
             </v-flex>
           </v-layout>
           <v-layout justify-center>
             <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/LS/nakazato2P.png')"></v-img>
+              <v-img :src="require ('@/assets/characters/RS/D4_Kawai1P.png')"></v-img>
             </v-flex>
             <v-flex xs6>
-              <h2>Takeshi Nakazato</h2>
+              <h2>Atsuro Kawai</h2>
               <p>
-                Takeshi Nakazato (中里 毅 Nakazato Takeshi, "Zack"), also known as the Black Lightning (黒い稲妻 Kuroi Inazuma),
-                is the leader of the Myogi NightKids. He made his first appearance at the race in Akina where Keisuke
-                Takahashi of the RedSuns is to race against Takumi Fujiwara. Surprised that Takumi could defeat Keisuke,
-                Takeshi decides that he is going to be the one to challenge and defeat the "Akina downhill specialist",
-                and that the RedSuns are next on his list.
+                Atsuro Kawai (川井 淳郎 Kawai Atsurō) is the hillclimb racer and the leader of the Tochigi-based
+                Seven Star Leaf. He seems to be a decent enough driver, again favouring the grip racing techniques,
+                but his mastery of it is uncomparable to that of Takeshi Nakazato. His car is powered up to 400 hp.
               </p>
-              <p>
-                He is an intelligent and skilled driver, notably recognizing Takumi's the gutter hook technique while
-                observing the Eight-Six's first battle with Keisuke's FD. However, his downfall is his anger and
-                emotions getting in the way of his mind, resulting in poor throttle control. He also races all-out and
-                usually fails to consider tire wear, so in the end, he loses the race, sometimes crashing his car. He is
-                very good at acceleration and is known for his grip driving philosophy. His previous car was a Nissan
-                Silvia (S13), with which he used drifting techniques. He changed to the Nissan Skyline GT-R (R32) after
-                a devastating loss to a white (or rather silver) R32 on his home course of Myogi. Following the defeat
-                by the Skyline, his philosophy changed, favoring grip driving techniques over "weak" and "showy"
-                drifting techniques. He also believed that no matter what skill a driver has, a car will not run beyond
-                its capabilities.
-              </p>
-              <p>
-                Takeshi is the leader of the NightKids team on Mount Myogi and he has shown an interest in Sayuki of
-                Impact Blue.
-              </p>
-              <p>He is a fan of the GT-R just like Kunimitsu Takahashi.</p>
             </v-flex>
           </v-layout>
           <v-layout justify-center>
-            <v-flex xs4 offset-xs2 text-xs-right>
-              <h2>Shingo Shoji</h2>
+            <v-flex xs6 text-xs-right>
+              <h2>Daiki Ninomiya</h2>
               <p>
-                Shingo Shoji (庄司 慎吾 Shōji Shingo) is a member of the NightKids who drives a red Honda Civic SiR-II (EG6).
-                Shingo races dangerously, he will nudge his rival's car in order to make the other driver lose control
-                if he's unsure about his own chances of winning. He doesn't find plain downhill races any fun,
-                preferring to race against a handicap. In this handicap match, Shingo tapes his right hand to the
-                steering wheel for the duration of the race. By doing this, Shingo limits his own steering capabilities.
-                In terms of racing ability, Shingo is the best driver on the Night Kids team. He is also a childhood
-                friend of Impact Blue's navigator, Sayuki.
-              </p>
-              <p>
-                Shingo actually shares many beliefs with Takeshi, but whenever they watch other battles, they try to stay
-                away from one another so that people won't mistake them as friends even though in Extra Stage, they
-                acted like buddies. There were also times that he supported his teammate for the Night Kids' sake, like
-                the battle against Seiji Iwaki and his Evo IV.
+                Daiki Ninomiya (二宮 大輝 Ninomiya Daiki, known as Dice in the Tokyopop version) is the ace and
+                current student of Todo School and is one of the better drivers of the series. Driving a yellow
+                Civic Type R (EK9), Daiki races against Takumi of Project D in a downhill battle. His dad is a
+                race car driver. He excels in braking, being able to release the brake pedal in the perfect spot
+                during a corner, every time. Daiki is also one of the school's all time three best downhill drivers.
+                He is also good friends with Smiley Sakai and Tomoyuki Tachi.
               </p>
             </v-flex>
             <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/LS/singo2P.png')"></v-img>
+              <v-img :src="require ('@/assets/characters/RS/D4_Nino1P.png')"></v-img>
             </v-flex>
           </v-layout>
           <v-layout justify-center>
             <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/LS/ryousuke2P.png')"></v-img>
+              <v-img :src="require ('@/assets/characters/RS/D4_Sakai1P.png')"></v-img>
             </v-flex>
             <v-flex xs6>
-              <h2>Ryosuke Takahashi</h2>
+              <h2>Smiley Sakai</h2>
               <p>
-                Ryosuke Takahashi (高橋 涼介, Takahashi Ryōsuke; known as Ry in the Tokyopop version) is one of the main
-                characters of Initial D, the founder and leader of both the Akagi RedSuns and Project D. Originally a
-                solo racer nicknamed Akagi's White Comet, he created the RedSuns, with the purpose of dominating in the
-                street racing scene all over Japan and recruited racers including his brother Keisuke, which gave both
-                of them the nicknames of the Rotary Brothers.
+                Smiley Sakai (スマイリー 酒井, Sumairī Sakai) is a student of the Todo School and one of Daiki's
+                friends and drives an Integra Type R DC2, equipped with an aftermarket turbocharger. Sakai races
+                against Keisuke of Project D in a hillclimb battle.
               </p>
               <p>
-                The RedSuns' plan was put on hold following Keisuke's defeat and the emergence of Takumi Fujiwara, the
-                driver of the Toyota AE86. Before his race with Fujiwara, he was invited to a professional racing team
-                but he passed cause "his only interest was street racing". His winning streak came to an end when he
-                lost to Fujiwara. After his defeat, he temporarily retired from racing until making a comeback to race
-                against the threat of Team Emperor and their leader and rival Kyoichi Sudo. He also raced and defeated
-                Takeshi Nakazato, the leader of the Myogi's NightKids.
+                He uses two techniques to race, first, using high speeds to enter a corner to get the other person
+                to do the same, then correcting his speed during the turn. The other trick is to feint-brake his
+                opponent, forcing them to back off while he speeds away. His face tenses up when he is racing to
+                make him look like he is smiling, hence his nickname, Smiley Sakai.
               </p>
               <p>
-                Soon after Takumi raced against Wataru Akiyama, he created a new racing team called Project D, and also
-                effectively disbanding the RedSuns, with the similar goal to dominate the street racing scene but for
-                one year before he goes back to medical school.
-              </p>
-              <p>
-                During the Project D races in Kanagawa, he is revealed to have a connection with Rin Hojo, a fellow
-                medical student and a street racer from Kanagawa where they had disputes with a girl named Kaori, who
-                was Rin's fiancee at the time but committed suicide following verbal abuse by Rin, which led to Rin
-                disappearing from the racing scene. Knowing that he cannot escape the past, he modified his car in
-                secret with Shuichi Matsumoto and raced Rin at the Toyo Tires Turnpike. However thanks to assistance of
-                Team Spiral's leader Ryuji Ikeda, who was spectating behind, he was able to stop Rin from crashing and
-                afterwards settled their differences with each other.
-              </p>
-              <p>
-                After the disbanding of Project D, he continues to go on a silent spectator at street races, saying that
-                he would eventually pick out new gifted racers. It is also implied that he is still continuing his
-                studies on medicine at the same time.
+                Judging by the way that Daiki refers to him with the honorific san (Sakai-san), it can be inferred
+                that Smiley is a senior student of the Todo School, and probably the reason why he knows much of
+                Todo's experiences in racing, especially the school's rivalry with Purple Shadow and their top racers.
               </p>
             </v-flex>
           </v-layout>
           <v-layout justify-center>
             <v-flex xs6>
-              <h2>Bunta Fujiwara</h2>
+              <h2>Toru Suetsugu</h2>
               <p>
-                Bunta Fujiwara (藤原 文太 Fujiwara Bunta) is the owner of a tofu shop in Gunma, and the father of
-                Takumi. He
-                used to be the No.1 downhill racer in Mt. Akina years ago, but he no longer races, preferring to guide
-                Takumi's racing development. He is the original driver of the mysterious "white ghost of Akina" AE86
-                Sprinter Trueno that holds the record of the fastest downhill time at Akina. Bunta has a unique way of
-                training his son to drive - every morning when Takumi delivers tofu. Bunta gives Takumi a cup of water
-                which is placed in the drink holder; Takumi must not spill even a drop of it while he is driving. This
-                is ostensibly to prevent breaking the tofu in the boot, but it forces Takumi to drive very smoothly. As
-                for Bunta, he is still considered the best downhill racer in Akina, which is shown early in the series
-                when he pushes the Trueno with Yuichi in the passenger seat, lighting a cigarette while drifting around
-                a corner.
+                Toru Suetsugu (末次 トオル Suetsugu Tōru) is the downhill racer for the Seven Star Leaf team and
+                known for his reckless, kamikaze downhill style. Toru is also the only driver in the series who
+                actually has a decent relationship; he has a girlfriend called Nao. Nao cares for him very much
+                and she doesn't really approve of him racing, especially that he is practically broke almost all
+                of the time and borrows money from her often.
               </p>
               <p>
-                Later in the series, Takumi used the Trueno more than Bunta, so he gave the car to Takumi. While test
-                driving a Subaru Impreza WRX STi Type R Version V on Akina, he defeated his son, inducing a AWD complex
-                in Takumi. Bunta decided to buy the car, but hid this fact from Takumi for some time. After revealing
-                that he was the driver, he then told Takumi to alternate between the Impreza and his Eight-Six for
-                deliveries - another strategy to improve Takumi as a driver, showing him the potential of modern cars
-                and the characteristics of AWD. While this shows his training strategy, it is seen that Bunta is, once
-                again, proven to be the most formidable opponent in Akina.
-              </p>
-              <p>
-                Bunta is thought to have been undefeated during his time as a street racer. There is some dialog between
-                Tachibana and Iketani that could possibly dispute this, but the vague description of events leaves the
-                actual results up to speculation. Specifically, this dialog occurs during the Tochigi campaign (volume
-                15 of the manga, or the Third Stage movie) when Tachibana explains the rivalry between Bunta and Ken
-                Kogashiwa. According to Tachibana, Bunta and Ken completed multiple races on the Irohazaka road to
-                determine who was truly the fastest street racer, and "on the last race that counted", Bunta won. This
-                could mean that Bunta possibly lost one or more rounds, but this idea is never discussed further as the
-                dialog was written solely to provide a racing pedigree for Ken's son, who had recently challenged Takumi
-                to a race on the same road.
+                When the Seven Star Leaf team is challenged by Ryosuke's Project D. Tohru is slated to race
+                against Takumi. Again he borrows money from his girlfriend for a new set of tires. She agreed,
+                with a condition: if he is defeated, he'll have to stop racing, or they will have to break up.
+                He lost when he tried to emulate Takumi's weight-shifting technique of bypassing the uncovered
+                gutters: his right front wheel snagged on the open gutter, flipping his car over once before
+                coming to a standstill. In the end, he adheres to Nao's request - only to find out she stated
+                the ultimatum just to guilt him. Nevertheless, he expresses his gratitude for facing Project D.
               </p>
             </v-flex>
             <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/LS/bunta1P.png')"></v-img>
+              <v-img :src="require ('@/assets/characters/RS/D4_Sue1P.png')"></v-img>
+            </v-flex>
+          </v-layout>
+          <v-layout justify-center>
+            <v-flex xs2>
+              <v-img :src="require ('@/assets/characters/RS/D4_Tachi1P.png')"></v-img>
+            </v-flex>
+            <v-flex xs6>
+              <h2>Tomoyuki Tachi</h2>
+              <p>
+                Tomoyuki Tachi (舘 智幸 Tachi Tomoyuki, Tokyopop: Touch) is a professional racer and a graduate,
+                or "old boy" (shortened to OB) of the Todo School. He was brought in to have a rematch against
+                Project D on Happogahara, after they were defeated by them. Tomoyuki took Daiki's EK9 and beat
+                Takumi's downhill record in one try, without pushing the car to the limit. Tomoyuki agreed to
+                use the school's top car, the Spoon-tuned demonstration EK9, at Happogahara.
+              </p>
+              <p>
+                It is highly speculated that his professional racing outfit seems to be based on the racing
+                outfit that Keiichi Tsuchiya wears during his racing days and his appearances in Best Motoring.
+                The green racing suit, gloves and the red ARD Asic racing shoes are evidence to this speculation.
+                It appears that Tomoyuki had role in the CD Initial D Drama involving Tsuchiya as the basis of
+                the story. Tomoyuki tuned the Civic the best he could to be able to compete with the FD on the
+                straights, but surprisingly, Ryosuke decided to send out the Eight-Six. He lost the race to
+                Takumi when he steered off the center of the road to avoid hitting a cat that crossed the street
+                near the finish line. Because of this dodging he creates enough space for Takumi to pass him in
+                his Eight-Six. Afterwards Takumi asks Tomoyuki why he suddenly created space for Takumi to pass.
+                Tachi responded that he thought he saw something cross the road and because of his racing reflexes
+                immediately dodged it. Takumi's headlights were turned off as part of his technique.
+              </p>
             </v-flex>
           </v-layout>
         </v-tab-item>
-        <v-tab :key="2" ripple @click.stop="active=2">Guide</v-tab>
+        <!-- Trains -->
+        <v-tab :key="2" ripple @click.stop="active=2">Trains</v-tab>
         <v-tab-item :key="2">
+          <v-layout text-xs-center>
+            <v-flex xs12>
+              <h1>New Trains</h1>
+            </v-flex>
+          </v-layout>
+          <v-layout justify-center>
+            <v-flex xs8>
+              <p>
+                Train talk
+              </p>
+            </v-flex>
+          </v-layout>
+          <v-layout justify-center>
+            <v-flex xs2>
+              <v-img :src="require ('@/assets/trains/RS/ICON_DRC.png')"></v-img>
+            </v-flex>
+            <v-flex xs6 pl-2>
+              <h2>DRC</h2>
+              <p>
+                More information about this kind of train will be added soon.
+              </p>
+            </v-flex>
+          </v-layout>
+          <v-layout justify-center>
+            <v-flex xs6 text-xs-right pr-2>
+              <h2>MU</h2>
+              <p>
+                More information about this kind of train will be added soon.
+              </p>
+            </v-flex>
+            <v-flex xs2>
+              <v-img :src="require ('@/assets/trains/RS/ICON_MU.png')"></v-img>
+            </v-flex>
+          </v-layout>
+          <v-layout justify-center>
+            <v-flex xs2>
+              <v-img :src="require ('@/assets/trains/RS/ICON_PANO.png')"></v-img>
+            </v-flex>
+            <v-flex xs6 pl-2>
+              <h2>Pano</h2>
+              <p>
+                More information about this kind of train will be added soon.
+              </p>
+            </v-flex>
+          </v-layout>
+          <v-layout justify-center>
+            <v-flex xs6 text-xs-right pr-2>
+              <h2>T50K</h2>
+              <p>
+                More information about this kind of train will be added soon.
+              </p>
+            </v-flex>
+            <v-flex xs2>
+              <v-img :src="require ('@/assets/trains/RS/ICON_T50K.png')"></v-img>
+            </v-flex>
+          </v-layout>
+          <v-layout justify-center>
+            <v-flex xs2>
+              <v-img :src="require ('@/assets/trains/RS/ICON_T200.png')"></v-img>
+            </v-flex>
+            <v-flex xs6 pl-2>
+              <h2>T200</h2>
+              <p>
+                More information about this kind of train will be added soon.
+              </p>
+            </v-flex>
+          </v-layout>
+        </v-tab-item>
+        <v-tab :key="3" ripple @click.stop="active=3">Guide</v-tab>
+        <v-tab-item :key="3">
           <!-- Guide -->
           <v-layout text-xs-center>
             <v-flex xs12>
@@ -571,8 +534,8 @@
             </v-flex>
           </v-layout>
         </v-tab-item>
-        <v-tab :key="3" ripple @click.stop="active=3">Speedrun</v-tab>
-        <v-tab-item :key="3">
+        <v-tab :key="4" ripple @click.stop="active=4">Speedrun</v-tab>
+        <v-tab-item :key="4">
           <!-- Speedrun -->
           <v-layout text-xs-center>
             <v-flex xs12>

@@ -20,103 +20,6 @@
                 information later, when
                 I'm done with a cool text.
               </p>
-              <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor
-                invidunt ut
-                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                justo
-                duo dolores
-                et
-                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-                sit
-                amet. Lorem
-                ipsum
-                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-                ut
-                labore et
-                dolore
-                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-                et ea
-                rebum.
-                Stet
-                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
-                ipsum
-                dolor sit
-                amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-                et
-                dolore magna
-                aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-                rebum.
-                Stet
-                clita
-                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-              </p>
-              <p>
-                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
-                consequat,
-                vel illum
-                dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim
-                qui
-                blandit
-                praesent
-                luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum
-                dolor sit
-                amet,
-                consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                dolore
-                magna
-                aliquam
-                erat volutpat.
-              </p>
-              <p>
-                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-                lobortis
-                nisl ut
-                aliquip
-                ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate
-                velit
-                esse
-                molestie
-                consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et
-                iusto
-                odio
-                dignissim
-                qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla
-                facilisi.
-              </p>
-              <p>
-                Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id
-                quod
-                mazim placerat
-                facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam
-                nonummy nibh
-                euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
-                minim
-                veniam, quis
-                nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-                consequat.
-              </p>
-              <p>
-                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
-                consequat,
-                vel illum
-                dolore eu feugiat nulla facilisis.
-              </p>
-              <p>
-                At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-                no
-                sea takimata
-                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-                sadipscing
-                elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-                voluptua. At vero
-                eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                takimata sanctus est
-                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-              </p>
             </v-flex>
           </v-layout>
         </v-tab-item>
@@ -130,7 +33,7 @@
           </v-layout>
           <v-layout justify-center>
             <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/BS/mako_sayuki.png')"></v-img>
+              <v-img :src="require ('@/assets/characters/BS/D2_mako.png')"></v-img>
             </v-flex>
             <v-flex xs6>
               <h2>Mako Sato</h2>
@@ -214,12 +117,12 @@
               </p>
             </v-flex>
             <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/BS/mako_sayuki.png')"></v-img>
+              <v-img :src="require ('@/assets/characters/BS/D2_sayuki.png')"></v-img>
             </v-flex>
           </v-layout>
           <v-layout justify-center>
             <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/BS/kenta.png')"></v-img>
+              <v-img :src="require ('@/assets/characters/BS/D2_kenta.png')"></v-img>
             </v-flex>
             <v-flex xs6>
               <h2>Kenta Nakamaura</h2>
@@ -296,12 +199,12 @@
               <p>He is a fan of the GT-R just like Kunimitsu Takahashi.</p>
             </v-flex>
             <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/LS/nakazato2P.png')"></v-img>
+              <v-img :src="require ('@/assets/characters/BS/D2_nakazato.png')"></v-img>
             </v-flex>
           </v-layout>
           <v-layout justify-center>
             <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/BS/kyoichi.png')"></v-img>
+              <v-img :src="require ('@/assets/characters/BS/D2_kyousuke2P.png')"></v-img>
             </v-flex>
             <v-flex xs6>
               <h2>Kyoichi Sudo</h2>
@@ -401,12 +304,72 @@
               </p>
             </v-flex>
             <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/BS/seiji.png')"></v-img>
+              <v-img :src="require ('@/assets/characters/BS/D2_seiji_a.png')"></v-img>
             </v-flex>
           </v-layout>
         </v-tab-item>
-        <v-tab :key="2" ripple @click.stop="active=2">Guide</v-tab>
+        <!-- Trains -->
+        <v-tab :key="2" ripple @click.stop="active=2">Trains</v-tab>
         <v-tab-item :key="2">
+          <v-layout text-xs-center>
+            <v-flex xs12>
+              <h1>New Trains</h1>
+            </v-flex>
+          </v-layout>
+          <v-layout justify-center>
+            <v-flex xs8>
+              <p>
+                Train talk
+              </p>
+            </v-flex>
+          </v-layout>
+          <v-layout justify-center>
+            <v-flex xs2>
+              <v-img :src="require ('@/assets/trains/BS/ICON_21XX.png')"></v-img>
+            </v-flex>
+            <v-flex xs6 pl-2>
+              <h2>21XX Series</h2>
+              <p>
+                More information about this kind of train will be added soon.
+              </p>
+            </v-flex>
+          </v-layout>
+          <v-layout justify-center>
+            <v-flex xs6 text-xs-right pr-2>
+              <h2>2199 Series</h2>
+              <p>
+                More information about this kind of train will be added soon.
+              </p>
+            </v-flex>
+            <v-flex xs2>
+              <v-img :src="require ('@/assets/trains/BS/ICON_2199.png')"></v-img>
+            </v-flex>
+          </v-layout>
+          <v-layout justify-center>
+            <v-flex xs2>
+              <v-img :src="require ('@/assets/trains/BS/ICON_8008.png')"></v-img>
+            </v-flex>
+            <v-flex xs6 pl-2>
+              <h2>8008 Series</h2>
+              <p>
+                More information about this kind of train will be added soon.
+              </p>
+            </v-flex>
+          </v-layout>
+          <v-layout justify-center>
+            <v-flex xs6 text-xs-right pr-2>
+              <h2>UV Series</h2>
+              <p>
+                More information about this kind of train will be added soon.
+              </p>
+            </v-flex>
+            <v-flex xs2>
+              <v-img :src="require ('@/assets/trains/BS/ICON_UV.png')"></v-img>
+            </v-flex>
+          </v-layout>
+        </v-tab-item>
+        <v-tab :key="3" ripple @click.stop="active=3">Guide</v-tab>
+        <v-tab-item :key="3">
           <!-- Guide -->
           <v-layout text-xs-center>
             <v-flex xs12>
@@ -417,197 +380,103 @@
             <v-flex xs8>
               <p>
                 This will be a wall of text that explains everything.
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor invidunt ut labore
-                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
-                duo dolores et ea rebum.
-                Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                Lorem ipsum dolor sit amet,
-                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                dolore magna aliquyam erat,
-                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                clita kasd gubergren, no sea
-                takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-                consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-                voluptua. At vero eos et
-                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                sanctus est Lorem ipsum
-                dolor sit amet.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs4>
+          <v-layout>
+            <v-flex xs6>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/WwZz1Yxz5ho"
                 frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             </v-flex>
-            <v-flex xs8>
+            <v-flex pl-2>
               <h2>Stage 1 - Keisuke</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor
-                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-                sadipscing
-                elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                erat,
-                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                clita
-                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs4>
+          <v-layout>
+            <v-flex xs6>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/OS5bAK3gZc"
                 frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             </v-flex>
-            <v-flex xs8>
+            <v-flex pl-2>
               <h2>Stage 2 - Nakazato</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor
-                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-                sadipscing
-                elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                erat,
-                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                clita
-                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs4>
+          <v-layout>
+            <v-flex xs6>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/fdP4_itYimw"
                 frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             </v-flex>
-            <v-flex xs8>
+            <v-flex pl-2>
               <h2>Stage 3 - Shingo</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor
-                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-                sadipscing
-                elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                erat,
-                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                clita
-                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs4>
+          <v-layout>
+            <v-flex xs6>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/Qj9_apUMuvk"
                 frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             </v-flex>
-            <v-flex xs8>
+            <v-flex pl-2>
               <h2>Stage 4 - Ryousuke</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor
-                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-                sadipscing
-                elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                erat,
-                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                clita
-                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs4>
+          <v-layout>
+            <v-flex xs6>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/U2g-qvEtsuY"
                 frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             </v-flex>
-            <v-flex xs8>
+            <v-flex pl-2>
               <h2>Bonus Stage 1 - Masked Driver</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor
-                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-                sadipscing
-                elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                erat,
-                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                clita
-                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs4>
+          <v-layout>
+            <v-flex xs6>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/28oU3ra69cU"
                 frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             </v-flex>
-            <v-flex xs8>
+            <v-flex pl-2>
               <h2>Bonus Stage 2 - Takumi-san</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor
-                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-                sadipscing
-                elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                erat,
-                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                clita
-                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout align-content-space-between>
-            <v-flex xs4>
+          <v-layout>
+            <v-flex xs6>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/c3QP2vaiu0o"
                 frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             </v-flex>
-            <v-flex xs8>
+            <v-flex pl-2>
               <h2>Bonus Stage 3 - Bunta</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor
-                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-                sadipscing
-                elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                erat,
-                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                clita
-                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
         </v-tab-item>
-        <v-tab :key="3" ripple @click.stop="active=3">Speedrun</v-tab>
-        <v-tab-item :key="3">
+        <v-tab :key="4" ripple @click.stop="active=4">Speedrun</v-tab>
+        <v-tab-item :key="4">
           <!-- Speedrun -->
           <v-layout text-xs-center>
             <v-flex xs12>
@@ -618,191 +487,97 @@
             <v-flex xs8>
               <p>
                 This will be a wall of text that explains everything.
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor invidunt ut labore
-                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
-                duo dolores et ea rebum.
-                Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                Lorem ipsum dolor sit amet,
-                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                dolore magna aliquyam erat,
-                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                clita kasd gubergren, no sea
-                takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-                consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-                voluptua. At vero eos et
-                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                sanctus est Lorem ipsum
-                dolor sit amet.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs4>
+          <v-layout>
+            <v-flex xs6>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/WwZz1Yxz5ho"
                 frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             </v-flex>
-            <v-flex xs8>
+            <v-flex pl-2>
               <h2>Stage 1 - Keisuke</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor
-                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-                sadipscing
-                elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                erat,
-                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                clita
-                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs4>
+          <v-layout>
+            <v-flex xs6>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/OS5bAK3gZc"
                 frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             </v-flex>
-            <v-flex xs8>
+            <v-flex pl-2>
               <h2>Stage 2 - Nakazato</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor
-                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-                sadipscing
-                elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                erat,
-                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                clita
-                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs4>
+          <v-layout>
+            <v-flex xs6>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/fdP4_itYimw"
                 frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             </v-flex>
-            <v-flex xs8>
+            <v-flex pl-2>
               <h2>Stage 3 - Shingo</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor
-                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-                sadipscing
-                elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                erat,
-                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                clita
-                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs4>
+          <v-layout>
+            <v-flex xs6>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/Qj9_apUMuvk"
                 frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             </v-flex>
-            <v-flex xs8>
+            <v-flex pl-2>
               <h2>Stage 4 - Ryousuke</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor
-                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-                sadipscing
-                elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                erat,
-                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                clita
-                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs4>
+          <v-layout>
+            <v-flex xs6>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/U2g-qvEtsuY"
                 frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             </v-flex>
-            <v-flex xs8>
+            <v-flex pl-2>
               <h2>Bonus Stage 1 - Masked Driver</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor
-                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-                sadipscing
-                elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                erat,
-                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                clita
-                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs4>
+          <v-layout>
+            <v-flex xs6>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/28oU3ra69cU"
                 frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             </v-flex>
-            <v-flex xs8>
+            <v-flex pl-2>
               <h2>Bonus Stage 2 - Takumi-san</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor
-                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-                sadipscing
-                elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                erat,
-                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                clita
-                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout align-content-space-between>
-            <v-flex xs4>
+          <v-layout>
+            <v-flex xs6>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/c3QP2vaiu0o"
                 frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             </v-flex>
-            <v-flex xs8>
+            <v-flex pl-2>
               <h2>Bonus Stage 3 - Bunta</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor
-                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-                sadipscing
-                elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                erat,
-                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                clita
-                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
@@ -811,28 +586,6 @@
     </div>
   </v-container>
 </template>
-
-<style>
-  .takumisan {
-    animation: takumisan 3s 0s infinite linear;
-  }
-
-  @keyframes takumisan {
-    0% {
-      transform: rotateY(0deg);
-    }
-
-    50% {
-      transform: rotateY(180deg);
-    }
-
-    100% {
-      transform: rotateY(0deg);
-    }
-  }
-
-</style>
-
 
 <script>
 export default {

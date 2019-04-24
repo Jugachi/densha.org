@@ -20,81 +20,6 @@
                 information later, when
                 I'm done with a cool text.
               </p>
-              <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                invidunt ut
-                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
-                duo dolores
-                et
-                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-                amet. Lorem
-                ipsum
-                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-                labore et
-                dolore
-                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-                rebum.
-                Stet
-                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-                dolor sit
-                amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                dolore magna
-                aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-                Stet
-                clita
-                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-              </p>
-              <p>
-                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
-                vel illum
-                dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
-                blandit
-                praesent
-                luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit
-                amet,
-                consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-                magna
-                aliquam
-                erat volutpat.
-              </p>
-              <p>
-                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
-                nisl ut
-                aliquip
-                ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit
-                esse
-                molestie
-                consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto
-                odio
-                dignissim
-                qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-              </p>
-              <p>
-                Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod
-                mazim placerat
-                facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                nonummy nibh
-                euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
-                veniam, quis
-                nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-                consequat.
-              </p>
-              <p>
-                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
-                vel illum
-                dolore eu feugiat nulla facilisis.
-              </p>
-              <p>
-                At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-                sea takimata
-                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
-                elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-                voluptua. At vero
-                eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                takimata sanctus est
-                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-              </p>
             </v-flex>
           </v-layout>
         </v-tab-item>
@@ -108,7 +33,7 @@
           </v-layout>
           <v-layout justify-center>
             <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/LS/takumi2P.png')"></v-img>
+              <v-img :src="require ('@/assets/characters/CS/D3_Takumi1P.png')"></v-img>
             </v-flex>
             <v-flex xs6>
               <h2>Takumi Fujiwara</h2>
@@ -236,150 +161,221 @@
               </p>
             </v-flex>
             <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/LS/keisuke2P.png')"></v-img>
+              <v-img :src="require ('@/assets/characters/CS/CHAR_KEISUKE_1P.png')"></v-img>
             </v-flex>
           </v-layout>
           <v-layout justify-center>
             <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/LS/nakazato2P.png')"></v-img>
+              <v-img :src="require ('@/assets/characters/CS/CHAR_KAI_1P.png')"></v-img>
             </v-flex>
             <v-flex xs6>
-              <h2>Takeshi Nakazato</h2>
+              <h2>Kai Kogashiwa</h2>
               <p>
-                Takeshi Nakazato (中里 毅 Nakazato Takeshi, "Zack"), also known as the Black Lightning (黒い稲妻 Kuroi Inazuma),
-                is the leader of the Myogi NightKids. He made his first appearance at the race in Akina where Keisuke
-                Takahashi of the RedSuns is to race against Takumi Fujiwara. Surprised that Takumi could defeat Keisuke,
-                Takeshi decides that he is going to be the one to challenge and defeat the "Akina downhill specialist",
-                and that the RedSuns are next on his list.
+                Kai Kogashiwa (小柏 カイ Kogashiwa Kai) is a street racer from Tochigi prefecture, and a son
+                to a legendary Downhill ace and Bunta's rival, Ken Kogashiwa. Ken taught Kai in the racing
+                world from a young age, participating in karting competitions which made him specialized in
+                midships (colloquial term for mid engine, rear drive). Before his transition to street racing,
+                Kai was the fastest motorcyclist on Irohazaka. It can be seen that Kai's specialty on Irohazaka
+                is similar to Takumi on Akina as he lives at Lake Chuzenji (which is at the top of Irohazaka)
+                and takes the road during his daily commute to the bottom.
               </p>
               <p>
-                He is an intelligent and skilled driver, notably recognizing Takumi's the gutter hook technique while
-                observing the Eight-Six's first battle with Keisuke's FD. However, his downfall is his anger and
-                emotions getting in the way of his mind, resulting in poor throttle control. He also races all-out and
-                usually fails to consider tire wear, so in the end, he loses the race, sometimes crashing his car. He is
-                very good at acceleration and is known for his grip driving philosophy. His previous car was a Nissan
-                Silvia (S13), with which he used drifting techniques. He changed to the Nissan Skyline GT-R (R32) after
-                a devastating loss to a white (or rather silver) R32 on his home course of Myogi. Following the defeat
-                by the Skyline, his philosophy changed, favoring grip driving techniques over "weak" and "showy"
-                drifting techniques. He also believed that no matter what skill a driver has, a car will not run beyond
-                its capabilities.
+                Kai had challenged Takumi on the Emperor's home course of Irohazaka. Kai had defeated Seiji Iwaki
+                of Emperor and wanted to defeat Kyoichi as well, but set his sights on Takumi after Sudo's defeat.
+                Kai uses a trick taught to him by his father to overtake Takumi by jumping a turn in a break in the
+                guard rail on 33rd corner. However, he spins out on the final straightaway after his car loses traction
+                from landing on leaves on the side of the road and was defeated.
               </p>
               <p>
-                Takeshi is the leader of the NightKids team on Mount Myogi and he has shown an interest in Sayuki of
-                Impact Blue.
+                Kai reappears as an opponent for Project D in Kanagawa prefecture. Kai represents the downhill ace
+                for R.T. Katagiri against the Eight-Six. However, he spins out at the last sector costing him the race.
               </p>
-              <p>He is a fan of the GT-R just like Kunimitsu Takahashi.</p>
+              <p>
+                Originally, Kai drives his father's Toyota SW20 MR2 but later switches to a silver Toyota MR-S ZZW30
+                (a 3rd Generation MR2 Roadster), leaving the SW20 to his father.
+              </p>
             </v-flex>
           </v-layout>
           <v-layout justify-center>
-            <v-flex xs4 offset-xs2 text-xs-right>
-              <h2>Shingo Shoji</h2>
+            <v-flex xs6 text-xs-right>
+              <h2>Kyoichi Sudo</h2>
               <p>
-                Shingo Shoji (庄司 慎吾 Shōji Shingo) is a member of the NightKids who drives a red Honda Civic SiR-II (EG6).
-                Shingo races dangerously, he will nudge his rival's car in order to make the other driver lose control
-                if he's unsure about his own chances of winning. He doesn't find plain downhill races any fun,
-                preferring to race against a handicap. In this handicap match, Shingo tapes his right hand to the
-                steering wheel for the duration of the race. By doing this, Shingo limits his own steering capabilities.
-                In terms of racing ability, Shingo is the best driver on the Night Kids team. He is also a childhood
-                friend of Impact Blue's navigator, Sayuki.
+                Kyoichi Sudo (須藤 京一 Sudō Kyōichi, "Kyle") is the team leader and driving ace
+                of the Lancer Evolution-only Emperor team from Gunma (according to his license
+                plate,
+                though it is changed to Tochigi in later series), and one of the best drivers in the
+                series. He drives a Mitsubishi Lancer Evolution III powered up to 350 hp equipped
+                with a WRC style misfiring system. In his philosophy, a car must have a high power
+                turbo and all-wheel drive.
               </p>
               <p>
-                Shingo actually shares many beliefs with Takeshi, but whenever they watch other battles, they try to stay
-                away from one another so that people won't mistake them as friends even though in Extra Stage, they
-                acted like buddies. There were also times that he supported his teammate for the Night Kids' sake, like
-                the battle against Seiji Iwaki and his Evo IV.
+                An old acquaintance of Ryosuke Takahashi of the Akagi RedSuns, Kyoichi is much like
+                Ryosuke: he is a calm and composed driver, compared to his teammate Seiji. Eager to
+                show Ryosuke that he and his team are the best, Kyoichi and the Emperor team goes
+                on to beat the various teams of Gunma, including the NightKids. He believes in the
+                ultimate superiority of his race circuit techniques, whilst Ryosuke holds that
+                street
+                racing has its own special requirements. His home course is one-way, so he is unable
+                to fully attack blind corners on two way roads, supporting Ryosuke's view. He is
+                also
+                often considered the first driver to have beaten Takumi, when Takumi blew out his
+                engine
+                at Akagi, but lost during a rematch at Irohazaka. It should be noted however, that
+                the
+                result should normally be considered a tie at best, and the race itself did not last
+                more than one round. Kyoichi declared Takumi as the winner for merely being able to
+                resist being overtaken at the last part of the course where other drivers fell prey
+                to him. To Kyoichi, who takes pride in his ability to win, a tie at his home turf is
+                equivalent to a loss.
+              </p>
+              <p>
+                He is also a graduate of the racing school, the Todo School, despite having no
+                prior-hinted connections to the institute: his Evo III is a stark contrast to
+                the FWD Hondas the students use, and Sudo uses no Spoon Sports parts on his vehicle.
+              </p>
+              <p>
+                He and the Two Guys From Tokyo might be the only ones in the series to feature a
+                stock interior in their cars. The only modifications done to the car is the
+                increment
+                of Horsepower to 310 HP and a WRC Anti-Lag/Misfiring System to cure Turbo lag.
               </p>
             </v-flex>
             <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/LS/singo2P.png')"></v-img>
+              <v-img :src="require ('@/assets/characters/CS/CHAR_KYOICHI_1P.png')"></v-img>
             </v-flex>
           </v-layout>
           <v-layout justify-center>
             <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/LS/ryousuke2P.png')"></v-img>
+              <v-img :src="require ('@/assets/characters/CS/CHAR_MIKI_1P.png')"></v-img>
             </v-flex>
             <v-flex xs6>
-              <h2>Ryosuke Takahashi</h2>
+              <h2>Miki</h2>
               <p>
-                Ryosuke Takahashi (高橋 涼介, Takahashi Ryōsuke; known as Ry in the Tokyopop version) is one of the main
-                characters of Initial D, the founder and leader of both the Akagi RedSuns and Project D. Originally a
-                solo racer nicknamed Akagi's White Comet, he created the RedSuns, with the purpose of dominating in the
-                street racing scene all over Japan and recruited racers including his brother Keisuke, which gave both
-                of them the nicknames of the Rotary Brothers.
+                Miki (御木) is a senior in the football (soccer) club of the school that Takumi attended.
+                He drives a Celica GT-Four (ST205). In 1st Stage, Takumi punched him in the changing rooms
+                for bragging about his sexual exploits with Natsuki, during the time when Takumi was
+                ignorant of the truth. During winter, he kidnaps Natsuki and forces her to come to Lake
+                Akina with him. His plans are foiled by Takumi who gets Natsuki's call for help and chases
+                Miki with his Trueno until he spins out on the snow and Natsuki escapes his Celica.
               </p>
               <p>
-                The RedSuns' plan was put on hold following Keisuke's defeat and the emergence of Takumi Fujiwara, the
-                driver of the Toyota AE86. Before his race with Fujiwara, he was invited to a professional racing team
-                but he passed cause "his only interest was street racing". His winning streak came to an end when he
-                lost to Fujiwara. After his defeat, he temporarily retired from racing until making a comeback to race
-                against the threat of Team Emperor and their leader and rival Kyoichi Sudo. He also raced and defeated
-                Takeshi Nakazato, the leader of the Myogi's NightKids.
-              </p>
-              <p>
-                Soon after Takumi raced against Wataru Akiyama, he created a new racing team called Project D, and also
-                effectively disbanding the RedSuns, with the similar goal to dominate the street racing scene but for
-                one year before he goes back to medical school.
-              </p>
-              <p>
-                During the Project D races in Kanagawa, he is revealed to have a connection with Rin Hojo, a fellow
-                medical student and a street racer from Kanagawa where they had disputes with a girl named Kaori, who
-                was Rin's fiancee at the time but committed suicide following verbal abuse by Rin, which led to Rin
-                disappearing from the racing scene. Knowing that he cannot escape the past, he modified his car in
-                secret with Shuichi Matsumoto and raced Rin at the Toyo Tires Turnpike. However thanks to assistance of
-                Team Spiral's leader Ryuji Ikeda, who was spectating behind, he was able to stop Rin from crashing and
-                afterwards settled their differences with each other.
-              </p>
-              <p>
-                After the disbanding of Project D, he continues to go on a silent spectator at street races, saying that
-                he would eventually pick out new gifted racers. It is also implied that he is still continuing his
-                studies on medicine at the same time.
+                It is later revealed that he and Shiraishi are siblings, born from a man driving a white
+                Mercedes, though they both don't realize it.
               </p>
             </v-flex>
           </v-layout>
           <v-layout justify-center>
             <v-flex xs6>
-              <h2>Bunta Fujiwara</h2>
+              <h2>Wataru Akiyama</h2>
               <p>
-                Bunta Fujiwara (藤原 文太 Fujiwara Bunta) is the owner of a tofu shop in Gunma, and the father of
-                Takumi. He
-                used to be the No.1 downhill racer in Mt. Akina years ago, but he no longer races, preferring to guide
-                Takumi's racing development. He is the original driver of the mysterious "white ghost of Akina" AE86
-                Sprinter Trueno that holds the record of the fastest downhill time at Akina. Bunta has a unique way of
-                training his son to drive - every morning when Takumi delivers tofu. Bunta gives Takumi a cup of water
-                which is placed in the drink holder; Takumi must not spill even a drop of it while he is driving. This
-                is ostensibly to prevent breaking the tofu in the boot, but it forces Takumi to drive very smoothly. As
-                for Bunta, he is still considered the best downhill racer in Akina, which is shown early in the series
-                when he pushes the Trueno with Yuichi in the passenger seat, lighting a cigarette while drifting around
-                a corner.
+                Wataru Akiyama (秋山 渉 Akiyama Wataru, "Aki") was one of the first racers from Saitama
+                to actually race against Takumi with his turbocharged Levin; he appeared later in the
+                Project D arc, this time replacing the turbocharger with a supercharger for more linear
+                acceleration and avoid Turbocharger lag. Wataru is a skilled driver who honed his skills
+                on the treacherous Shomaru Pass. He came to Gunma in hopes of facing new racers to challenge,
+                as well as to watch over his sister Kazumi, who just got a job at a hotel with her aunt.
+                Wataru is Nobuhiko's cousin, as seen when he watches Takumi race against the Northern
+                Saitama Alliance in the hopes of finding a weak spot.
               </p>
               <p>
-                Later in the series, Takumi used the Trueno more than Bunta, so he gave the car to Takumi. While test
-                driving a Subaru Impreza WRX STi Type R Version V on Akina, he defeated his son, inducing a AWD complex
-                in Takumi. Bunta decided to buy the car, but hid this fact from Takumi for some time. After revealing
-                that he was the driver, he then told Takumi to alternate between the Impreza and his Eight-Six for
-                deliveries - another strategy to improve Takumi as a driver, showing him the potential of modern cars
-                and the characteristics of AWD. While this shows his training strategy, it is seen that Bunta is, once
-                again, proven to be the most formidable opponent in Akina.
+                Several times throughout the Fourth Stage, Wataru reaches out to Takumi and gives him advice
+                whenever he is in Akina, notably helping the latter overcome his "four-wheel drive complex."
               </p>
               <p>
-                Bunta is thought to have been undefeated during his time as a street racer. There is some dialog between
-                Tachibana and Iketani that could possibly dispute this, but the vague description of events leaves the
-                actual results up to speculation. Specifically, this dialog occurs during the Tochigi campaign (volume
-                15 of the manga, or the Third Stage movie) when Tachibana explains the rivalry between Bunta and Ken
-                Kogashiwa. According to Tachibana, Bunta and Ken completed multiple races on the Irohazaka road to
-                determine who was truly the fastest street racer, and "on the last race that counted", Bunta won. This
-                could mean that Bunta possibly lost one or more rounds, but this idea is never discussed further as the
-                dialog was written solely to provide a racing pedigree for Ken's son, who had recently challenged Takumi
-                to a race on the same road.
+                Wataru later raced against Keisuke Takahashi in a wet-weather race, but when his tires lost
+                grip upon touching a metal gutter while he adjusted his wipers, he was defeated.
+              </p>
+              <p>
+                Some time later, Wataru confronts the imposter Project D somewhere in Saitama and helps
+                the real Project D expose them as the frauds they are.
+              </p>
+              <p>
+                He later watches the final race between Project D and Sidewinder along with Nobuhiko and Sakamoto.
               </p>
             </v-flex>
             <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/LS/bunta1P.png')"></v-img>
+              <v-img :src="require ('@/assets/characters/CS/CHAR_WATARU_1P.png')"></v-img>
+            </v-flex>
+          </v-layout>
+          <v-layout justify-center>
+            <v-flex xs2>
+              <v-img :src="require ('@/assets/characters/CS/D3_tuka_a.png')"></v-img>
+            </v-flex>
+            <v-flex xs6>
+              <h2>Tsukamoto</h2>
+              <p>
+                Tsukamoto (塚本) is a minor character that appears in the manga around the time of
+                Takumi's race against Kyoichi of Emperor. Tsukamoto was a high school senior when
+                Takumi and Natsuki were freshmen, but now he is mildly involved with the street racing
+                scene in Akagi. Although he believes that his skills are extreme, they are in fact far
+                from it. He soon experiences real extreme driving when Takumi drives his 180SX down Akagi
+                after a request by Natsuki to pass a cocky couple in a Silvia S13, leading to Tsukamoto fainting.
+              </p>
             </v-flex>
           </v-layout>
         </v-tab-item>
-        <v-tab :key="2" ripple @click.stop="active=2">Guide</v-tab>
+        <!-- Trains -->
+        <v-tab :key="2" ripple @click.stop="active=2">Trains</v-tab>
         <v-tab-item :key="2">
+          <v-layout text-xs-center>
+            <v-flex xs12>
+              <h1>New Trains</h1>
+            </v-flex>
+          </v-layout>
+          <v-layout justify-center>
+            <v-flex xs8>
+              <p>
+                Train talk
+              </p>
+            </v-flex>
+          </v-layout>
+          <v-layout justify-center>
+            <v-flex xs2>
+              <v-img :src="require ('@/assets/trains/CS/ICON_2800.png')"></v-img>
+            </v-flex>
+            <v-flex xs6 pl-2>
+              <h2>2800 Series</h2>
+              <p>
+                More information about this kind of train will be added soon.
+              </p>
+            </v-flex>
+          </v-layout>
+          <v-layout justify-center>
+            <v-flex xs6 text-xs-right pr-2>
+              <h2>9000 Series</h2>
+              <p>
+                More information about this kind of train will be added soon.
+              </p>
+            </v-flex>
+            <v-flex xs2>
+              <v-img :src="require ('@/assets/trains/CS/ICON_9000.png')"></v-img>
+            </v-flex>
+          </v-layout>
+          <v-layout justify-center>
+            <v-flex xs2>
+              <v-img :src="require ('@/assets/trains/CS/ICON_JR2000.png')"></v-img>
+            </v-flex>
+            <v-flex xs6 pl-2>
+              <h2>JR2000 Series</h2>
+              <p>
+                More information about this kind of train will be added soon.
+              </p>
+            </v-flex>
+          </v-layout>
+          <v-layout justify-center>
+            <v-flex xs6 text-xs-right pr-2>
+              <h2>RAPID Series</h2>
+              <p>
+                More information about this kind of train will be added soon.
+              </p>
+            </v-flex>
+            <v-flex xs2>
+              <v-img :src="require ('@/assets/trains/CS/ICON_RAPID.png')"></v-img>
+            </v-flex>
+          </v-layout>
+          </v-tab-item>
+        <v-tab :key="3" ripple @click.stop="active=3">Guide</v-tab>
+        <v-tab-item :key="3">
           <!-- Guide -->
           <v-layout text-xs-center>
             <v-flex xs12>
@@ -571,8 +567,8 @@
             </v-flex>
           </v-layout>
         </v-tab-item>
-        <v-tab :key="3" ripple @click.stop="active=3">Speedrun</v-tab>
-        <v-tab-item :key="3">
+        <v-tab :key="4" ripple @click.stop="active=4">Speedrun</v-tab>
+        <v-tab-item :key="4">
           <!-- Speedrun -->
           <v-layout text-xs-center>
             <v-flex xs12>

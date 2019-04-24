@@ -16,6 +16,22 @@
           <a href="http://discord.densha.org" target="_blank">Discord Server</a>
         </p>
       </v-flex>
+      </v-layout>
+      <v-layout>
+        <v-flex text-xs-center>
+        <h1 class="display-2 font-weight-bold mb-3">
+          This website is still work in progress.
+        </h1>
+        <p class="subheading font-weight-regular">
+          We still need to translate a lot of text from Japanese to English.
+          <br>
+          Our translator is really busy and this will take some time.
+          <br>
+          Sorry for the inconvenience
+        </p>
+      </v-flex>
+      </v-layout>
+
       <v-flex mb-5 xs12>
         <v-layout justify-center>
           <a
@@ -27,6 +43,5 @@
 
 
       </v-flex>
-    </v-layout>
   </v-container>
 </template>

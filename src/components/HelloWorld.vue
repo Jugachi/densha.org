@@ -31,17 +31,5 @@
         </p>
       </v-flex>
       </v-layout>
-
-      <v-flex mb-5 xs12>
-        <v-layout justify-center>
-          <a
-          class="twitter-timeline"
-          href="https://twitter.com/jinushi?ref_src=twsrc%5Etfw"
-          target="_blank"
-        >Tweets by jinushi </a>
-        </v-layout>
-
-
-      </v-flex>
   </v-container>
 </template>

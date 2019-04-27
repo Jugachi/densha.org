@@ -10,11 +10,11 @@
               <h1>Densha de D: Rising Stage</h1>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs2 pr-2>
+          <v-layout row wrap justify-center>
+            <v-flex xs8 md2 pr-2>
               <v-img :src="require ('@/assets/covers/RS_Cover.jpg')"></v-img>
             </v-flex>
-            <v-flex xs6>
+            <v-flex xs8 md6>
               <p>
                 Densha de D: Rising Stage is the fourth game in the series. You can find more
                 information later, when
@@ -341,8 +341,8 @@
             </v-flex>
           </v-layout>
         </v-tab-item>
-        <v-tab :key="3" ripple @click.stop="active=3">Guide</v-tab>
-        <v-tab-item :key="3">
+        <v-tab v-if="false" :key="3" ripple @click.stop="active=3">Guide</v-tab>
+        <v-tab-item v-if="false" :key="3">
           <!-- Guide -->
           <v-layout text-xs-center>
             <v-flex xs12>
@@ -534,8 +534,8 @@
             </v-flex>
           </v-layout>
         </v-tab-item>
-        <v-tab :key="4" ripple @click.stop="active=4">Speedrun</v-tab>
-        <v-tab-item :key="4">
+        <v-tab v-if="false" :key="4" ripple @click.stop="active=4">Speedrun</v-tab>
+        <v-tab-item v-if="false" :key="4">
           <!-- Speedrun -->
           <v-layout text-xs-center>
             <v-flex xs12>

@@ -10,13 +10,17 @@
               <h1>Densha de D: Lightning Stage</h1>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs2 pr-2>
+          <v-layout row wrap justify-center>
+            <v-flex xs8 md2 pr-2>
               <v-img :src="require ('@/assets/covers/LS_Cover.jpg')"></v-img>
             </v-flex>
-            <v-flex xs6>
+            <v-flex xs8 md6>
               <p>
-                Densha de D: Lightning Stage is the first game in the series. You can find more
+                Densha de D: Lightning Stage is the first game in the series.
+                Densha de D is a parody of the Manga/Anime InitialD.
+                While Initial D is a racing series about racing and drifting cars,
+                Densha de D is the same just with trains.
+                You can find more
                 information later, when
                 I'm done with a cool text.
               </p>
@@ -31,13 +35,10 @@
               <h1>Characters</h1>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/LS/takumi1P.png')"></v-img>
-            </v-flex>
-            <v-flex xs6>
-              <h2>Takumi Fujiwara</h2>
-              <p>
+          <CharacterLeft
+            :image="require('@/assets/characters/LS/takumi1P.png')"
+            title="Takumi Fujiwara"
+            text="<p>
                 Takumi Fujiwara (藤原拓海 Fujiwara Takumi, known as Tak in the Tokyopop version) is the
                 main protagonist of
                 Initial D, a member of Project D and is friends and associated with the Akina
@@ -105,14 +106,13 @@
                 the Eight-Six's engine destroyed. He now currently drives Bunta's Subaru Impreza,
                 continuing to race on
                 Mount Akina while also planning on becoming a professional racer.
-              </p>
-            </v-flex>
-          </v-layout>
-          <v-layout justify-center>
-            <v-flex xs6 text-xs-right>
-              <h2>Keisuke Takahashi</h2>
-              <p>
-                Keisuke Takahashi (高橋 啓介 Takahashi Keisuke, "K.T.") is the number two driver for the
+              </p>">
+          </CharacterLeft>
+          <CharacterRight
+            :image="require('@/assets/characters/LS/keisuke1P.png')"
+            title="Keisuke Takahashi"
+            text="<p>
+                Keisuke Takahashi (高橋 啓介 Takahashi Keisuke, &quot;K.T.&quot;) is the number two driver for the
                 RedSuns. Keisuke
                 drives an efini RX-7 Type R (FD3S) , and is a skilled driver, second only to his
                 brother,
@@ -181,27 +181,20 @@
                 Tomiguchi
                 being his
                 personal mechanic
-              </p>
-            </v-flex>
-            <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/LS/keisuke1P.png')"></v-img>
-            </v-flex>
-          </v-layout>
-          <v-layout justify-center>
-            <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/LS/nakazato1P.png')"></v-img>
-            </v-flex>
-            <v-flex xs6>
-              <h2>Takeshi Nakazato</h2>
-              <p>
-                Takeshi Nakazato (中里 毅 Nakazato Takeshi, "Zack"), also known as the Black Lightning
+              </p>">
+          </CharacterRight>
+          <CharacterLeft
+            :image="require('@/assets/characters/LS/nakazato1P.png')"
+            title="Takeshi Nakazato"
+            text="<p>
+                Takeshi Nakazato (中里 毅 Nakazato Takeshi, &quot;Zack&quot;), also known as the Black Lightning
                 (黒い稲妻 Kuroi Inazuma),
                 is the leader of the Myogi NightKids. He made his first appearance at the race in
                 Akina where Keisuke
                 Takahashi of the RedSuns is to race against Takumi Fujiwara. Surprised that Takumi
                 could defeat Keisuke,
-                Takeshi decides that he is going to be the one to challenge and defeat the "Akina
-                downhill specialist",
+                Takeshi decides that he is going to be the one to challenge and defeat the &quot;Akina
+                downhill specialist&quot;,
                 and that the RedSuns are next on his list.
               </p>
               <p>
@@ -219,8 +212,8 @@
                 Skyline GT-R (R32) after
                 a devastating loss to a white (or rather silver) R32 on his home course of Myogi.
                 Following the defeat
-                by the Skyline, his philosophy changed, favoring grip driving techniques over "weak"
-                and "showy"
+                by the Skyline, his philosophy changed, favoring grip driving techniques over &quot;weak&quot;
+                and &quot;showy&quot;
                 drifting techniques. He also believed that no matter what skill a driver has, a car
                 will not run beyond
                 its capabilities.
@@ -230,13 +223,12 @@
                 interest in Sayuki of
                 Impact Blue.
               </p>
-              <p>He is a fan of the GT-R just like Kunimitsu Takahashi.</p>
-            </v-flex>
-          </v-layout>
-          <v-layout justify-center>
-            <v-flex xs4 offset-xs2 text-xs-right>
-              <h2>Shingo Shoji</h2>
-              <p>
+              <p>He is a fan of the GT-R just like Kunimitsu Takahashi.</p>">
+          </CharacterLeft>
+          <CharacterRight
+            :image="require('@/assets/characters/LS/singo1P.png')"
+            title="Shingo Shoji"
+            text="<p>
                 Shingo Shoji (庄司 慎吾 Shōji Shingo) is a member of the NightKids who drives a red
                 Honda Civic SiR-II (EG6).
                 Shingo races dangerously, he will nudge his rival's car in order to make the other
@@ -259,19 +251,12 @@
                 acted like buddies. There were also times that he supported his teammate for the
                 Night Kids' sake, like
                 the battle against Seiji Iwaki and his Evo IV.
-              </p>
-            </v-flex>
-            <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/LS/singo1P.png')"></v-img>
-            </v-flex>
-          </v-layout>
-          <v-layout justify-center>
-            <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/LS/ryousuke1P.png')"></v-img>
-            </v-flex>
-            <v-flex xs6>
-              <h2>Ryosuke Takahashi</h2>
-              <p>
+              </p>">
+          </CharacterRight>
+          <CharacterLeft
+            :image="require('@/assets/characters/LS/ryousuke1P.png')"
+            title="Ryosuke Takahashi"
+            text="<p>
                 Ryosuke Takahashi (高橋 涼介, Takahashi Ryōsuke; known as Ry in the Tokyopop version) is
                 one of the main
                 characters of Initial D, the founder and leader of both the Akagi RedSuns and
@@ -287,7 +272,7 @@
                 Takumi Fujiwara, the
                 driver of the Toyota AE86. Before his race with Fujiwara, he was invited to a
                 professional racing team
-                but he passed cause "his only interest was street racing". His winning streak came
+                but he passed cause &quot;his only interest was street racing&quot;. His winning streak came
                 to an end when he
                 lost to Fujiwara. After his defeat, he temporarily retired from racing until making
                 a comeback to race
@@ -323,19 +308,18 @@
                 he would eventually pick out new gifted racers. It is also implied that he is still
                 continuing his
                 studies on medicine at the same time.
-              </p>
-            </v-flex>
-          </v-layout>
-          <v-layout justify-center>
-            <v-flex xs6>
-              <h2>Hukumen</h2>
-              <p>
+              </p>">
+          </CharacterLeft>
+          <CharacterRight
+            :image="require('@/assets/characters/LS/hukumen.png')"
+            title="Hukumen"
+            text="<p>
                 Hukumen is the owner of a tofu shop in Gunma, and the father of
                 Takumi. He
                 used to be the No.1 downhill racer in Mt. Akina years ago, but he no longer races,
                 preferring to guide
-                Takumi's racing development. He is the original driver of the mysterious "white
-                ghost of Akina" AE86
+                Takumi's racing development. He is the original driver of the mysterious &quot;white
+                ghost of Akina&quot; AE86
                 Sprinter Trueno that holds the record of the fastest downhill time at Akina. Bunta
                 has a unique way of
                 training his son to drive - every morning when Takumi delivers tofu. Bunta gives
@@ -376,43 +360,33 @@
                 between Bunta and Ken
                 Kogashiwa. According to Tachibana, Bunta and Ken completed multiple races on the
                 Irohazaka road to
-                determine who was truly the fastest street racer, and "on the last race that
-                counted", Bunta won. This
+                determine who was truly the fastest street racer, and &quot;on the last race that
+                counted&quot;, Bunta won. This
                 could mean that Bunta possibly lost one or more rounds, but this idea is never
                 discussed further as the
                 dialog was written solely to provide a racing pedigree for Ken's son, who had
                 recently challenged Takumi
                 to a race on the same road.
-              </p>
-            </v-flex>
-            <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/LS/hukumen.png')"></v-img>
-            </v-flex>
-          </v-layout>
-          <v-layout justify-center>
-            <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/LS/takumisan_1P.png')" class="takumisan">
-              </v-img>
-            </v-flex>
-            <v-flex xs6>
-              <h2>Takumi-san</h2>
-              <p>
-                Takumi-san is silly character that got created in the Densha de D Manga.
-                More information will be added as soon as possible.
-              </p>
-            </v-flex>
-          </v-layout>
-          <v-layout justify-center>
-            <v-flex xs6>
-              <h2>Bunta Fujiwara</h2>
-              <p>
+              </p>">
+          </CharacterRight>
+          <CharacterLeft
+            :image="require('@/assets/characters/LS/takumisan_1P.png')"
+            _class="takumisan"
+            title="Takumi-san"
+            text="<p>Takumi-san is silly character that got created in the Densha de D Manga.
+                More information will be added as soon as possible.</p>">
+          </CharacterLeft>
+          <CharacterRight
+            :image="require('@/assets/characters/LS/bunta1P.png')"
+            title="Bunta Fujiwara"
+            text="<p>
                 Bunta Fujiwara (藤原 文太 Fujiwara Bunta) is the owner of a tofu shop in Gunma, and the
                 father of
                 Takumi. He
                 used to be the No.1 downhill racer in Mt. Akina years ago, but he no longer races,
                 preferring to guide
-                Takumi's racing development. He is the original driver of the mysterious "white
-                ghost of Akina" AE86
+                Takumi's racing development. He is the original driver of the mysterious &quot;white
+                ghost of Akina&quot; AE86
                 Sprinter Trueno that holds the record of the fastest downhill time at Akina. Bunta
                 has a unique way of
                 training his son to drive - every morning when Takumi delivers tofu. Bunta gives
@@ -453,19 +427,15 @@
                 between Bunta and Ken
                 Kogashiwa. According to Tachibana, Bunta and Ken completed multiple races on the
                 Irohazaka road to
-                determine who was truly the fastest street racer, and "on the last race that
-                counted", Bunta won. This
+                determine who was truly the fastest street racer, and &quot;on the last race that
+                counted&quot;, Bunta won. This
                 could mean that Bunta possibly lost one or more rounds, but this idea is never
                 discussed further as the
                 dialog was written solely to provide a racing pedigree for Ken's son, who had
                 recently challenged Takumi
                 to a race on the same road.
-              </p>
-            </v-flex>
-            <v-flex xs2>
-              <v-img :src="require ('@/assets/characters/LS/bunta1P.png')"></v-img>
-            </v-flex>
-          </v-layout>
+              </p>">
+          </CharacterRight>
         </v-tab-item>
         <!-- Trains -->
         <v-tab :key="2" ripple @click.stop="active=2">Trains</v-tab>
@@ -475,22 +445,20 @@
               <h1>New Trains</h1>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
+          <v-layout justify-center text-xs-center>
             <v-flex xs8>
               <p>
-                Train talk
+                On this page we will inform you about all the different types of the trains in Densha de D.
+                The English version of this will be added shortly.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs2>
-              <v-img :src="require ('@/assets/trains/LS/icon_2000.png')"></v-img>
-            </v-flex>
-            <v-flex xs6 pl-2>
-              <h2>阪急２０００</h2>
-              <p>
+          <TrainLeft
+            :image="require ('@/assets/trains/LS/icon_2000.png')"
+            title="阪急２０００"
+            text="<p>
                 <a
-                  href="https://ja.wikipedia.org/wiki/%E9%98%AA%E6%80%A52000%E7%B3%BB%E9%9B%BB%E8%BB%8A">
+                  href='https://ja.wikipedia.org/wiki/%E9%98%AA%E6%80%A52000%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'>
                   （Wikipedia） </a>
 
                 <p>運転士は藤原拓海</p>
@@ -519,27 +487,26 @@
                   「レールが一晩でダメになる」「変電所が吹っ飛ぶ」などと言われる。</p>
 
                 <p>実車は1960年にデビュー。
-                  <a href="https://www.youtube.com/watch?v=tJuEoau5GaA">（YouTube）</a></p>
+                  <a href='https://www.youtube.com/watch?v=tJuEoau5GaA' target='_blank'>（YouTube）</a></p>
 
                 <p>1991年にさよなら運転を行っており、
-                  <a href="https://www.youtube.com/watch?v=Jvh4lrPZe_s">（YouTube）</a>
+                  <a href='https://www.youtube.com/watch?v=Jvh4lrPZe_s' target='_blank'>（YouTube）</a>
                   一部の車両が別の車両に組み込まれたり、
                   １７００番台に改番され、子会社の能勢電鉄で使われている。
-                  <a href="https://www.youtube.com/watch?v=q-FWLQl17-E">（YouTube）</a></p>
+                  <a href='https://www.youtube.com/watch?v=q-FWLQl17-E' target='_blank'>（YouTube）</a></p>
 
                 <p>重い鋼鉄製の車体に抵抗制御
                   （<a
-                    href="https://ja.wikipedia.org/wiki/%E9%9B%BB%E6%B0%97%E8%BB%8A%E3%81%AE%E9%80%9F%E5%BA%A6%E5%88%B6%E5%BE%A1#%E6%8A%B5%E6%8A%97%E5%88%B6%E5%BE%A1">（Wikipedia）</a>）
+                    href='https://ja.wikipedia.org/wiki/%E9%9B%BB%E6%B0%97%E8%BB%8A%E3%81%AE%E9%80%9F%E5%BA%A6%E5%88%B6%E5%BE%A1#%E6%8A%B5%E6%8A%97%E5%88%B6%E5%BE%A1' target='_blank'>（Wikipedia）</a>）
                   という、古い車体と制御装置は、原作のＡＥ８６に通じるものがある。
                   車齢は５０年を超える旧式列車であった。
 
-                </p>
-            </v-flex>
-          </v-layout>
-          <v-layout justify-center>
-            <v-flex xs6 text-xs-right pr-2>
-              <h2>阪急８２００</h2>
-              <p>
+                </p>"
+          />
+          <TrainRight
+            :image="require ('@/assets/trains/LS/icon_8200.png')"
+            title="阪急８２００"
+            text="<p>
                 運転士は高橋啓介</p>
 
               <p>阪急電鉄 神戸線を走る８２００系。
@@ -558,7 +525,7 @@
                 <p>８２００系は本来、増結用車両であり、
                   朝と夕方の通勤ラッシュ時に、８両編成の車両と連結し、
                   １０両編成として運用されます。
-                  <a href="https://www.youtube.com/watch?v=VDooBWun41o">（YouTube）</a></p>
+                  <a href='https://www.youtube.com/watch?v=VDooBWun41o' target='_blank'>（YouTube）</a></p>
 
                 <p>本作で２両なのは、その為である。</p>
 
@@ -566,21 +533,14 @@
                 <p>コミケに電車でＤのゲームを買いに来た、阪急電鉄の方が言うには、
                   「８２００はとてもパワーがあり、２両での運転が凄く難しい。
                   高橋啓介がマスコンワークに取り組む理由がわかる」そうです。
-                </p>
-            </v-flex>
-            <v-flex xs2>
-              <v-img :src="require ('@/assets/trains/LS/icon_8200.png')"></v-img>
-            </v-flex>
-          </v-layout>
-          <v-layout justify-center>
-            <v-flex xs2>
-              <v-img :src="require ('@/assets/trains/LS/icon_21000.png')"></v-img>
-            </v-flex>
-            <v-flex xs6 pl-2>
-              <h2>近鉄特急 21000系 アーバンライナー</h2>
-              <p>
+                </p>"
+          />
+          <TrainLeft
+            :image="require ('@/assets/trains/LS/icon_21000.png')"
+            title="近鉄特急 21000系 アーバンライナー"
+            text="<p>
                 <a
-                  href="https://ja.wikipedia.org/wiki/%E8%BF%91%E9%89%8421000%E7%B3%BB%E9%9B%BB%E8%BB%8A">（Wikipedia）</a>
+                  href='https://ja.wikipedia.org/wiki/%E8%BF%91%E9%89%8421000%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'>（Wikipedia）</a>
 
                 <p>運転士は中里毅
                   ナイトキッズのリーダー。</p>
@@ -602,7 +562,7 @@
 
                 <p>高速で飛ばすアーバンライナーの展望。
                   窓が大きく、視界が広く、見ていて気持ちが良い。
-                  <a href="https://www.youtube.com/watch?v=9Rjsn03gQPI">（YouTube）</a></p>
+                  <a href='https://www.youtube.com/watch?v=9Rjsn03gQPI' target='_blank'>（YouTube）</a></p>
 
                 <p>…が、山の中を走る路線である。
                   （６話で中里が「田んぼにドボンだ」というセリフはここからきている）</p>
@@ -620,18 +580,17 @@
                   ただし、特急車両の大きな車両が通れるかは不明。</p>
 
                 <p>阪急（阪急電鉄）<a
-                    href="https://ja.wikipedia.org/wiki/%E9%98%AA%E6%80%A5%E9%9B%BB%E9%89%84">（Wikipedia）</a>
+                    href='https://ja.wikipedia.org/wiki/%E9%98%AA%E6%80%A5%E9%9B%BB%E9%89%84' target='_blank'>（Wikipedia）</a>
                   近鉄（近畿日本鉄道）<a
-                    href="https://ja.wikipedia.org/wiki/%E8%BF%91%E7%95%BF%E6%97%A5%E6%9C%AC%E9%89%84%E9%81%93">（Wikipedia）</a>
-                </p>
-            </v-flex>
-          </v-layout>
-          <v-layout justify-center>
-            <v-flex xs6 text-xs-right pr-2>
-              <h2>京阪 ８００系</h2>
-              <p>
+                    href='https://ja.wikipedia.org/wiki/%E8%BF%91%E7%95%BF%E6%97%A5%E6%9C%AC%E9%89%84%E9%81%93' target='_blank'>（Wikipedia）</a>
+                </p>"
+          />
+          <TrainRight
+            :image="require ('@/assets/trains/LS/icon_800.png')"
+            title="京阪 ８００系"
+            text="<p>
                 <a
-                  href="https://ja.wikipedia.org/wiki/%E4%BA%AC%E9%98%AA800%E7%B3%BB%E9%9B%BB%E8%BB%8A_(2%E4%BB%A3)">（Wikipedia）</a>
+                  href='https://ja.wikipedia.org/wiki/%E4%BA%AC%E9%98%AA800%E7%B3%BB%E9%9B%BB%E8%BB%8A_(2%E4%BB%A3)' target='_blank'>（Wikipedia）</a>
 
                 <p>運転士は庄司慎吾
                   中里と同じナイトキッズのメンバーで、中里とは仲が悪い。</p>
@@ -660,26 +619,19 @@
                 <p>ステージの一番最後、浜大津駅直前の直角コーナーは、
                   鉄道模型かと思えるぐらい、急カーブである。</p>
 
-                <p><a href="https://www.youtube.com/watch?v=_ETwW020L8U">（YouTube）</a></p>
+                <p><a href='https://www.youtube.com/watch?v=_ETwW020L8U' target='_blank'>（YouTube）</a></p>
 
 
                 <p>電車よりお祭りが優先である。
-                  <a href="https://www.youtube.com/watch?v=uhRVt-03H0U">（YouTube）</a>
-                </p>
-            </v-flex>
-            <v-flex xs2>
-              <v-img :src="require ('@/assets/trains/LS/icon_800.png')"></v-img>
-            </v-flex>
-          </v-layout>
-          <v-layout justify-center>
-            <v-flex xs2>
-              <v-img :src="require ('@/assets/trains/LS/icon_7001.png')"></v-img>
-            </v-flex>
-            <v-flex xs6 pl-2>
-              <h2>阪急 ７００１</h2>
-              <p>
+                  <a href='https://www.youtube.com/watch?v=uhRVt-03H0U' target='_blank'>（YouTube）</a>
+                </p>"
+          />
+          <TrainLeft
+            :image="require ('@/assets/trains/LS/icon_7001.png')"
+            title="阪急 ７００１"
+            text="<p>
                 <a
-                  href="https://ja.wikipedia.org/wiki/%E9%98%AA%E6%80%A57000%E7%B3%BB%E9%9B%BB%E8%BB%8A">（Wikipedia）</a>
+                  href='https://ja.wikipedia.org/wiki/%E9%98%AA%E6%80%A57000%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'>（Wikipedia）</a>
 
                 <p>運転士は高橋涼介</p>
 
@@ -704,15 +656,14 @@
 
                 <p>拓海の成長を見守り、県外遠征チーム（プロジェクトＤ）に勧誘、
                   RisingStage以降は戦いの舞台を関西から、名古屋・東京方面に移している。
-                </p>
-            </v-flex>
-          </v-layout>
-          <v-layout justify-center>
-            <v-flex xs6 text-xs-right pr-2>
-              <h2>ＪＲ ２２３系</h2>
-              <p>
+                </p>"
+          />
+          <TrainRight
+            :image="require ('@/assets/trains/LS/icon_223.png')"
+            title="ＪＲ ２２３系"
+            text="<p>
                 <a
-                  href="https://ja.wikipedia.org/wiki/JR%E8%A5%BF%E6%97%A5%E6%9C%AC223%E7%B3%BB%E9%9B%BB%E8%BB%8A">（Wikipedia）</a>
+                  href='https://ja.wikipedia.org/wiki/JR%E8%A5%BF%E6%97%A5%E6%9C%AC223%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'>（Wikipedia）</a>
 
                 <p>運転士は覆面運転士</p>
 
@@ -728,29 +679,22 @@
                   130km/hでかっ飛ばすその姿は「新快速」の名に恥じないものである。</p>
 
                 <p>（独特なミュージックホン。てんこてんこてんこてーん♪）
-                  <a href="https://www.youtube.com/watch?v=WeAGCs98vGQ">（YouTube）</a></p>
+                  <a href='https://www.youtube.com/watch?v=WeAGCs98vGQ' target='_blank'>（YouTube）</a></p>
 
 
                 <p>営業路線はとても長く、関西地方いたるところで見られる。
                   加速も鋭く、最高速度も速く、乗り心地も良く、安定している。
-                  <a href="https://www.youtube.com/watch?v=bc1VHIT2yxg">（YouTube）</a></p>
+                  <a href='https://www.youtube.com/watch?v=bc1VHIT2yxg' target='_blank'>（YouTube）</a></p>
 
                 <p>車番は違うが、関西国際空港でも見られる。
-                </p>
-            </v-flex>
-            <v-flex xs2>
-              <v-img :src="require ('@/assets/trains/LS/icon_223.png')"></v-img>
-            </v-flex>
-          </v-layout>
-          <v-layout justify-center>
-            <v-flex xs2>
-              <v-img :src="require ('@/assets/trains/LS/icon_2300.png')"></v-img>
-            </v-flex>
-            <v-flex xs6 pl-2>
-              <h2>阪急 ２３００系</h2>
-              <p>
+                </p>"
+          />
+          <TrainLeft
+            :image="require ('@/assets/trains/LS/icon_2300.png')"
+            title="阪急 ２３００系"
+            text="<p>
                 <a
-                  href="https://ja.wikipedia.org/wiki/%E9%98%AA%E6%80%A52300%E7%B3%BB%E9%9B%BB%E8%BB%8A">（Wikipedia）</a>
+                  href='https://ja.wikipedia.org/wiki/%E9%98%AA%E6%80%A52300%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'>（Wikipedia）</a>
 
                 <p>運転士は藤原拓海</p>
 
@@ -764,15 +708,14 @@
                 <p>加速は遅いが最高速度は速く、
                   ご乗車のお客様と意気を合わせ、
                   上手く乗りこなせれば電車でＤトップクラスの車両になる。
-                </p>
-            </v-flex>
-          </v-layout>
-          <v-layout justify-center>
-            <v-flex xs6 text-xs-right pr-2>
-              <h2>ＡＥ８６？</h2>
-              <p>
+                </p>"
+          />
+          <TrainRight
+            :image="require ('@/assets/trains/LS/icon_hatena.png')"
+            title="ＡＥ８６？"
+            text="<p>
                 <a
-                  href="https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A8%E3%82%BF%E3%83%BBAE86">（Wikipedia）</a>
+                  href='https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A8%E3%82%BF%E3%83%BBAE86' target='_blank'>（Wikipedia）</a>
 
                 <p>運転士はタクミさん</p>
 
@@ -782,7 +725,7 @@
 
                 <p>バトルの最初に「話をしよう」から始まるナレーションは、
                   当時日本で流行っていたエルシャダイのＰＶ元ネタ。
-                  <a href="https://www.youtube.com/watch?v=pj2WS_vZJoY">（YouTube）</a></p>
+                  <a href='https://www.youtube.com/watch?v=pj2WS_vZJoY' target='_blank'>（YouTube）</a></p>
 
                 <p>エルシャダイの主人公「イーノック」の声優が、
                   藤原拓海と同じ「三木眞一郎」氏で、
@@ -790,12 +733,8 @@
 
                 <p>電車でＤでの性能も良く、単線ドリフトは優秀である。
                   各ストーリーで使うと、タクミさん専用のセリフに切り替わる箇所がある。
-                </p>
-            </v-flex>
-            <v-flex xs2>
-              <v-img :src="require ('@/assets/trains/LS/icon_hatena.png')"></v-img>
-            </v-flex>
-          </v-layout>
+                </p>"
+          />
         </v-tab-item>
         <v-tab :key="3" ripple @click.stop="active=3">Guide</v-tab>
         <v-tab-item :key="3">
@@ -805,94 +744,269 @@
               <h1>How to beat the game?</h1>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
+          <v-layout justify-center text-xs-center>
             <v-flex xs8>
               <p>
-                This will be a wall of text that explains everything.
+                We will provide you with a simple guide on how you can easily beat the game.
+                More text will be written soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/WwZz1Yxz5ho"
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <v-responsive :aspect-ratio="1200/720">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/opSg6-tos5M"
                 frameborder="0" allowfullscreen></iframe>
+              </v-responsive>
             </v-flex>
-            <v-flex pl-2>
+            <v-flex xs12 md5 pl-2>
               <h2>Stage 1 - Keisuke</h2>
               <p>
-                Just win 4Head.
+                Starting out, you should multi-track drift
+                until you reach a specific station (name on screen : 雲雀丘花屋敷) where the tracks should end
+                in a sharp turn to the right.
+              </p>
+              <p>
+                It's recommended you use the brake key and spam it in
+                order to slow yourself down and not lose too much speed in the process. The timing can
+                be tricky so if you don't feel safe using it, you can use the emergency brake
+                to hard brake.
+                The braking method does not matter as long as Keisuke does not drift too far away from
+                you and you do not derail.
+                After this section, the best course of action would be to multi-track drift at every opportunity
+                you get but do keep in mind of track splits (and conjoining tracks) that may cause you to derail.
+              </p>
+              <p>
+                Shortly after leaving the 2 stations, You will see a green bridge. Take note of this green bridge
+                as you cannot multi-track through it and it will cause you to derail if you try.
+                The station that is right after the green bridge (name on screen : 石橋) does not require you to brake so you can
+                keep going at full speed without any worries.
+              </p>
+              <p>
+                At this stage, Keisuke should be beside you all the time so multi-track drifting should not
+                be possible but do keep a look out for opportunities to gain speed.
+                After some time, you will reach a section where the tracks will split on a large brown/grey bridge.
+                The station you are about to reach (name on screen : 豊中) requires you to brake a couple of times to not derail so make sure to do that.
+              </p>
+              <p>
+                The next station that requires you to brake is 1 station ahead (name on screen : 曽根) and is very important.
+                Again, the timing for braking in this turn can be tricky so if you are not comfortable, you can use the
+                emergency brake to slow down even more although it is still recommended you use the normal brakes as
+                it saves you some speed and you will lose alot of speed around this corner. After that turn, you will
+                start to go downhill and a long turn will come into view. That turn goes into the next station
+                (name on screen : 服部) and does not require you to brake.
+                It should be smooth sailing for now as Keisuke will surpass you in terms of speed and basically leave you in the
+                dust for some time. Use this chance to multi-track drift and catch up to him.
+              </p>
+              <p>
+                However, it won't be long until you reach a point where the track will once again have a sharp turn
+                to the right. That station (name on screen : 三国) requires you to brake. It does not matter how you
+                brake (normal braking recommended) but do not let Keisuke get too far.
+              </p>
+              <p>
+                It will be just straight line driving from this point on until you reach the bridge after
+                the station (name on screen : 十三):
+                The upcoming turn might seem the same as all the other sharp turns but it actually does not
+                require you to brake at all. Just keep going at full speed.
+                You will reach the station (name on screen : 中津). You are almost at the end.
+              </p>
+              <p>
+                After the small bridge, depending on what you are going for, you can either just drive straight
+                and time your brakes at the turns (this is for the any% speedrun) or you can multi-track drift
+                which will show a cutscene (this will unlock the 100% route and the method we recommend to beat the stage)
+                The stage will end once you have crossed into the final station (name on screen : 梅田).
+                Congratulations, you have beat Keisuke!
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/OS5bAK3gZc"
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <v-responsive :aspect-ratio="1200/720">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/TD71DI62hRk"
                 frameborder="0" allowfullscreen></iframe>
+              </v-responsive>
             </v-flex>
-            <v-flex pl-2>
+            <v-flex xs12 md5 pl-2>
               <h2>Stage 2 - Nakazato</h2>
               <p>
-                Don't derail.
+                The way to beat Nakazato is not too dissimilar to beating Keisuke.
+                At the start, Nakazato will overtake you and you will basically be left alone for the majority of the race.
+                You should play the stage as per you did in Keisuke.
+              </p>
+              <p>
+                However, take note that you will still need to brake at certain points:
+                The sharp right turn on the tracks after the station (name on screen : 雲雀丘花屋敷)
+                The station after the track split at the large grey/brown bridge (name on screen : 豊中)
+              </p>
+              <p>
+                The actual difference from Keisuke comes in the next station (name on screen : 岡町)
+                A slowdown cutscene will play after the mentioned station and both of you will enter the
+                sharp left turn of the tracks after the station (name on screen : 曽根)
+                The crucial thing that will be tested here is your braking. Time your brake correctly and
+                you should not derail or lose too much speed.
+                Doing everything correctly will mean you will likely close into Nakazato's front carriage
+                after the turn and the stage will end after both of you reach the long turn leading into
+                the station (name on screen : 服部)
+                If you fail the first trigger, just keep playing normally until the next station
+                (name on screen : 三国) where the trigger to end the stage will activate once more.
+                Congratulations, you have beaten Nakazato!
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/fdP4_itYimw"
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <v-responsive :aspect-ratio="1200/720">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/YnRz_eRRncY"
                 frameborder="0" allowfullscreen></iframe>
+              </v-responsive>
             </v-flex>
-            <v-flex pl-2>
+            <v-flex xs12 md5 pl-2>
               <h2>Stage 3 - Shingo</h2>
               <p>
-                Drive slow.
+                Shingo is a tricky guy to beat.
+                His stage has many twists and turns and is probably one of the hardest
+                stages to complete without derailing.
+                Start off by managing your speed. Brake at every turn possible as every
+                turn in this stage no matter how minor can potentially cause a derail.
+                Try to also multi-track drift when its possible however there are barriers
+                and obstacles that prevent you from doing this so be careful.
+              </p>
+              <p>
+                Once you reach this part (name on screen : 蹴上) or when you see the first dirt track up
+                ahead, you must not multi-track drift because of the barrier and you must brake harshly to not derail.
+                The next section (the dirt track) allows you to multi-track drift and you should do that until you see the cement road.
+                Once you do, you must quickly shift back to your main track and brake as much as you can
+                to prevent yourself from derailing as you are turning right into the cement track.
+                There will be a barrier and a car here after you sucessfully turned to prevent you from
+                multi-track drifting so adjust yourself as per the video.
+              </p>
+              <p>
+                Play as per normal. Gain as much speed as you need to keep up with Shingo but do not derail.
+                After you reach this <a href="https://i.imgur.com/8ggkiWu.png" traget="_blank">station</a>.
+                You must stop multi-track drifting as the track splits from here and it will cause you
+                to completely derail if you don't. Remember to brake at the turn right after the track split.
+                After the turn, you are allowed to multi-track drift once more so adjust your train accordingly.
+              </p>
+              <p>
+                Try to stay as close to him as possible for whatever of the stage is left to trigger cutscenes that can help you win.
+                There are 2 cutscenes that need to play and they only unlock if you are close enough to him on the final turns.
+                If you did everything correctly, you will pass Shingo on the final stretch and win the stage.
+                Congratulations, you have beaten Shingo!
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/Qj9_apUMuvk"
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <v-responsive :aspect-ratio="1200/720">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/0mGqWjRyaAY"
                 frameborder="0" allowfullscreen></iframe>
+              </v-responsive>
             </v-flex>
-            <v-flex pl-2>
+            <v-flex xs12 md5 pl-2>
               <h2>Stage 4 - Ryousuke</h2>
               <p>
-                Break at a stage to win. And don't forget the outside drift.
+                Your fight with Ryosuke takes place on the same track as Keisuke and Nakazato.
+                At the beginning, Ryosuke will let you overtake him so use this chance to multi-track drift.
+                Play as per usual until the station (name on screen : 雲雀丘花屋敷) where you meet the sharp
+                right turn again into the next station
+                Brake like you did in the Keisuke/Nakazato stage and as you enter the station after the turns
+                (name on screen : 川西能勢口) take note that you must not multi-track drift between this station
+                and the next station (name on screen : 池田)
+                This is to not trigger a cutscene which reveals to Ryosuke about what you are going to do in the
+                final section of the stage.
+              </p>
+              <p>
+                After those 2 stations, continue to play as per normal until the green bridge. Cease any multi-track
+                drifting and go into the next station (name on screen : 石橋)
+                Whilst turning into the station, press the emergency brake (You must not be multi-track drifting).
+                This is a trigger you need to do in order to win the stage. Ryosuke at this point will go past you
+                and you should try to keep up with him as much as possible.
+                Play as you will for now however you will still need to brake at these stations/tracks:
+                The station after the large/grey bridge (name on screen : 豊中)
+                The sharp left turn on the tracks after the station (name on screen : 曽根)
+                (disclaimer : If you have done everything correctly, you should get a cutscene right after the long
+                turn into the station (name on screen : 服部). If you don't, your chances of winning have become very
+                slim and you might not win the stage.)
+                The last right sharp turn after the station (name on screen : 三国)
+              </p>
+              <p>
+                After all of that, you will reach the station (name on screen : 十三).
+                If a cutscene plays out here, you have just secured your victory over Ryosuke. There's only one
+                remaining thing to do.
+                Both of you will cross the bridge but you will lag behind by just a certain amount. Just before you
+                reach the next station (name on screen : 中津), You will need to multi-track drift to the outer track on the right while turning.
+                Doing this will make Ryosuke completely slowdown and you will breeze past him without even trying.
+                Remember to stop multi-track drifting once the turn is over or you will derail
+                You can resume mult-track drifting at the small bridges after the 2nd last station
+                (name on screen : 中津)
+                Congratulations, you have beaten Ryosuke and completed the game!
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/U2g-qvEtsuY"
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <v-responsive :aspect-ratio="1200/720">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/y1X5cbMlgIA"
                 frameborder="0" allowfullscreen></iframe>
+              </v-responsive>
             </v-flex>
-            <v-flex pl-2>
+            <v-flex xs12 md5 pl-2>
               <h2>Bonus Stage 1 - Masked Driver</h2>
               <p>
-                Lean towards the right side. Dingus.
+                The Masked Driver stage is a special one.
+                Instead of the normal train which is capable of multi-track drifting, you will be playing with a train that can only lean.
+                Yes lean, as in tilting your train just a little onto one direction.
+                This race will be purely decided by how fast you can react and read the situation.
+                Lean left and right as needed when the track goes left or right.
+                One thing to take note is: A cutscene will play before the end where it slows down the game.
+                You need to lean left here in order to complete the turn.
+                The stage should be completed after your train overtakes the Masked Driver's train
+                Congratulations, you have beaten the Masked Driver!
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/28oU3ra69cU"
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <v-responsive :aspect-ratio="1200/720">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/WDza8yyemu8"
                 frameborder="0" allowfullscreen></iframe>
+              </v-responsive>
             </v-flex>
-            <v-flex pl-2>
+            <v-flex xs12 md5 pl-2>
               <h2>Bonus Stage 2 - Takumi-san</h2>
               <p>
-                Multitrack-Drift and hold the acceleration button down.
+                "Takumi-san" or Meme Takumi is considered a joke stage.
+
+                You will be driving a car on the train tracks and you can drift your car on the tracks by pressing the multi-track drift key once.
+                Pressing it twice on a certain direction will cause you to jump onto the corresponding track in the direction you were pressing.
+
+                All you need to do for this stage is to drift your car in any direction you desire and accelerate. That's it. You win.
+                Along the stage, unique trivia and lore about the Densha de D series will be playing out in cutscenes.
+                Many of them are highly amusing and I recommend you don't sleep on them just because this stage is an automatic win.
+
+                The stage will end after you pass the final station (name on screen : 梅田)
+
+                Congratulations, you have beaten Takumi-san!
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/c3QP2vaiu0o"
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <v-responsive :aspect-ratio="1200/720">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/64hJLQZvt9E"
                 frameborder="0" allowfullscreen></iframe>
+              </v-responsive>
             </v-flex>
-            <v-flex pl-2>
+            <v-flex xs12 md5 pl-2>
               <h2>Bonus Stage 3 - Bunta</h2>
               <p>
-                Use Nakazatos Train and win!
+                We recommend using Nakatatos train, since this is the easiest to win this race with.
+                It is possible to win with the other trains, but this requires a lot of practice and
+                some "glitches". You should drive as good as possible and don't try to derail too much.
+                Basically you are re-doing the Nakazato race but this time you are Nakazato.
+                This means at the point where he blew up his engine cause he still hold the accelerator
+                down, you will simply let off the accelerator. With that you gain a speedboost if you have
+                done it correctly. From now on just keep multi-track drifting and you should easily win the race.
               </p>
             </v-flex>
           </v-layout>
@@ -908,91 +1022,162 @@
           <v-layout justify-center>
             <v-flex xs8>
               <p>
-                Easy to speedrun, hard to master!
+                In this guide we are trying to give you a simple way to speedrun DDD:LS.
+                We are currently not providing the most current strats for this speedrun, but we
+                will update it at a later point.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/WwZz1Yxz5ho"
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <v-responsive :aspect-ratio="1200/720">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/WwZz1Yxz5ho"
                 frameborder="0" allowfullscreen></iframe>
+              </v-responsive>
             </v-flex>
-            <v-flex pl-2>
+            <v-flex xs12 md5 pl-2>
               <h2>Stage 1 - Keisuke</h2>
               <p>
-                Do what I said in the video you dingus!
+                You start multi-track drifting as soon as possible, just spam the multi-track
+                button.
+                After you have done that, just keep multi-track drifting till a specific station.
+                After the station a turn is coming up and you want to keep multi-track drifting
+                until you see a yellow light on the left.
+                At that moment you go back to your default position.
+                As soon as the left turn starts, you start with spamming the brake button a bit until
+                the track is straight again.
+                From there you can just go full speed into the station without derailing.
+                The moment you have the chance to multi-track drift again do it! Keep an eye out on
+                the track splits otherwise you derail.
+                After the green bridges a station is coming up, just go trough it with full
+                throttle.
+                Follow the tracks until you see a grey bridge. After that bridge another station
+                appears.
+                As soon as you enter it you will notice a grey block, from that point on let off the
+                accelerator. You will not derail now!
+                The critical part is coming up after you split up with Keisuke.
+                Right after that station is a sharp left turn, make sure to brake just a little as
+                possible. If you are not careful enough you can derail!
+                Just wait that he passes you and now you can easily multi-track drift again, till
+                you see the second bridge!
+                Behind that bridge will be a sharp right turn, make sure to be on your line again
+                and brake as little as possible to maintain your speed.
+                In the second of last turn you can just go full speed through it.
+                (Optional - for the 100% Category) In the last turn of the stage make sure to
+                multi-track drift. This unlocks the Bonus Stage of the Masked Driver.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/OS5bAK3gZc"
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <v-responsive :aspect-ratio="1200/720">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/_OS5bAK3gZc"
                 frameborder="0" allowfullscreen></iframe>
+              </v-responsive>
             </v-flex>
-            <v-flex pl-2>
+            <v-flex xs12 md5 pl-2>
               <h2>Stage 2 - Nakazato</h2>
               <p>
-                Do what I said in the video you dingus!
+                As soon as you enter the stage make sure to multi-track drift as much as possible.
+                Just follow him until the first dangerous turn.
+                If you enter the right turn make sure to bump into him a few times until you can
+                safely go back to your line. Immediately start braking a few times.
+                After the station make sure to multi-track again as much as possible.
+                Until this point you follow him until you see the grey bridge. After the bridge is a
+                station you want to take with care.
+                After you see the second grey block in the station brake once. This prevents you
+                from derailing.
+                In the second cutscene that appears make sure to hold the accelerator down until the
+                cutscene fully played.
+                The moment it ends you want to start spamming the brake button until your train is stable
+                again.
+                After you have done that you can go full speed again. Now we can end up with two
+                possible outcomes.
+                The first will be we get early Nakazato that means we win during the next turn.
+                The second will be we will get late Nakazato, that means we still need to drive next
+                to him till we win.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/fdP4_itYimw"
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <v-responsive :aspect-ratio="1200/720">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/fdP4_itYimw"
                 frameborder="0" allowfullscreen></iframe>
+              </v-responsive>
             </v-flex>
-            <v-flex pl-2>
+            <v-flex xs12 md5 pl-2>
               <h2>Stage 3 - Shingo</h2>
               <p>
-                Do what I said in the video you dingus!
+                We can't provide a fast strat to this stage yet other than playing it casually.
+                We are working on a new updated version of Shingo right now.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/Qj9_apUMuvk"
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <v-responsive :aspect-ratio="1200/720">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Qj9_apUMuvk"
                 frameborder="0" allowfullscreen></iframe>
+              </v-responsive>
             </v-flex>
-            <v-flex pl-2>
+            <v-flex xs12 md5 pl-2>
               <h2>Stage 4 - Ryousuke</h2>
               <p>
-                Do what I said in the video you dingus!
+                Since we show you the old strat of Ryousuke here there is not really much so say about it.
+                Make sure to multi-track drift as much as possible and remember that you need to use
+                the emergency brake in the entry of the station right after the green bridges.
+                To fully defeat him you also need to outside drift at the second to last turn of
+                this stage!
+                After that you will just need to drive to the last station and you finished the
+                race!
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/U2g-qvEtsuY"
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <v-responsive :aspect-ratio="1200/720">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/U2g-qvEtsuY"
                 frameborder="0" allowfullscreen></iframe>
+              </v-responsive>
             </v-flex>
-            <v-flex pl-2>
+            <v-flex xs12 md5 pl-2>
               <h2>Bonus Stage 1 - Masked Driver</h2>
               <p>
-                Do what I said in the video you dingus!
+                This stage is also pretty simple. Just make sure not to derail.
+                There is a speedstrat for this stage, but we will be working on a release of it.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/28oU3ra69cU"
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <v-responsive :aspect-ratio="1200/720">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/28oU3ra69cU"
                 frameborder="0" allowfullscreen></iframe>
+              </v-responsive>
             </v-flex>
-            <v-flex pl-2>
+            <v-flex xs12 md5 pl-2>
               <h2>Bonus Stage 2 - Takumi-san</h2>
               <p>
-                Do what I said in the video you dingus!
+                You basically just hold down the accelerator to win the stage.
+                There is a small time save but the strats is really precise and will be added to
+                this guide at a later point.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/c3QP2vaiu0o"
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <v-responsive :aspect-ratio="1200/720">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/c3QP2vaiu0o"
                 frameborder="0" allowfullscreen></iframe>
+              </v-responsive>
             </v-flex>
-            <v-flex pl-2>
+            <v-flex xs12 md5 pl-2>
               <h2>Bonus Stage 3 - Bunta</h2>
               <p>
-                Do what I said in the video you dingus!
+                Make sure to use Nakazatos Train.
+                We are also working on an updated guide to beat this stage as fast as possible.
+                For now we recommend beating him like in a casual playthrough.
               </p>
             </v-flex>
           </v-layout>
@@ -1023,14 +1208,24 @@
 
 </style>
 
-
 <script>
+import CharacterLeft from '../components/CharacterLeft';
+import CharacterRight from '../components/CharacterRight';
+
+import TrainLeft from '../components/TrainLeft';
+import TrainRight from '../components/TrainRight';
+
 export default {
+  components: {
+    CharacterLeft,
+    CharacterRight,
+    TrainLeft,
+    TrainRight,
+  },
   data() {
     return {
       active: null,
     };
   },
 };
-
 </script>

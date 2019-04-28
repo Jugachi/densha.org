@@ -1,7 +1,9 @@
 <template>
     <v-layout row wrap justify-center>
         <v-flex xs8 md2>
-            <v-img :src="image"></v-img>
+            <lazy-component>
+                <v-img :src="image"></v-img>
+            </lazy-component>
         </v-flex>
         <v-flex xs8 md6 pl-2>
             <h2>{{ title }}</h2>

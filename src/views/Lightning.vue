@@ -12,7 +12,9 @@
           </v-layout>
           <v-layout row wrap justify-center>
             <v-flex xs8 md2 pr-2>
-              <v-img :src="require ('@/assets/covers/LS_Cover.jpg')"></v-img>
+              <lazy-component>
+                <v-img :src="require ('@/assets/covers/LS_Cover.jpg')"></v-img>
+              </lazy-component>
             </v-flex>
             <v-flex xs8 md6>
               <p>
@@ -754,10 +756,11 @@
           </v-layout>
           <v-layout row wrap justify-center pt-4>
             <v-flex xs12 md5>
-              <v-responsive :aspect-ratio="1200/720">
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/opSg6-tos5M"
-                frameborder="0" allowfullscreen></iframe>
-              </v-responsive>
+              <lazy-component>
+                <v-responsive :aspect-ratio="1200/720">
+                  <youtube width="100%" height="100%" video-id="opSg6-tos5M"/>
+                </v-responsive>
+              </lazy-component>
             </v-flex>
             <v-flex xs12 md5 pl-2>
               <h2>Stage 1 - Keisuke</h2>
@@ -821,10 +824,11 @@
           </v-layout>
           <v-layout row wrap justify-center pt-4>
             <v-flex xs12 md5>
-              <v-responsive :aspect-ratio="1200/720">
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/TD71DI62hRk"
-                frameborder="0" allowfullscreen></iframe>
-              </v-responsive>
+              <lazy-component>
+                <v-responsive :aspect-ratio="1200/720">
+                  <youtube width="100%" height="100%" video-id="TD71DI62hRk"/>
+                </v-responsive>
+              </lazy-component>
             </v-flex>
             <v-flex xs12 md5 pl-2>
               <h2>Stage 2 - Nakazato</h2>
@@ -855,10 +859,11 @@
           </v-layout>
           <v-layout row wrap justify-center pt-4>
             <v-flex xs12 md5>
-              <v-responsive :aspect-ratio="1200/720">
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/YnRz_eRRncY"
-                frameborder="0" allowfullscreen></iframe>
-              </v-responsive>
+              <lazy-component>
+                <v-responsive :aspect-ratio="1200/720">
+                  <youtube width="100%" height="100%" video-id="YnRz_eRRncY"/>
+                </v-responsive>
+              </lazy-component>
             </v-flex>
             <v-flex xs12 md5 pl-2>
               <h2>Stage 3 - Shingo</h2>
@@ -897,10 +902,11 @@
           </v-layout>
           <v-layout row wrap justify-center pt-4>
             <v-flex xs12 md5>
-              <v-responsive :aspect-ratio="1200/720">
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/0mGqWjRyaAY"
-                frameborder="0" allowfullscreen></iframe>
-              </v-responsive>
+              <lazy-component>
+                <v-responsive :aspect-ratio="1200/720">
+                  <youtube width="100%" height="100%" video-id="0mGqWjRyaAY"/>
+                </v-responsive>
+              </lazy-component>
             </v-flex>
             <v-flex xs12 md5 pl-2>
               <h2>Stage 4 - Ryousuke</h2>
@@ -945,10 +951,11 @@
           </v-layout>
           <v-layout row wrap justify-center pt-4>
             <v-flex xs12 md5>
-              <v-responsive :aspect-ratio="1200/720">
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/y1X5cbMlgIA"
-                frameborder="0" allowfullscreen></iframe>
-              </v-responsive>
+              <lazy-component>
+                <v-responsive :aspect-ratio="1200/720">
+                  <youtube width="100%" height="100%" video-id="y1X5cbMlgIA"/>
+                </v-responsive>
+              </lazy-component>
             </v-flex>
             <v-flex xs12 md5 pl-2>
               <h2>Bonus Stage 1 - Masked Driver</h2>
@@ -967,10 +974,11 @@
           </v-layout>
           <v-layout row wrap justify-center pt-4>
             <v-flex xs12 md5>
-              <v-responsive :aspect-ratio="1200/720">
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/WDza8yyemu8"
-                frameborder="0" allowfullscreen></iframe>
-              </v-responsive>
+              <lazy-component>
+                <v-responsive :aspect-ratio="1200/720">
+                  <youtube width="100%" height="100%" video-id="WDza8yyemu8"/>
+                </v-responsive>
+              </lazy-component>
             </v-flex>
             <v-flex xs12 md5 pl-2>
               <h2>Bonus Stage 2 - Takumi-san</h2>
@@ -992,10 +1000,11 @@
           </v-layout>
           <v-layout row wrap justify-center pt-4>
             <v-flex xs12 md5>
-              <v-responsive :aspect-ratio="1200/720">
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/64hJLQZvt9E"
-                frameborder="0" allowfullscreen></iframe>
-              </v-responsive>
+              <lazy-component>
+                <v-responsive :aspect-ratio="1200/720">
+                  <youtube width="100%" height="100%" video-id="64hJLQZvt9E"/>
+                </v-responsive>
+              </lazy-component>
             </v-flex>
             <v-flex xs12 md5 pl-2>
               <h2>Bonus Stage 3 - Bunta</h2>
@@ -1030,10 +1039,11 @@
           </v-layout>
           <v-layout row wrap justify-center pt-4>
             <v-flex xs12 md5>
-              <v-responsive :aspect-ratio="1200/720">
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/WwZz1Yxz5ho"
-                frameborder="0" allowfullscreen></iframe>
-              </v-responsive>
+              <lazy-component>
+                <v-responsive :aspect-ratio="1200/720">
+                  <youtube width="100%" height="100%" video-id="WwZz1Yxz5ho"/>
+                </v-responsive>
+              </lazy-component>
             </v-flex>
             <v-flex xs12 md5 pl-2>
               <h2>Stage 1 - Keisuke</h2>
@@ -1070,10 +1080,11 @@
           </v-layout>
           <v-layout row wrap justify-center pt-4>
             <v-flex xs12 md5>
-              <v-responsive :aspect-ratio="1200/720">
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/_OS5bAK3gZc"
-                frameborder="0" allowfullscreen></iframe>
-              </v-responsive>
+              <lazy-component>
+                <v-responsive :aspect-ratio="1200/720">
+                  <youtube width="100%" height="100%" video-id="_OS5bAK3gZc"/>
+                </v-responsive>
+              </lazy-component>
             </v-flex>
             <v-flex xs12 md5 pl-2>
               <h2>Stage 2 - Nakazato</h2>
@@ -1101,10 +1112,11 @@
           </v-layout>
           <v-layout row wrap justify-center pt-4>
             <v-flex xs12 md5>
-              <v-responsive :aspect-ratio="1200/720">
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/fdP4_itYimw"
-                frameborder="0" allowfullscreen></iframe>
-              </v-responsive>
+              <lazy-component>
+                <v-responsive :aspect-ratio="1200/720">
+                  <youtube width="100%" height="100%" video-id="fdP4_itYimw"/>
+                </v-responsive>
+              </lazy-component>
             </v-flex>
             <v-flex xs12 md5 pl-2>
               <h2>Stage 3 - Shingo</h2>
@@ -1116,10 +1128,11 @@
           </v-layout>
           <v-layout row wrap justify-center pt-4>
             <v-flex xs12 md5>
-              <v-responsive :aspect-ratio="1200/720">
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Qj9_apUMuvk"
-                frameborder="0" allowfullscreen></iframe>
-              </v-responsive>
+              <lazy-component>
+                <v-responsive :aspect-ratio="1200/720">
+                  <youtube width="100%" height="100%" video-id="Qj9_apUMuvk"/>
+                </v-responsive>
+              </lazy-component>
             </v-flex>
             <v-flex xs12 md5 pl-2>
               <h2>Stage 4 - Ryousuke</h2>
@@ -1136,10 +1149,11 @@
           </v-layout>
           <v-layout row wrap justify-center pt-4>
             <v-flex xs12 md5>
-              <v-responsive :aspect-ratio="1200/720">
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/U2g-qvEtsuY"
-                frameborder="0" allowfullscreen></iframe>
-              </v-responsive>
+              <lazy-component>
+                <v-responsive :aspect-ratio="1200/720">
+                  <youtube width="100%" height="100%" video-id="U2g-qvEtsuY"/>
+                </v-responsive>
+              </lazy-component>
             </v-flex>
             <v-flex xs12 md5 pl-2>
               <h2>Bonus Stage 1 - Masked Driver</h2>
@@ -1151,10 +1165,11 @@
           </v-layout>
           <v-layout row wrap justify-center pt-4>
             <v-flex xs12 md5>
-              <v-responsive :aspect-ratio="1200/720">
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/28oU3ra69cU"
-                frameborder="0" allowfullscreen></iframe>
-              </v-responsive>
+              <lazy-component>
+                <v-responsive :aspect-ratio="1200/720">
+                  <youtube width="100%" height="100%" video-id="28oU3ra69cU"/>
+                </v-responsive>
+              </lazy-component>
             </v-flex>
             <v-flex xs12 md5 pl-2>
               <h2>Bonus Stage 2 - Takumi-san</h2>
@@ -1167,10 +1182,11 @@
           </v-layout>
           <v-layout row wrap justify-center pt-4>
             <v-flex xs12 md5>
-              <v-responsive :aspect-ratio="1200/720">
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/c3QP2vaiu0o"
-                frameborder="0" allowfullscreen></iframe>
-              </v-responsive>
+              <lazy-component>
+                <v-responsive :aspect-ratio="1200/720">
+                  <youtube width="100%" height="100%" video-id="c3QP2vaiu0o"/>
+                </v-responsive>
+              </lazy-component>
             </v-flex>
             <v-flex xs12 md5 pl-2>
               <h2>Bonus Stage 3 - Bunta</h2>

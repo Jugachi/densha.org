@@ -14,7 +14,9 @@
           </v-layout>
           <v-layout row wrap justify-center>
             <v-flex xs8 md2 pr-2>
-              <v-img :src="require('@/assets/covers/CS_Cover.jpg')" />
+              <lazy-component>
+                <v-img :src="require('@/assets/covers/CS_Cover.jpg')" />
+              </lazy-component>
             </v-flex>
             <v-flex xs8 md6>
               <p>
@@ -34,13 +36,10 @@
               <h1>Characters</h1>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs2>
-              <v-img :src="require('@/assets/characters/CS/D3_Takumi1P.png')" />
-            </v-flex>
-            <v-flex xs6>
-              <h2>Takumi Fujiwara</h2>
-              <p>
+          <CharacterLeft
+            :image="require('@/assets/characters/CS/D3_Takumi1P.png')"
+            title="Takumi Fujiwara"
+            text="<p>
                 Takumi Fujiwara (藤原拓海 Fujiwara Takumi, known as Tak in the Tokyopop version) is
                 the main protagonist of Initial D, a member of Project D and is friends and
                 associated with the Akina SpeedStars. He is the driver of the Toyota Sprinter AE86
@@ -87,14 +86,14 @@
                 though he won, it left the Eight-Six's engine destroyed. He now currently drives
                 Bunta's Subaru Impreza, continuing to race on Mount Akina while also planning on
                 becoming a professional racer.
-              </p>
-            </v-flex>
-          </v-layout>
-          <v-layout justify-center>
-            <v-flex xs6 text-xs-right>
-              <h2>Keisuke Takahashi</h2>
-              <p>
-                Keisuke Takahashi (高橋 啓介 Takahashi Keisuke, "K.T.") is the number two driver for
+              </p>"
+          >
+          </CharacterLeft>
+          <CharacterRight
+            :image="require('@/assets/characters/CS/CHAR_KEISUKE_1P.png')"
+            title="Keisuke Takahashi"
+            text="<p>
+                Keisuke Takahashi (高橋 啓介 Takahashi Keisuke, 'K.T.') is the number two driver for
                 the RedSuns. Keisuke drives an efini RX-7 Type R (FD3S) , and is a skilled driver,
                 second only to his brother, Ryosuke. Keisuke is a rather hot-headed young man and
                 does not like losing. He is also known to drive with his emotions- for example, if
@@ -128,19 +127,13 @@
               <p>
                 After the Final Stage, he becomes a full professional racer with his RX-7 and
                 Tomiguchi being his personal mechanic
-              </p>
-            </v-flex>
-            <v-flex xs2>
-              <v-img :src="require('@/assets/characters/CS/CHAR_KEISUKE_1P.png')" />
-            </v-flex>
-          </v-layout>
-          <v-layout justify-center>
-            <v-flex xs2>
-              <v-img :src="require('@/assets/characters/CS/CHAR_KAI_1P.png')" />
-            </v-flex>
-            <v-flex xs6>
-              <h2>Kai Kogashiwa</h2>
-              <p>
+              </p>"
+          >
+          </CharacterRight>
+          <CharacterLeft
+            :image="require('@/assets/characters/CS/CHAR_KAI_1P.png')"
+            title="Kai Kogashiwa"
+            text="<p>
                 Kai Kogashiwa (小柏 カイ Kogashiwa Kai) is a street racer from Tochigi prefecture,
                 and a son to a legendary Downhill ace and Bunta's rival, Ken Kogashiwa. Ken taught
                 Kai in the racing world from a young age, participating in karting competitions
@@ -166,14 +159,14 @@
               <p>
                 Originally, Kai drives his father's Toyota SW20 MR2 but later switches to a silver
                 Toyota MR-S ZZW30 (a 3rd Generation MR2 Roadster), leaving the SW20 to his father.
-              </p>
-            </v-flex>
-          </v-layout>
-          <v-layout justify-center>
-            <v-flex xs6 text-xs-right>
-              <h2>Kyoichi Sudo</h2>
-              <p>
-                Kyoichi Sudo (須藤 京一 Sudō Kyōichi, "Kyle") is the team leader and driving ace of
+              </p>"
+          >
+          </CharacterLeft>
+          <CharacterRight
+            :image="require('@/assets/characters/CS/CHAR_KYOICHI_1P.png')"
+            title="Kyoichi Sudo"
+            text="<p>
+                Kyoichi Sudo (須藤 京一 Sudō Kyōichi, 'Kyle') is the team leader and driving ace of
                 the Lancer Evolution-only Emperor team from Gunma (according to his license plate,
                 though it is changed to Tochigi in later series), and one of the best drivers in the
                 series. He drives a Mitsubishi Lancer Evolution III powered up to 350 hp equipped
@@ -206,19 +199,13 @@
                 stock interior in their cars. The only modifications done to the car is the
                 increment of Horsepower to 310 HP and a WRC Anti-Lag/Misfiring System to cure Turbo
                 lag.
-              </p>
-            </v-flex>
-            <v-flex xs2>
-              <v-img :src="require('@/assets/characters/CS/CHAR_KYOICHI_1P.png')" />
-            </v-flex>
-          </v-layout>
-          <v-layout justify-center>
-            <v-flex xs2>
-              <v-img :src="require('@/assets/characters/CS/CHAR_MIKI_1P.png')" />
-            </v-flex>
-            <v-flex xs6>
-              <h2>Miki</h2>
-              <p>
+              </p>"
+          >
+          </CharacterRight>
+          <CharacterLeft
+            :image="require('@/assets/characters/CS/CHAR_MIKI_1P.png')"
+            title="Miki"
+            text="<p>
                 Miki (御木) is a senior in the football (soccer) club of the school that Takumi
                 attended. He drives a Celica GT-Four (ST205). In 1st Stage, Takumi punched him in
                 the changing rooms for bragging about his sexual exploits with Natsuki, during the
@@ -230,14 +217,14 @@
               <p>
                 It is later revealed that he and Shiraishi are siblings, born from a man driving a
                 white Mercedes, though they both don't realize it.
-              </p>
-            </v-flex>
-          </v-layout>
-          <v-layout justify-center>
-            <v-flex xs6>
-              <h2>Wataru Akiyama</h2>
-              <p>
-                Wataru Akiyama (秋山 渉 Akiyama Wataru, "Aki") was one of the first racers from
+              </p>"
+          >
+          </CharacterLeft>
+          <CharacterRight
+            :image="require('@/assets/characters/CS/CHAR_WATARU_1P.png')"
+            title="Wataru Akiyama"
+            text="<p>
+                Wataru Akiyama (秋山 渉 Akiyama Wataru, 'Aki') was one of the first racers from
                 Saitama to actually race against Takumi with his turbocharged Levin; he appeared
                 later in the Project D arc, this time replacing the turbocharger with a supercharger
                 for more linear acceleration and avoid Turbocharger lag. Wataru is a skilled driver
@@ -250,7 +237,7 @@
               <p>
                 Several times throughout the Fourth Stage, Wataru reaches out to Takumi and gives
                 him advice whenever he is in Akina, notably helping the latter overcome his
-                "four-wheel drive complex."
+                'four-wheel drive complex.'
               </p>
               <p>
                 Wataru later raced against Keisuke Takahashi in a wet-weather race, but when his
@@ -264,19 +251,13 @@
               <p>
                 He later watches the final race between Project D and Sidewinder along with Nobuhiko
                 and Sakamoto.
-              </p>
-            </v-flex>
-            <v-flex xs2>
-              <v-img :src="require('@/assets/characters/CS/CHAR_WATARU_1P.png')" />
-            </v-flex>
-          </v-layout>
-          <v-layout justify-center>
-            <v-flex xs2>
-              <v-img :src="require('@/assets/characters/CS/D3_tuka_a.png')" />
-            </v-flex>
-            <v-flex xs6>
-              <h2>Tsukamoto</h2>
-              <p>
+              </p>"
+          >
+          </CharacterRight>
+          <CharacterLeft
+            :image="require('@/assets/characters/CS/D3_tuka_a.png')"
+            title="Tsukamoto"
+            text="<p>
                 Tsukamoto (塚本) is a minor character that appears in the manga around the time of
                 Takumi's race against Kyoichi of Emperor. Tsukamoto was a high school senior when
                 Takumi and Natsuki were freshmen, but now he is mildly involved with the street
@@ -284,9 +265,9 @@
                 fact far from it. He soon experiences real extreme driving when Takumi drives his
                 180SX down Akagi after a request by Natsuki to pass a cocky couple in a Silvia S13,
                 leading to Tsukamoto fainting.
-              </p>
-            </v-flex>
-          </v-layout>
+              </p>"
+          >
+          </CharacterLeft>
         </v-tab-item>
         <!-- Trains -->
         <v-tab :key="2" ripple @click.stop="active = 2">
@@ -298,57 +279,256 @@
               <h1>New Trains</h1>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
+          <v-layout justify-center text-xs-center>
             <v-flex xs8>
               <p>
                 Train talk
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs2>
-              <v-img :src="require('@/assets/trains/CS/ICON_2800.png')" />
-            </v-flex>
-            <v-flex xs6 pl-2>
-              <h2>2800 Series</h2>
-              <p>
-                More information about this kind of train will be added soon.
-              </p>
-            </v-flex>
-          </v-layout>
-          <v-layout justify-center>
-            <v-flex xs6 text-xs-right pr-2>
-              <h2>9000 Series</h2>
-              <p>
-                More information about this kind of train will be added soon.
-              </p>
-            </v-flex>
-            <v-flex xs2>
-              <v-img :src="require('@/assets/trains/CS/ICON_9000.png')" />
-            </v-flex>
-          </v-layout>
-          <v-layout justify-center>
-            <v-flex xs2>
-              <v-img :src="require('@/assets/trains/CS/ICON_JR2000.png')" />
-            </v-flex>
-            <v-flex xs6 pl-2>
-              <h2>JR2000 Series</h2>
-              <p>
-                More information about this kind of train will be added soon.
-              </p>
-            </v-flex>
-          </v-layout>
-          <v-layout justify-center>
-            <v-flex xs6 text-xs-right pr-2>
-              <h2>RAPID Series</h2>
-              <p>
-                More information about this kind of train will be added soon.
-              </p>
-            </v-flex>
-            <v-flex xs2>
-              <v-img :src="require('@/assets/trains/CS/ICON_RAPID.png')" />
-            </v-flex>
-          </v-layout>
+          <TrainLeft
+            :image="require('@/assets/trains/CS/ICON_2800.png')"
+            title="阪急２８００系"
+            text="
+              <a href='https://ja.wikipedia.org/wiki/%E9%98%AA%E6%80%A52800%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'>（Wikipedia）</a>
+
+              <p>運転士は秋山渉</p>
+
+              <p>阪急 京都線を走る特急形車両。
+              デビューは1964年。</p>
+
+              <p>これまでの列車は「ロングシート」と呼ばれるベンチのような座席が多かったが、
+              （ロングシート）
+              <a href='https://ja.wikipedia.org/wiki/%E9%89%84%E9%81%93%E8%BB%8A%E4%B8%A1%E3%81%AE%E5%BA%A7%E5%B8%AD#%E3%83%AD%E3%83%B3%E3%82%B0%E3%82%B7%E3%83%BC%E3%83%88%EF%BC%88%E7%B8%A6%E5%BA%A7%E5%B8%AD%EF%BC%89' target='_blank'>（Wikipedia）</a></p>
+
+              <p>ライバルの京阪電鉄が、２扉化して座席数を増やし、
+              進行方向を向いた座席「クロスシート」を乗せた、乗客にとって快適な京阪１９００系を登場させた。
+              （クロスシート）
+              <a href='https://ja.wikipedia.org/wiki/%E9%89%84%E9%81%93%E8%BB%8A%E4%B8%A1%E3%81%AE%E5%BA%A7%E5%B8%AD#%E3%82%AF%E3%83%AD%E3%82%B9%E3%82%B7%E3%83%BC%E3%83%88%EF%BC%88%E6%A8%AA%E5%BA%A7%E5%B8%AD%EF%BC%89' target='_blank'>（Wikipedia）</a></p>
+
+              <p>（京阪1900系）
+              <a href='https://ja.wikipedia.org/wiki/%E4%BA%AC%E9%98%AA1900%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'>（Wikipedia）</a></p>
+
+              <p>利用客も、阪急から京阪へ流れた為、
+              車体は２３００と共通だが、車両の真ん中の扉を減らし、
+              前後２扉、クロスシートの阪急２８００系を製造、
+              京阪へ対抗する車両としての登場となった。</p>
+
+              <p>このクロスシートと、ロングシートの違いは、
+              １２話で、車内に並べたハードルの描写で描かれている。
+              ２０００と２８００の内装が異なる事がわかる鉄道オタクでないと、
+              解らないネタである。</p>
+
+
+              <p>サービス面で、京阪と激戦を広げたが、
+              カラーテレビ付きの京阪の３０００系の登場により
+              阪急は少しずつに劣勢に追いやられるようになった。
+              （京阪3000系）
+              <a href='https://ja.wikipedia.org/wiki/%E4%BA%AC%E9%98%AA3000%E7%B3%BB%E9%9B%BB%E8%BB%8A_(%E5%88%9D%E4%BB%A3)' target='_blank'>（Wikipedia）</a></p>
+
+
+              <p>後継の阪急６３００系が登場する頃には、特急車から一般車に格下げされ、
+              時代の流れとともに、２扉から３扉車に改造されていった。
+              しかも、機器更新を行わず、長年の特急運用と３扉化による
+              車体強度の低下などにより、２０００系や２３００系より後に登場したにも関わらず、
+              1995年にさよなら運転を行って引退となった。</p>
+
+
+              <p>９話で、池谷と健二が乗る阪急６３００系を追い抜く阪急２８００系は、
+              在りし日の特急の姿で、当時を知る者は、
+              池谷や健二と同じように、涙を流したに違いない。</p>
+
+              <p>頭文字Ｄの秋山渉のＡＥ８６レビンは、
+              「ドッカンターボ」を搭載し、
+              「古い車というハンデキャップを逆手にとって相手を追い詰めることが快感」と言うスタイルだったが、
+              電車でＤの阪急２８００は全車両を動力車で編成し、
+              古い阪急２０００系統の抵抗制御の加速の悪さと、登り坂の弱さをカバーしている。</p>
+
+              <p>バトルの舞台となった「神戸電鉄 有馬・三田線」は
+              大阪、神戸の市街地から数十分で、六甲山地の有名な温泉、「有馬温泉」へと運んでくれる路線である。</p>
+
+              <p>スタートの「新開地駅」は阪急電鉄、阪神電鉄、山陽電鉄の３社が乗り入れ、観光客も多く、輸送量も多い。
+              しかし、山奥へ行けば行くほど、利用客も減り、線路は複線（２本）から単線（１本）になり、
+              鈴蘭台駅から延びる粟生線は、利用客がほとんどなく、存亡の危機に瀕している。</p>
+
+              <p>頭文字Ｄの秋山渉は、バトルの舞台である「正丸峠」で、
+              「何度も事故を起こしている」と妹の和美に言われているが、
+              神戸電鉄 有馬・三田線では、野生の動物と衝突事故が多い。
+              そのぐらい山奥を走る路線で、背景が真っ黒で困るぐらい、何も無いのだ！</p>
+            "
+          >
+          </TrainLeft>
+          <TrainRight
+            :image="require('@/assets/trains/CS/ICON_9000.png')"
+            title="阪神９０００系"
+            text="
+              <a href='https://ja.wikipedia.org/wiki/%E9%98%AA%E7%A5%9E9000%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'>（Wikipedia）</a>
+
+              <p>運転士は塚本</p>
+
+              <p>塚本は、拓海の先輩であり、
+              啓介と渉のバトルを中断させたドライバー。</p>
+
+              <p>…なのだが、アニメ版ではエピソードごとカットされた人物で、
+              バトルを中断させる人物も、アニメ版では別の人物に変更されている。</p>
+
+
+              <p>1995年に発生した阪神・淡路大震災に伴い、
+              阪神電鉄の車両不足を埋める為に製造された阪神９０００系。
+              早急に車両不足を埋めれる余裕のある製造ラインと、工期短縮を検討し、
+              ステンレス車体が採用された。</p>
+
+              <p>阪神電鉄は、阪急神戸線の少し南を通る、阪急のライバル会社であり、
+              乗客獲得競争を繰り広げていた。
+              <a href='https://ja.wikipedia.org/wiki/%E9%98%AA%E7%A5%9E%E9%9B%BB%E6%B0%97%E9%89%84%E9%81%93' target='_blank'>（Wikipedia）</a></p>
+
+              <p>阪急よりも運転頻度を増やし、狭い駅間を、急加速急停車で結ぶ
+              日本一の加速度を誇る「阪神ジェットカー」が有名である。
+              <a href='https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88%E3%82%AB%E3%83%BC' target='_blank'>（Wikipedia）</a></p>
+
+              <p>だが、阪神電鉄は2006年に阪急電鉄の子会社となった。</p>
+
+              <p>阪急の子会社となったおかげで、
+              阪急の車庫が満杯で、メンテ間に合わない車両を、
+              阪神の車庫で引き受ける珍事が発生。</p>
+
+              <p>「阪神の線路を阪急が走る」という、まるで電車でＤのような事が実際に起こり、
+              Twitterで祭り状態になり、新聞にも載った。
+              <a href='https://nishinomiya.keizai.biz/headline/182/' target='_blank'>（Keizai）</a></p>
+
+              <p>こちらはブログで紹介されたもの。
+              <a href='http://d.hatena.ne.jp/keyboar/20140717/1405554815' target='_blank'>（Hatena）</a></p>
+
+
+              <p>また、電車でＤ 総集編７のオマケ漫画で、
+              塚本が「同じ阪急グループになったので、よろしくな」と拓海に挨拶している。</p>
+
+
+              <p>ちなみに、阪神９０００系は「赤胴車」に分類され、普通の車両である。
+              加速もドリフトもパっとしないのは塚本の腕もあるのだが…</p>
+
+              <p>現在は、塗装を変更、近鉄に乗り入れ、
+              神戸から大阪を抜け、奈良を結ぶ長距離車両として活躍中である。</p>
+            "
+          >
+          </TrainRight>
+          <TrainLeft
+            :image="require('@/assets/trains/CS/ICON_JR2000.png')"
+            title="ＪＲ四国 ２０００ＧＴ"
+            text="
+              <a href='https://ja.wikipedia.org/wiki/JR%E5%9B%9B%E5%9B%BD2000%E7%B3%BB%E6%B0%97%E5%8B%95%E8%BB%8A' target='_blank'>（Wikipedia）</a>
+
+
+              <p>運転士は小柏カイ</p>
+
+              <p>ＪＲ四国 ２０００系は、急勾配、急カーブが多い「土讃線」の特急列車の
+              速度向上を目的として開発された車両で、
+              カーブで車両が傾き、減速する事なく走り抜ける事ができる、
+              「振り子式台車」を搭載した、世界初の「振り子式気動車」である。</p>
+
+              <p>コーナーで車体を傾けて高速で通過するＪＲ四国２０００系
+              <a href='https://www.youtube.com/watch?v=1uPChEscS8U' target='_blank'>（YouTube）</a></p>
+
+
+              <p>「気動車」とは、電気ではなく、ディーゼルエンジンで動く鉄道車両であり、
+              小柏カイの乗る２０００ＧＴは、
+              「ＪＲ四国２０００系気動車」４両に、
+              ガスタービン動車４両を連結させた８両編成で構成されている。
+              （ＧＴはガスタービンの略である）</p>
+
+
+              <p>日本でガスタービンエンジンを搭載した車両は、実際は試作車止まりである。</p>
+
+              <p>１９６０年代に、フランス国鉄や、カナダ国鉄が高速鉄道としてガスタービン車両を開発、
+              営業運転を始めました。</p>
+
+              <p>日本もガスタービンエンジンに目を付け、技術開発が進められた。</p>
+
+              <p>航空機のエンジンを流用して試作車を作成、時速130km/hと試験結果も良好だったのだが、
+              そもそも航空機用の為、騒音が凄い。廃熱も凄い。</p>
+
+              <p>航空機に積む為のエンジンなので、
+              小型、軽量、高出力が良いところだったのに、
+              消音の為に大型化され、結果的に客室も狭くなる事に。</p>
+
+              <p>さらに、トンネルの中で排気された高温のガスを、後続の車両のエンジンが吸気し、
+              安全の為に緊急停止したり、トラブルが続出した。</p>
+
+              <p>気温差に弱くパワーが出ない、
+              低速時の燃費が想像以上に悪い、
+              停車駅が多かったり、連続したカーブでは大きなデメリットとなった。</p>
+
+              <p>時代も味方をせず、1973年の「オイルショック」が追い打ちになり、
+              ガスタービンエンジンの構想は消え、
+              試作車はＪＲ東日本 大宮総合車両センターで非公開保存とされた。</p>
+
+
+              <p>１６話で
+              「鉄道用エンジンとしては実用化しなかったが、バトル専用仕様ならばあるいは…」
+              と、須藤京一と高橋涼介が話をしているのには、
+              上記のような研究、開発、結果があった為である。</p>
+
+              <p>舞台となった近鉄奈良線は、
+              奈良から生駒山を超え、大阪難波へ抜ける山越えの路線。
+              <a href='https://ja.wikipedia.org/wiki/%E8%BF%91%E9%89%84%E5%A5%88%E8%89%AF%E7%B7%9A' target='_blank'>（Wikipedia）</a></p>
+
+              <p>平城宮跡の中を突っ切り、勾配を登り、
+              3.3kmの長い生駒トンネルを抜ける。</p>
+
+              <p>石切駅から額田駅への土讃線スペシャル区間は、勾配もきつく、
+              大きなカーブを描き、空中をショートカットするには良い区間である。
+              この区間は標高が高く、大阪の夜景を一望出来る。</p>
+
+              <p>布施駅から近鉄大阪線が合流し、複々線区間となる。</p>
+
+              <p>終点の大阪難波から先は、
+              現在は阪神なんば線が開通し、
+              そのまま阪神電鉄に乗り入れる事が出来る。</p>
+
+
+              <p>既に否定された技術である「ガスタービンエンジン」。
+              フタを開けて見ると、とても面白いバトルになり、
+              爆音と黒煙を上げて走る２０００ＧＴは、
+              電車でＤでは人気車両のひとつになりました。</p>
+            "
+          >
+          </TrainLeft>
+          <TrainRight
+            :image="require('@/assets/trains/CS/ICON_RAPID.png')"
+            title="南海５００００系 ラピート"
+            text="
+              <a href='https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%94%E3%83%BC%E3%83%88' target='_blank'>（Wikipedia）</a>
+
+              <p>運転士は御木</p>
+
+              <p>南海電鉄の難波と、関西国際空港（カンクー）を結ぶ、通称「鉄仮面」の空港特急。
+              （南海電鉄）
+              <a href='https://ja.wikipedia.org/wiki/%E5%8D%97%E6%B5%B7%E9%9B%BB%E6%B0%97%E9%89%84%E9%81%93' target='_blank'>（Wikipedia）</a></p>
+
+              <p>由来はrapidで、ドイツ語で「速い」の意味。
+              登場は1994年で、大阪の市街地と空港をノンストップ、２９分で結んだ。</p>
+
+              <p>…のだが、リムジンバスや、競合他社の京都直結の特急列車に対して優位性が発揮できず、利用客が低迷。
+              途中停車駅を増やしノンストップ運行は廃止された。</p>
+
+              <p>2010年以降は、市況の回復で海外旅行者が増えたのと、
+              海外の旅行代理店への営業努力で利用者が大きく増加、
+              空港連絡鉄道として、
+              また、平日は座席指定の通勤ライナーとして、需要が伸びている。</p>
+
+              <p>２０１４年に「ガンダムＵＣ」とタイアップし、深紅のラピート、
+              <a href='https://www.youtube.com/watch?v=2NohInElWGA' target='_blank'>（YouTube）</a>
+              「Ｐｅａｃｈ」とタイアップし、白いラピートが、
+              <a href='https://www.youtube.com/watch?v=57fp-YIR5Lk' target='_blank'>（YouTube）</a>
+              ２０１５年には「スターウォーズ」とタイアップし、黒のラピートが登場するなど、
+              カラーバリエーションも増えている。
+              <a href='https://www.youtube.com/watch?v=1I8fwXnji7I' target='_blank'>（YouTube）</a></p>
+
+
+              <p>すごい見た目だ…</p>
+            "
+          >
+          </TrainRight>
         </v-tab-item>
         <v-tab v-if="false" :key="3" ripple @click.stop="active = 3">
           Guide
@@ -360,196 +540,100 @@
               <h1>How to beat the game?</h1>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
+          <v-layout justify-center text-xs-center>
             <v-flex xs8>
               <p>
-                This will be a wall of text that explains everything. Lorem ipsum dolor sit amet,
-                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-                ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-                voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-                gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
-                sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
-                est Lorem ipsum dolor sit amet.
+                This will be a wall of text that explains everything.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs4>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/WwZz1Yxz5ho"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              />
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <lazy-component>
+                <v-responsive :aspect-ratio="1200 / 700">
+                  <youtube width="100%" height="100%" video-id="WwZz1Yxz5ho" />
+                </v-responsive>
+              </lazy-component>
             </v-flex>
-            <v-flex xs8>
-              <h2>Stage 1 - Keisuke</h2>
+            <v-flex xs12 md5 pl-2>
+              <h2>Stage 1 - Mako and Sayuki</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-                ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs4>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/OS5bAK3gZc"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              />
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <lazy-component>
+                <v-responsive :aspect-ratio="1200 / 700">
+                  <youtube width="100%" height="100%" video-id="OS5bAK3gZc" />
+                </v-responsive>
+              </lazy-component>
             </v-flex>
-            <v-flex xs8>
+            <v-flex xs12 md5 pl-2>
               <h2>Stage 2 - Nakazato</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-                ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs4>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/fdP4_itYimw"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              />
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <lazy-compontent>
+                <v-responsive :aspect-ratio="1200 / 700">
+                  <youtube width="100%" height="100%" video-id="fdP4_itYimw" />
+                </v-responsive>
+              </lazy-compontent>
             </v-flex>
-            <v-flex xs8>
-              <h2>Stage 3 - Shingo</h2>
+            <v-flex xs12 md5 pl-2>
+              <h2>Stage 3 - Kenta</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-                ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs4>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/Qj9_apUMuvk"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              />
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <lazy-compontent>
+                <v-responsive :aspect-ratio="1200 / 700">
+                  <youtube width="100%" height="100%" video-id="Qj9_apUMuvk" />
+                </v-responsive>
+              </lazy-compontent>
             </v-flex>
-            <v-flex xs8>
-              <h2>Stage 4 - Ryousuke</h2>
+            <v-flex xs12 md5 pl-2>
+              <h2>Stage 4 - Seiji</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-                ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs4>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/U2g-qvEtsuY"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              />
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <lazy-compontent>
+                <v-responsive :aspect-ratio="1200 / 700">
+                  <youtube width="100%" height="100%" video-id="U2g-qvEtsuY" />
+                </v-responsive>
+              </lazy-compontent>
             </v-flex>
-            <v-flex xs8>
-              <h2>Bonus Stage 1 - Masked Driver</h2>
+            <v-flex xs12 md5 pl-2>
+              <h2>Stage 5 - Kyoichi 1</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-                ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs4>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/28oU3ra69cU"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              />
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <lazy-compontent>
+                <v-responsive :aspect-ratio="1200 / 700">
+                  <youtube width="100%" height="100%" video-id="28oU3ra69cU" />
+                </v-responsive>
+              </lazy-compontent>
             </v-flex>
-            <v-flex xs8>
-              <h2>Bonus Stage 2 - Takumi-san</h2>
+            <v-flex xs12 md5 pl-2>
+              <h2>Stage 6 - Kyoichi 2</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-                ipsum dolor sit amet.
-              </p>
-            </v-flex>
-          </v-layout>
-          <v-layout align-content-space-between>
-            <v-flex xs4>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/c3QP2vaiu0o"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              />
-            </v-flex>
-            <v-flex xs8>
-              <h2>Bonus Stage 3 - Bunta</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-                ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
@@ -567,193 +651,97 @@
           <v-layout justify-center>
             <v-flex xs8>
               <p>
-                This will be a wall of text that explains everything. Lorem ipsum dolor sit amet,
-                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-                ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-                voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-                gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
-                sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
-                est Lorem ipsum dolor sit amet.
+                This will be a wall of text that explains everything.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs4>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/WwZz1Yxz5ho"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              />
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <lazy-component>
+                <v-responsive :aspect-ratio="1200 / 700">
+                  <youtube width="100%" height="100%" video-id="WwZz1Yxz5ho" />
+                </v-responsive>
+              </lazy-component>
             </v-flex>
-            <v-flex xs8>
-              <h2>Stage 1 - Keisuke</h2>
+            <v-flex xs12 md5 pl-2>
+              <h2>Stage 1 - Mako and Sayuki</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-                ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs4>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/OS5bAK3gZc"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              />
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <lazy-component>
+                <v-responsive :aspect-ratio="1200 / 700">
+                  <youtube width="100%" height="100%" video-id="OS5bAK3gZc" />
+                </v-responsive>
+              </lazy-component>
             </v-flex>
-            <v-flex xs8>
+            <v-flex xs12 md5 pl-2>
               <h2>Stage 2 - Nakazato</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-                ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs4>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/fdP4_itYimw"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              />
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <lazy-compontent>
+                <v-responsive :aspect-ratio="1200 / 700">
+                  <youtube width="100%" height="100%" video-id="fdP4_itYimw" />
+                </v-responsive>
+              </lazy-compontent>
             </v-flex>
-            <v-flex xs8>
-              <h2>Stage 3 - Shingo</h2>
+            <v-flex xs12 md5 pl-2>
+              <h2>Stage 3 - Kenta</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-                ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs4>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/Qj9_apUMuvk"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              />
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <lazy-compontent>
+                <v-responsive :aspect-ratio="1200 / 700">
+                  <youtube width="100%" height="100%" video-id="Qj9_apUMuvk" />
+                </v-responsive>
+              </lazy-compontent>
             </v-flex>
-            <v-flex xs8>
-              <h2>Stage 4 - Ryousuke</h2>
+            <v-flex xs12 md5 pl-2>
+              <h2>Stage 4 - Seiji</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-                ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs4>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/U2g-qvEtsuY"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              />
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <lazy-compontent>
+                <v-responsive :aspect-ratio="1200 / 700">
+                  <youtube width="100%" height="100%" video-id="U2g-qvEtsuY" />
+                </v-responsive>
+              </lazy-compontent>
             </v-flex>
-            <v-flex xs8>
-              <h2>Bonus Stage 1 - Masked Driver</h2>
+            <v-flex xs12 md5 pl-2>
+              <h2>Stage 5 - Kyoichi 1</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-                ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
-            <v-flex xs4>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/28oU3ra69cU"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              />
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <lazy-compontent>
+                <v-responsive :aspect-ratio="1200 / 700">
+                  <youtube width="100%" height="100%" video-id="28oU3ra69cU" />
+                </v-responsive>
+              </lazy-compontent>
             </v-flex>
-            <v-flex xs8>
-              <h2>Bonus Stage 2 - Takumi-san</h2>
+            <v-flex xs12 md5 pl-2>
+              <h2>Stage 6 - Kyoichi 2</h2>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-                ipsum dolor sit amet.
-              </p>
-            </v-flex>
-          </v-layout>
-          <v-layout align-content-space-between>
-            <v-flex xs4>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/c3QP2vaiu0o"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              />
-            </v-flex>
-            <v-flex xs8>
-              <h2>Bonus Stage 3 - Bunta</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-                ipsum dolor sit amet.
+                More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
@@ -763,26 +751,20 @@
   </v-container>
 </template>
 
-<style>
-.takumisan {
-  animation: takumisan 3s 0s infinite linear;
-}
-
-@keyframes takumisan {
-  0% {
-    transform: rotateY(0deg);
-  }
-  50% {
-    transform: rotateY(180deg);
-  }
-  100% {
-    transform: rotateY(0deg);
-  }
-}
-</style>
-
 <script>
+import CharacterLeft from '../components/CharacterLeft';
+import CharacterRight from '../components/CharacterRight';
+
+import TrainLeft from '../components/TrainLeft';
+import TrainRight from '../components/TrainRight';
+
 export default {
+  components: {
+    CharacterLeft,
+    CharacterRight,
+    TrainLeft,
+    TrainRight
+  },
   data() {
     return {
       active: null

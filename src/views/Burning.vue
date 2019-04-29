@@ -14,7 +14,9 @@
           </v-layout>
           <v-layout row wrap justify-center>
             <v-flex xs8 md2 pr-2>
-              <v-img :src="require('@/assets/covers/BS_Cover.jpg')" />
+              <lazy-component>
+                <v-img :src="require('@/assets/covers/BS_Cover.jpg')" />
+              </lazy-component>
             </v-flex>
             <v-flex xs8 md6>
               <p>
@@ -35,7 +37,7 @@
             </v-flex>
           </v-layout>
           <CharacterLeft
-            :image="require ('@/assets/characters/BS/D2_mako.png')"
+            :image="require('@/assets/characters/BS/D2_mako.png')"
             title="Mako Sato"
             text="<p>
                 Mako Sato (佐藤 真子 Satō Mako, 'Maya') is the driver of the Usui combination,
@@ -65,10 +67,11 @@
                 Go Hojo,
                 not knowing that he is Takumi's opponent for the downhill until he reveals that he
                 is.
-              </p>">
+              </p>"
+          >
           </CharacterLeft>
           <CharacterRight
-            :image="require ('@/assets/characters/BS/D2_sayuki.png')"
+            :image="require('@/assets/characters/BS/D2_sayuki.png')"
             title="Sayuki"
             text="<p>
                 Sayuki (沙雪, 'Simone') is Mako Sato's co-driver/navigator, and works with her in her
@@ -101,10 +104,11 @@
                 against
                 Sidewinder's Shinji Inui along with Mako, whom she says is extremely similar to
                 Takumi in many ways.
-              </p>">
+              </p>"
+          >
           </CharacterRight>
           <CharacterLeft
-            :image="require ('@/assets/characters/BS/D2_kenta.png')"
+            :image="require('@/assets/characters/BS/D2_kenta.png')"
             title="Kenta Nakamaura"
             text="<p>
                 Kenta Nakamura (中村 賢太 Nakamura Kenta) is one of the youngest members of the Akagi
@@ -131,10 +135,11 @@
                 In Fifth Stage, Kenta assisted Keisuke helping him pass Spirial Zero’s Ryuji Ikeda
                 in
                 the start of a foggy high speed section near the end.
-              </p>">
+              </p>"
+          >
           </CharacterLeft>
           <CharacterRight
-            :image="require ('@/assets/characters/BS/D2_nakazato.png')"
+            :image="require('@/assets/characters/BS/D2_nakazato.png')"
             title="Takeshi Nakazato"
             text="<p>
                 Takeshi Nakazato (中里 毅 Nakazato Takeshi, 'Zack'), also known as the Black Lightning
@@ -171,10 +176,11 @@
                 Takeshi is the leader of the NightKids team on Mount Myogi and he has shown an
                 interest in Sayuki of Impact Blue.
               </p>
-              <p>He is a fan of the GT-R just like Kunimitsu Takahashi.</p>">
+              <p>He is a fan of the GT-R just like Kunimitsu Takahashi.</p>"
+          >
           </CharacterRight>
           <CharacterLeft
-            :image="require ('@/assets/characters/BS/D2_kyousuke2P.png')"
+            :image="require('@/assets/characters/BS/D2_kyousuke2P.png')"
             title="Kyoichi Sudo"
             text="<p>
                 Kyoichi Sudo (須藤 京一 Sudō Kyōichi, 'Kyle') is the team leader and driving ace
@@ -211,10 +217,11 @@
                 stock interior in their cars. The only modifications done to the car is the
                 increment
                 of Horsepower to 310 HP and a WRC Anti-Lag/Misfiring System to cure Turbo lag.
-              </p>">
+              </p>"
+          >
           </CharacterLeft>
           <CharacterRight
-            :image="require ('@/assets/characters/BS/D2_seiji_a.png')"
+            :image="require('@/assets/characters/BS/D2_seiji_a.png')"
             title="Seiji Iwaki"
             text="<p>
                 Seiji Iwaki(岩城 清次 Iwaki Seiji, 'Hawk') is the number two driver in the Lancer
@@ -258,7 +265,8 @@
                 and stick it on the sideblade of his spoiler upside-down, emulating the 'kill'
                 markers that
                 fighter pilots paint on their planes.
-              </p>">
+              </p>"
+          >
           </CharacterRight>
         </v-tab-item>
         <!-- Trains -->
@@ -271,7 +279,7 @@
               <h1>New Trains</h1>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
+          <v-layout justify-center text-xs-center>
             <v-flex xs8>
               <p>
                 Train talk
@@ -279,7 +287,7 @@
             </v-flex>
           </v-layout>
           <TrainLeft
-            :image="require ('@/assets/trains/BS/ICON_21XX.png')"
+            :image="require('@/assets/trains/BS/ICON_21XX.png')"
             title="京急２１００形"
             text="<p>
                 <a
@@ -294,7 +302,7 @@
                 アルミ合金製の車体に、ドイツ・シーメンス社のGTO素子VVVFインバーター制御を搭載し、
                 発車時に発する磁励音が音階に聞こえることが特徴。
 
-                <a href="https://www.youtube.com/watch?v=sFNSyH9mpP4" target="_blank"
+                <a href='https://www.youtube.com/watch?v=sFNSyH9mpP4' target='_blank'
                   >（YouTube）</a
                 >
               </p>
@@ -319,7 +327,7 @@
               <p>
                 鉄道会社には珍しく、 「けいきゅう♪ドレミたん」というイメージキャラクターがおり、
                 段ボール箱の京急２１００に乗っている。
-                <a href="https://www.youtube.com/watch?v=jDRfqRhpFqA" target="_blank"
+                <a href='https://www.youtube.com/watch?v=jDRfqRhpFqA' target='_blank'
                   >（YouTube）</a
                 >
               </p>
@@ -383,7 +391,7 @@
                 乗客を乗せたまま反対方向へ発車、線路の途中にある待避線で特急列車の通過を待ち、
                 即座にバックで再び元の駅に戻るなど、
                 アクロバティックな運用を楽しむ京急のファンも多い。
-                <a href="https://www.youtube.com/watch?v=VKCVh6Aba2w" target="_blank"
+                <a href='https://www.youtube.com/watch?v=VKCVh6Aba2w' target='_blank'
                   >（YouTube）</a
                 >
               </p>
@@ -392,7 +400,7 @@
                 赤い車体が特徴的だったが、空港をイメージした青色の車体「KEIKYU BLUE SKY TRAIN」や、
                 黄色い車体が有名な「西武鉄道」とコラボレーションをした、黄色い車体の「KEIKYU YELLOW
                 HAPPY TRAIN」が登場。 電車でＤのカラーバリエーションとなった。
-                <a href="https://www.keikyu.co.jp/train-info/train/index.html" target="_blank"
+                <a href='https://www.keikyu.co.jp/train-info/train/index.html' target='_blank'
                   >（Keikyu）</a
                 >
               </p>
@@ -411,7 +419,7 @@
                 常にノッチを入れて、コーナーでも加速、 まるで戦闘機かと思わせる走行音など、
                 どこを見ても強さのネタに困らない、 エンペラーのランエボにふさわしい車両である。
 
-                <a href="https://www.youtube.com/watch?v=w_FkSzy5Mqs" target="_blank"
+                <a href='https://www.youtube.com/watch?v=w_FkSzy5Mqs' target='_blank'
                   >（YouTube）</a
                 >
               </p>
@@ -421,7 +429,7 @@
                 「SUPERBELL'Z」というグループが歌う「MOTERMAN 京浜急行VVVF」という曲の中で、
                 「横浜からはライバル出現の為、120km/h運転を行います。」「ターボ良し。」「許容１２０、ターボ！」
                 など、競合他社をブチ抜く歌詞から来ています。
-                <a href="https://www.youtube.com/watch?v=e4tEC2uMFB4" target="_blank"
+                <a href='https://www.youtube.com/watch?v=e4tEC2uMFB4' target='_blank'
                   >（YouTube）</a
                 >
               </p>
@@ -467,10 +475,11 @@
                   <a href='https://www.youtube.com/watch?v=e4tEC2uMFB4' target='_blank'>（YouTube）</a></p>
 
                 <p>列車が遅れた際に、使われる事があるらしい…？
-                </p>">
+                </p>"
+          >
           </TrainLeft>
           <TrainRight
-            :image="require ('@/assets/trains/BS/ICON_8000.png')"
+            :image="require('@/assets/trains/BS/ICON_8000.png')"
             title="京阪８０００"
             text="<p>
                 <a
@@ -486,8 +495,8 @@
                 市街地を縫うように走る低速区間と、 郊外＆高架線路をかっ飛ばす高速区間が、
                 くっきりと別れるテクニカルな路線である。 （京阪本線）
                 <a
-                  href="https://ja.wikipedia.org/wiki/%E4%BA%AC%E9%98%AA%E6%9C%AC%E7%B7%9A"
-                  target="_blank"
+                  href='https://ja.wikipedia.org/wiki/%E4%BA%AC%E9%98%AA%E6%9C%AC%E7%B7%9A'
+                  target='_blank'
                   >（Wikipedia）</a
                 >
               </p>
@@ -527,7 +536,7 @@
                 京阪特急の見た目は、
                 オレンジと朱色のツートンカラーに塗り分けられ、（特急色と呼ばれる）
                 先頭に鳩のマークを掲げたのが本来の「京阪特急 ８０００系」の姿
-                <a href="https://www.youtube.com/watch?v=uhcefvStEYI" target="_blank"
+                <a href='https://www.youtube.com/watch?v=uhcefvStEYI' target='_blank'
                   >（YouTube）</a
                 >
               </p>
@@ -539,7 +548,7 @@
 
               <p>
                 （緑色の車両）
-                <a href="https://www.youtube.com/watch?v=ymtRwD8C8kA" target="_blank"
+                <a href='https://www.youtube.com/watch?v=ymtRwD8C8kA' target='_blank'
                   >（YouTube）</a
                 >
               </p>
@@ -584,10 +593,11 @@
 
                 <p>その後、２０１０年前後から新車両の登場とともに８０００系も塗装変更。
                   赤と黄色のツートンカラーになり、追加料金を支払う事で乗れる「プレミアムカー」が導入されました。
-                </p>">
+                </p>"
+          >
           </TrainRight>
           <TrainLeft
-            :image="require ('@/assets/trains/BS/ICON_8008.png')"
+            :image="require('@/assets/trains/BS/ICON_8008.png')"
             title="阪急８００８"
             text="<p>
                 <a
@@ -626,7 +636,8 @@
 
                 <p>運が良ければ、通勤時間帯に８２００＋８００８の「神戸線Red Sans」タッグの１０両編成が見られる事もあるとか。
                   お前、仕事中も啓介にくっついて走ってるのね…
-                </p>">
+                </p>"
+          >
           </TrainLeft>
         </v-tab-item>
         <v-tab v-if="false" :key="3" ripple @click.stop="active = 3">
@@ -639,127 +650,98 @@
               <h1>How to beat the game?</h1>
             </v-flex>
           </v-layout>
-          <v-layout justify-center>
+          <v-layout justify-center text-xs-center>
             <v-flex xs8>
               <p>
                 This will be a wall of text that explains everything.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/WwZz1Yxz5ho"
-                frameborder="0"
-                allowfullscreen
-              />
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <lazy-component>
+                <v-responsive :aspect-ratio="1200 / 700">
+                  <youtube width="100%" height="100%" video-id="WwZz1Yxz5ho" />
+                </v-responsive>
+              </lazy-component>
             </v-flex>
-            <v-flex pl-2>
-              <h2>Stage 1 - Keisuke</h2>
+            <v-flex xs12 md5 pl-2>
+              <h2>Stage 1 - Mako and Sayuki</h2>
               <p>
                 More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/OS5bAK3gZc"
-                frameborder="0"
-                allowfullscreen
-              />
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <lazy-component>
+                <v-responsive :aspect-ratio="1200 / 700">
+                  <youtube width="100%" height="100%" video-id="OS5bAK3gZc" />
+                </v-responsive>
+              </lazy-component>
             </v-flex>
-            <v-flex pl-2>
+            <v-flex xs12 md5 pl-2>
               <h2>Stage 2 - Nakazato</h2>
               <p>
                 More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/fdP4_itYimw"
-                frameborder="0"
-                allowfullscreen
-              />
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <lazy-compontent>
+                <v-responsive :aspect-ratio="1200 / 700">
+                  <youtube width="100%" height="100%" video-id="fdP4_itYimw" />
+                </v-responsive>
+              </lazy-compontent>
             </v-flex>
-            <v-flex pl-2>
-              <h2>Stage 3 - Shingo</h2>
+            <v-flex xs12 md5 pl-2>
+              <h2>Stage 3 - Kenta</h2>
               <p>
                 More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/Qj9_apUMuvk"
-                frameborder="0"
-                allowfullscreen
-              />
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <lazy-compontent>
+                <v-responsive :aspect-ratio="1200 / 700">
+                  <youtube width="100%" height="100%" video-id="Qj9_apUMuvk" />
+                </v-responsive>
+              </lazy-compontent>
             </v-flex>
-            <v-flex pl-2>
-              <h2>Stage 4 - Ryousuke</h2>
+            <v-flex xs12 md5 pl-2>
+              <h2>Stage 4 - Seiji</h2>
               <p>
                 More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/U2g-qvEtsuY"
-                frameborder="0"
-                allowfullscreen
-              />
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <lazy-compontent>
+                <v-responsive :aspect-ratio="1200 / 700">
+                  <youtube width="100%" height="100%" video-id="U2g-qvEtsuY" />
+                </v-responsive>
+              </lazy-compontent>
             </v-flex>
-            <v-flex pl-2>
-              <h2>Bonus Stage 1 - Masked Driver</h2>
+            <v-flex xs12 md5 pl-2>
+              <h2>Stage 5 - Kyoichi 1</h2>
               <p>
                 More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/28oU3ra69cU"
-                frameborder="0"
-                allowfullscreen
-              />
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <lazy-compontent>
+                <v-responsive :aspect-ratio="1200 / 700">
+                  <youtube width="100%" height="100%" video-id="28oU3ra69cU" />
+                </v-responsive>
+              </lazy-compontent>
             </v-flex>
-            <v-flex pl-2>
-              <h2>Bonus Stage 2 - Takumi-san</h2>
-              <p>
-                More information about this kind of stage will be added soon.
-              </p>
-            </v-flex>
-          </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/c3QP2vaiu0o"
-                frameborder="0"
-                allowfullscreen
-              />
-            </v-flex>
-            <v-flex pl-2>
-              <h2>Bonus Stage 3 - Bunta</h2>
+            <v-flex xs12 md5 pl-2>
+              <h2>Stage 6 - Kyoichi 2</h2>
               <p>
                 More information about this kind of stage will be added soon.
               </p>
@@ -783,120 +765,91 @@
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/WwZz1Yxz5ho"
-                frameborder="0"
-                allowfullscreen
-              />
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <lazy-component>
+                <v-responsive :aspect-ratio="1200 / 700">
+                  <youtube width="100%" height="100%" video-id="WwZz1Yxz5ho" />
+                </v-responsive>
+              </lazy-component>
             </v-flex>
-            <v-flex pl-2>
-              <h2>Stage 1 - Keisuke</h2>
+            <v-flex xs12 md5 pl-2>
+              <h2>Stage 1 - Mako and Sayuki</h2>
               <p>
                 More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/OS5bAK3gZc"
-                frameborder="0"
-                allowfullscreen
-              />
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <lazy-component>
+                <v-responsive :aspect-ratio="1200 / 700">
+                  <youtube width="100%" height="100%" video-id="OS5bAK3gZc" />
+                </v-responsive>
+              </lazy-component>
             </v-flex>
-            <v-flex pl-2>
+            <v-flex xs12 md5 pl-2>
               <h2>Stage 2 - Nakazato</h2>
               <p>
                 More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/fdP4_itYimw"
-                frameborder="0"
-                allowfullscreen
-              />
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <lazy-compontent>
+                <v-responsive :aspect-ratio="1200 / 700">
+                  <youtube width="100%" height="100%" video-id="fdP4_itYimw" />
+                </v-responsive>
+              </lazy-compontent>
             </v-flex>
-            <v-flex pl-2>
-              <h2>Stage 3 - Shingo</h2>
+            <v-flex xs12 md5 pl-2>
+              <h2>Stage 3 - Kenta</h2>
               <p>
                 More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/Qj9_apUMuvk"
-                frameborder="0"
-                allowfullscreen
-              />
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <lazy-compontent>
+                <v-responsive :aspect-ratio="1200 / 700">
+                  <youtube width="100%" height="100%" video-id="Qj9_apUMuvk" />
+                </v-responsive>
+              </lazy-compontent>
             </v-flex>
-            <v-flex pl-2>
-              <h2>Stage 4 - Ryousuke</h2>
+            <v-flex xs12 md5 pl-2>
+              <h2>Stage 4 - Seiji</h2>
               <p>
                 More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/U2g-qvEtsuY"
-                frameborder="0"
-                allowfullscreen
-              />
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <lazy-compontent>
+                <v-responsive :aspect-ratio="1200 / 700">
+                  <youtube width="100%" height="100%" video-id="U2g-qvEtsuY" />
+                </v-responsive>
+              </lazy-compontent>
             </v-flex>
-            <v-flex pl-2>
-              <h2>Bonus Stage 1 - Masked Driver</h2>
+            <v-flex xs12 md5 pl-2>
+              <h2>Stage 5 - Kyoichi 1</h2>
               <p>
                 More information about this kind of stage will be added soon.
               </p>
             </v-flex>
           </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/28oU3ra69cU"
-                frameborder="0"
-                allowfullscreen
-              />
+          <v-layout row wrap justify-center pt-4>
+            <v-flex xs12 md5>
+              <lazy-compontent>
+                <v-responsive :aspect-ratio="1200 / 700">
+                  <youtube width="100%" height="100%" video-id="28oU3ra69cU" />
+                </v-responsive>
+              </lazy-compontent>
             </v-flex>
-            <v-flex pl-2>
-              <h2>Bonus Stage 2 - Takumi-san</h2>
-              <p>
-                More information about this kind of stage will be added soon.
-              </p>
-            </v-flex>
-          </v-layout>
-          <v-layout>
-            <v-flex xs6>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/c3QP2vaiu0o"
-                frameborder="0"
-                allowfullscreen
-              />
-            </v-flex>
-            <v-flex pl-2>
-              <h2>Bonus Stage 3 - Bunta</h2>
+            <v-flex xs12 md5 pl-2>
+              <h2>Stage 6 - Kyoichi 2</h2>
               <p>
                 More information about this kind of stage will be added soon.
               </p>
@@ -920,7 +873,7 @@ export default {
     CharacterLeft,
     CharacterRight,
     TrainLeft,
-    TrainRight,
+    TrainRight
   },
   data() {
     return {

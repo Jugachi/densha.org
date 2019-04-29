@@ -1,0 +1,30 @@
+{
+    "locale": "日本人",
+    "navbar": {
+        "home": "ホーム",
+        "games": "ゲーム",
+        "get_the_game": "ゲームを購入する",
+        "language": "言語",
+        "twitter": "JinushiのTwitter"
+    },
+    "characters": {
+        "takumi": {
+            "name": "藤原拓海",
+            "description": [
+                "藤原拓海",
+                "高橋 啓介"
+            ]
+        }
+    },
+    "trains": {
+        "hankyu_2000": {
+            "name": "阪急２０００",
+            "description": [
+                "<a href='https://ja.wikipedia.org/wiki/%E9%98%AA%E6%80%A52000%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'> （Wikipedia） </a>",
+                "運転士は藤原拓海",
+                "阪急電鉄 宝塚線を走る２０００系。",
+                "拓海の先輩である池谷がリーダーの「TAKARAZUKA SPEED STARS」と、 阪急電鉄 神戸線の、高橋涼介がリーダーの「神戸線 RedSuns」との交流戦に、 彗星の如く現れる。（１話）"
+            ]
+        }
+    }
+}

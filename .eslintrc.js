@@ -1,22 +1,22 @@
 module.exports = {
   root: true,
   env: {
-    node: true,
+    node: true
   },
   extends: [
     'plugin:vue/essential',
-    '@vue/airbnb',
+    'eslint:recommended',
+    'prettier/vue',
+    'plugin:prettier/recommended'
   ],
   rules: {
+    'vue/component-name-in-template-casing': ['error', 'PascalCase'],
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'import/extensions': ['error', 'always', {
-      js: 'ignorePackages',
-      vue: 'ignorePackages'
-    }],
-    'max-len': ['error', { code: 200 }]
+    'linebreak-style': ['error', 'unix'],
+    'prettier/prettier': ['error', { singleQuote: true }]
   },
   parserOptions: {
-    parser: 'babel-eslint',
-  },
+    parser: 'babel-eslint'
+  }
 };

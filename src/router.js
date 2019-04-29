@@ -11,7 +11,7 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: Home,
+      component: Home
     },
     {
       path: '/about',
@@ -19,7 +19,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/About.vue'),
+      component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
     },
     {
       path: '/lightning',
@@ -27,7 +27,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "lightning" */ './views/Lightning.vue'),
+      component: () => import(/* webpackChunkName: "lightning" */ './views/Lightning.vue')
     },
     {
       path: '/burning',
@@ -35,7 +35,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "burning" */ './views/Burning.vue'),
+      component: () => import(/* webpackChunkName: "burning" */ './views/Burning.vue')
     },
     {
       path: '/climax',
@@ -43,7 +43,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "climax" */ './views/Climax.vue'),
+      component: () => import(/* webpackChunkName: "climax" */ './views/Climax.vue')
     },
     {
       path: '/rising',
@@ -51,7 +51,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "rising" */ './views/Rising.vue'),
-    },
-  ],
+      component: () => import(/* webpackChunkName: "rising" */ './views/Rising.vue')
+    }
+  ]
 });

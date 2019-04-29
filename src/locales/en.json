@@ -1,0 +1,31 @@
+{
+    "locale": "English",
+    "navbar": {
+        "home": "Home",
+        "games": "Games",
+        "get_the_game": "Get the game",
+        "language": "Language",
+        "twitter": "Jinushi's Twitter"
+    },
+    "characters": {
+        "takumi": {
+            "name": "Takumi Fujiwara",
+            "description": [
+                "Takumi Fujiwara (藤原拓海 Fujiwara Takumi, known as Tak in the Tokyopop version) is the main protagonist of Initial D, a member of Project D and is friends and associated with the Akina SpeedStars. He is the driver of the Toyota Sprinter AE86 Trueno GT Apex or simply the Eight-Six, originally belonging to his father Bunta, and forcibly became the delivery boy of his father's tofu business, doing deliveries in the morning at Mount Akina.",
+                "Despite seemingly not having knowledge of cars, in fact he didn't know that his car was called an Eight-Six, Takumi is a very skilled driver, having driven on Akina since he was in junior high. This caught the attention of other racing teams such as the Akagi RedSuns and the Myogi NightKids who wanted a piece of racing against Takumi.",
+                "In his up and coming emergence, he raced against Keisuke Takahashi, NightKids members Takeshi Nakazato and Shingo Shoji, the female racing duo Impact Blue, Kenta Nakamura and finally Ryosuke Takahashi, in which he ended Ryosuke's winning streak. At the same time he was dating Natsuki Mogi."
+            ]
+        }
+    },
+    "trains": {
+        "hankyu_2000": {
+            "name": "Hankyu 2000",
+            "description": [
+                "<a href='https://ja.wikipedia.org/wiki/%E9%98%AA%E6%80%A52000%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'> （Wikipedia） </a>",
+                "運転士は藤原拓海",
+                "阪急電鉄 宝塚線を走る２０００系。",
+                "拓海の先輩である池谷がリーダーの「TAKARAZUKA SPEED STARS」と、 阪急電鉄 神戸線の、高橋涼介がリーダーの「神戸線 RedSuns」との交流戦に、 彗星の如く現れる。（１話）"
+            ]
+        }
+    }
+}

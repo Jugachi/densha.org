@@ -251,10 +251,44 @@
           </v-layout>
           <TrainLeft
             :image="require('@/assets/trains/RS/ICON_DRC.png')"
-            title="DRC"
-            text="<p>
-                More information about this kind of train will be added soon.
-              </p>"
+            title="東武１７２０系ＤＲＣ"
+            text="
+              <a href='https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%AD%A61720%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'>（Wikipedia）</a>
+
+              <p>運転士は舘智幸</p>
+
+              <p>1960年から1991年から運用されていた、東武鉄道を代表する特急用車両。
+              通称「デラックスロマンスカー(Deluxe Romance Car 略称：DRC)」</p>
+
+              <p>最高速度は165km/hで設計、製造された、本物の特急車両。</p>
+
+              <p>これは国鉄が、東京～大阪は6時間30分で結ぶ計画を立て、
+              設計最高速度160km/hの「181系」を視野にいれていた為である。
+              （国鉄181系）
+              <a href='https://ja.wikipedia.org/wiki/%E5%9B%BD%E9%89%84181%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'>（Wikipedia）</a></p>
+
+              <p>観光用列車の為、室内は快適に過ごせるように設計され、
+              リクライニングシート、フットレスト、食堂車、自動ドアなど、
+              新しいものを導入していた。</p>
+
+              <p>東堂塾のデモカーにふさわしい、プロが仕上げた車両である。</p>
+
+              <p>舞台となる東武東上線は
+              「池袋駅」をスタートし、市街地を抜け、郊外の最高速区間を突っ走り、
+              スタートから60kmの地点にある「嵐山信号場」でＵターンし、
+              再び池袋に戻る全長120kmのコースになる。
+              <a href='https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%AD%A6%E6%9D%B1%E4%B8%8A%E6%9C%AC%E7%B7%9A' target='_blank'>（Wikipedia）</a></p>
+
+              <p>池袋駅からは、狭く低速コーナーが続く第１セクション、
+              和光市駅から複々線（４本の線路）の第２セクション、
+              志木駅から長いストレートが続く複線（２本の線路）の第３セクション
+              北坂戸駅の先の鉄橋から始まる、長いストレートと高速コーナーの第４セクション</p>
+
+              <p>原作の頭文字Ｄで、東堂塾のコースが４つの区間に分けて語られていますが、
+              電車でＤの東武東上線も４つの区間に分けて語られています。
+              本当にそんな感じの路線ですので、是非先頭車両で楽しんで下さい。
+              帰ってくる頃には夕方になっていると思います。（路線が長い！）</p>
+            "
           >
           </TrainLeft>
           <TrainRight

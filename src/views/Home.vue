@@ -2,7 +2,7 @@
   <v-container>
     <v-layout text-xs-center wrap>
       <v-flex xs12>
-        <v-img :src="require('../assets/DDD_Logo.png')" class="my-3" contain height="200"></v-img>
+        <v-img :src="require('../assets/DDD_Logo.png')" class="my-3" contain height="200" />
       </v-flex>
 
       <v-flex mb-4>
@@ -12,24 +12,24 @@
         </h1>
         <p class="subheading font-weight-regular">
           For help and collaboration with the Densha de D Community
-          <br>please join our
+          <br />please join our
           <a href="http://discord.densha.org" target="_blank">Discord Server</a>
         </p>
       </v-flex>
-      </v-layout>
-      <v-layout>
-        <v-flex text-xs-center>
+    </v-layout>
+    <v-layout>
+      <v-flex text-xs-center>
         <h1 class="display-2 font-weight-bold mb-3">
           This website is still work in progress.
         </h1>
         <p class="subheading font-weight-regular">
           We still need to translate a lot of text from Japanese to English.
-          <br>
+          <br />
           Our translator is really busy and this will take some time.
-          <br>
+          <br />
           Sorry for the inconvenience
         </p>
       </v-flex>
-      </v-layout>
+    </v-layout>
   </v-container>
 </template>

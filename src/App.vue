@@ -51,24 +51,36 @@
               Get the game
             </v-list-tile-title>
           </v-list-tile>
-          <v-list-tile href="https://www.dlsite.com/eng/work/=/product_id/RE217271.html"
-            target="_blank">
-            <v-list-tile-title class="font-weight-light text-uppercase">Lightning Stage
+          <v-list-tile
+            href="https://www.dlsite.com/eng/work/=/product_id/RE217271.html"
+            target="_blank"
+          >
+            <v-list-tile-title class="font-weight-light text-uppercase">
+              Lightning Stage
             </v-list-tile-title>
           </v-list-tile>
-          <v-list-tile href="https://www.dlsite.com/eng/work/=/product_id/RE227913.html"
-            target="_blank">
-            <v-list-tile-title class="font-weight-light text-uppercase">Burning Stage
+          <v-list-tile
+            href="https://www.dlsite.com/eng/work/=/product_id/RE227913.html"
+            target="_blank"
+          >
+            <v-list-tile-title class="font-weight-light text-uppercase">
+              Burning Stage
             </v-list-tile-title>
           </v-list-tile>
-          <v-list-tile href="https://www.dlsite.com/eng/work/=/product_id/RE242866.html"
-            target="_blank">
-            <v-list-tile-title class="font-weight-light text-uppercase">Climax Stage
+          <v-list-tile
+            href="https://www.dlsite.com/eng/work/=/product_id/RE242866.html"
+            target="_blank"
+          >
+            <v-list-tile-title class="font-weight-light text-uppercase">
+              Climax Stage
             </v-list-tile-title>
           </v-list-tile>
-          <v-list-tile href="https://www.dlsite.com/eng/work/=/product_id/RE242921.html"
-            target="_blank">
-            <v-list-tile-title class="font-weight-light text-uppercase">Rising Stage
+          <v-list-tile
+            href="https://www.dlsite.com/eng/work/=/product_id/RE242921.html"
+            target="_blank"
+          >
+            <v-list-tile-title class="font-weight-light text-uppercase">
+              Rising Stage
             </v-list-tile-title>
           </v-list-tile>
         </v-list-group>
@@ -79,7 +91,8 @@
         </v-list-tile-action>
 
         <v-list-tile-content>
-          <v-list-tile-title class="font-weight-light text-uppercase">Jinushi's Twitter
+          <v-list-tile-title class="font-weight-light text-uppercase">
+            Jinushi's Twitter
           </v-list-tile-title>
         </v-list-tile-content>
       </v-list-tile>
@@ -89,18 +102,21 @@
         </v-list-tile-action>
 
         <v-list-tile-content>
-          <v-list-tile-title class="font-weight-light text-uppercase">Discord</v-list-tile-title>
+          <v-list-tile-title class="font-weight-light text-uppercase">
+            Discord
+          </v-list-tile-title>
         </v-list-tile-content>
       </v-list-tile>
     </v-navigation-drawer>
     <v-toolbar app>
       <v-toolbar-title>
-        <v-img :src="require('@/assets/DDD_Logo.png')" class="mr-2" contain width="150"></v-img>
+        <v-img :src="require('@/assets/DDD_Logo.png')" class="mr-2" contain width="150" />
       </v-toolbar-title>
       <template>
         <v-toolbar-items>
           <v-btn flat class="headline font-weight-light text-uppercase hidden-sm-and-down" to="/">
-            Home</v-btn>
+            Home
+          </v-btn>
         </v-toolbar-items>
         <!-- Games -->
         <v-menu>
@@ -108,7 +124,9 @@
             <v-toolbar-items v-on="on">
               <v-btn flat class="headline font-weight-light text-uppercase hidden-sm-and-down">
                 Games
-                <v-icon right dark>fas fa-caret-down</v-icon>
+                <v-icon right dark>
+                  fas fa-caret-down
+                </v-icon>
               </v-btn>
             </v-toolbar-items>
           </template>
@@ -130,9 +148,9 @@
               </v-list-tile-title>
             </v-list-tile>
             <v-list-tile to="/rising">
-              <v-list-tile-title class="font-weight-light text-uppercase">
-                Rising Stage
-              </v-list-tile-title>
+              <v-list-tile-title class="font-weight-light text-uppercase"
+                >Rising Stage</v-list-tile-title
+              >
             </v-list-tile>
           </v-list>
         </v-menu>
@@ -141,49 +159,90 @@
           <template v-slot:activator="{ on }">
             <v-toolbar-items v-on="on">
               <v-btn flat class="headline font-weight-light text-uppercase hidden-sm-and-down">
-                Get The Game
-                <v-icon right dark>fas fa-caret-down</v-icon>
+                Get the game
+                <v-icon right dark>
+                  fas fa-caret-down
+                </v-icon>
               </v-btn>
             </v-toolbar-items>
           </template>
 
           <v-list>
-            <v-list-tile href="https://www.dlsite.com/eng/work/=/product_id/RE217271.html"
-              target="_blank">
-              <v-list-tile-title class="font-weight-light text-uppercase">Lightning Stage
+            <v-list-tile
+              href="https://www.dlsite.com/eng/work/=/product_id/RE217271.html"
+              target="_blank"
+            >
+              <v-list-tile-title class="font-weight-light text-uppercase">
+                Lightning Stage
               </v-list-tile-title>
             </v-list-tile>
-            <v-list-tile href="https://www.dlsite.com/eng/work/=/product_id/RE227913.html"
-              target="_blank">
-              <v-list-tile-title class="font-weight-light text-uppercase">Burning Stage
+            <v-list-tile
+              href="https://www.dlsite.com/eng/work/=/product_id/RE227913.html"
+              target="_blank"
+            >
+              <v-list-tile-title class="font-weight-light text-uppercase">
+                Burning Stage
               </v-list-tile-title>
             </v-list-tile>
-            <v-list-tile href="https://www.dlsite.com/eng/work/=/product_id/RE242866.html"
-              target="_blank">
-              <v-list-tile-title class="font-weight-light text-uppercase">Climax Stage
+            <v-list-tile
+              href="https://www.dlsite.com/eng/work/=/product_id/RE242866.html"
+              target="_blank"
+            >
+              <v-list-tile-title class="font-weight-light text-uppercase">
+                Climax Stage
               </v-list-tile-title>
             </v-list-tile>
-            <v-list-tile href="https://www.dlsite.com/eng/work/=/product_id/RE242921.html"
-              target="_blank">
-              <v-list-tile-title class="font-weight-light text-uppercase">Rising Stage
+            <v-list-tile
+              href="https://www.dlsite.com/eng/work/=/product_id/RE242921.html"
+              target="_blank"
+            >
+              <v-list-tile-title class="font-weight-light text-uppercase">
+                Rising Stage
               </v-list-tile-title>
             </v-list-tile>
           </v-list>
         </v-menu>
       </template>
-      <v-spacer></v-spacer>
-      <v-toolbar-items class="hidden-sm-and-down">
+      <v-spacer />
+      <v-toolbar-items class="hidden-md-and-down">
+        <!-- <v-menu>
+          <template v-slot:activator="{ on }">
+            <v-toolbar-items v-on="on">
+              <v-btn flat class="title font-weight-light text-uppercase hidden-sm-and-down">
+                {{ $t('navbar.language') }}
+                <v-icon right dark>
+                  fas fa-caret-down
+                </v-icon>
+              </v-btn>
+            </v-toolbar-items>
+          </template>
+
+          <v-list>
+            <v-list-tile
+              v-for="(language, id) in $i18n.messages"
+              :key="id"
+              @click="$i18n.locale = id"
+            >
+              <v-list-tile-title class="font-weight-light">
+                {{ language.locale }}
+              </v-list-tile-title>
+            </v-list-tile>
+          </v-list>
+        </v-menu> -->
         <v-btn flat href="https://twitter.com/jinushi" target="_blank">
           <span>Jinushi's Twitter</span>
-          <v-icon right>fab fa-twitter</v-icon>
+          <v-icon right>
+            fab fa-twitter
+          </v-icon>
         </v-btn>
         <v-btn flat href="http://discord.densha.org" target="_blank">
           <span>Discord</span>
-          <v-icon right>fab fa-discord</v-icon>
+          <v-icon right>
+            fab fa-discord
+          </v-icon>
         </v-btn>
       </v-toolbar-items>
-      <v-toolbar-side-icon class="hidden-md-and-up" @click.stop="drawer = !drawer">
-      </v-toolbar-side-icon>
+      <v-toolbar-side-icon class="hidden-lg-and-up" @click.stop="drawer = !drawer" />
     </v-toolbar>
     <v-content>
       <router-view />
@@ -196,9 +255,8 @@ export default {
   name: 'App',
   data() {
     return {
-      drawer: false,
+      drawer: false
     };
-  },
+  }
 };
-
 </script>

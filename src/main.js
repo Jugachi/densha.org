@@ -1,32 +1,45 @@
-import Vue from 'vue';
-import './plugins/vuetify';
-import './stylus/main.styl';
-import VueYoutube from 'vue-youtube';
-import VueLazyload from 'vue-lazyload';
-import VueI18n from 'vue-i18n';
-import App from './App.vue';
-import router from './router';
+import { createApp } from 'vue'
+import { createVuetify } from 'vuetify'
 
-import { defaultLocale, languages } from './locales';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 
-Vue.config.productionTip = false;
+import 'vuetify/styles'
+import '@fortawesome/fontawesome-free/css/all.css'
 
-Vue.use(VueYoutube);
-Vue.use(VueLazyload, {
-  lazyComponent: true
+import App from './App.vue'
+import router from './router'
+import { createI18n } from 'vue-i18n'
+//import i18n from './i18n';
+import en from './locales/en.json'
+import jp from './locales/jp.json'
+import { aliases, fa } from 'vuetify/iconsets/fa'
+
+library.add(fas, fab)
+
+const vuetify = createVuetify({
+  theme: {
+    defaultTheme: 'dark'
+  },
+  icons: {
+    defaultSet: 'fa',
+    aliases,
+    sets: { fa },
+  }
+})
+
+const i18n = createI18n({
+  locale: 'en',
+  messages: { en, jp }
+})
+
+router.beforeEach((to, from, next) => {
+  document.title = to.meta.title || 'Densha De D'; // Default title if none is set
+  next();
 });
-Vue.use(VueI18n);
 
-const i18n = new VueI18n({
-  locale: defaultLocale,
-  messages: Object.assign(languages)
-});
-
-// TODO:
-// https://kazupon.github.io/vue-i18n/started.html#html
-
-new Vue({
-  router,
-  i18n,
-  render: h => h(App)
-}).$mount('#app');
+const app = createApp(App)
+app.component('font-awesome-icon', FontAwesomeIcon)
+app.use(router).use(i18n).use(vuetify).mount('#app')

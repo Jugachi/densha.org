@@ -49,15 +49,21 @@
       <!-- Trains tab -->
       <v-tabs-window-item value="trains">
         <div v-if="game.trains.length" class="text-center">
-          
           <div v-for="(train, index) in game.trains" :key="index" class="d-flex justify-center">
+            <!-- Train img on the right -->
+            <img :src="getTrainImagePath(train.name)" v-if="(index%2)===0" />
             <!-- Train data -->
-            <div>
-              <h2>{{ train.name }}</h2>
-              <div v-for="(desc, index) in train.description" :key="index" v-html="desc"></div>
+            <div :class="[{'align-right': (index%2)!==0}, {'align-left': (index%2)===0}]">
+              <h2 style="margin: 1rem 1rem 1rem 1rem ;">{{ train.name }}</h2>
+              
+
+              <div v-for="(desc, index) in train.description" :key="index" v-html="desc" style="margin: 1rem 1rem 1rem 1rem ;"></div>
             </div>
-          </div>
             
+
+            <!-- Train image on the left -->
+            <img :src="getTrainImagePath(train.name)" v-if="(index%2)!==0" />
+          </div>
         </div>
       </v-tabs-window-item>
     </v-tabs-window>
@@ -73,10 +79,7 @@ export default {
         name: "",
         description: "",
         characters: [],
-        trains: {
-          name: "",
-          description: [],
-        },
+        trains: [],
       },
     };
   },
@@ -89,9 +92,17 @@ export default {
     },
   },
   methods: {
+    getNumberFromString(str) {
+      const match = str.match(/\d+$/);
+      return match ? match[0] : '';
+    },
     getCharacterImagePath(name) {
       const formattedName = name.replace(/\s/g, "_").toLowerCase();
       return new URL(`/src/assets/characters/${this.$route.params.slug}/${formattedName}.png`, import.meta.url).href;
+    },
+    getTrainImagePath(name) {
+      const formattedName = this.getNumberFromString(name);
+      return new URL(`/src/assets/trains/${this.$route.params.slug}/icon_${formattedName}.png`, import.meta.url).href;
     },
     fetchGameData(slug) {
       const gameData = this.$i18n.messages[this.$i18n.locale].games[slug];
@@ -99,7 +110,7 @@ export default {
         this.game.name = gameData.name;
         this.game.description = gameData.description;
         this.game.characters = gameData.characters || [];
-        this.game.trains = gameData.trains || { name: "", description: [] };
+        this.game.trains = gameData.trains || [];
       }
     },
   },

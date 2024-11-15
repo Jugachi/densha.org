@@ -34,8 +34,7 @@
         <v-list-item
           v-for="site in buyGames"
           :key="site.name"
-          :href="site.link"
-          target="_blank"
+          @click="confirmNavigation(site.link)"
         >
           <v-list-item-title>{{ site.name }}</v-list-item-title>
         </v-list-item>
@@ -52,8 +51,7 @@
         <v-list-item
           v-for="site in buyOst"
           :key="site.name"
-          :href="site.link"
-          target="_blank"
+          @click="confirmNavigation(site.link)"
         >
           <v-list-item-title>{{ site.name }}</v-list-item-title>
         </v-list-item>
@@ -80,6 +78,20 @@
         <v-list-item @click="changeLanguage('jp')">🇯🇵 Japanese</v-list-item>
       </v-list>
     </v-menu>
+
+    <v-dialog v-model="dialog" max-width="500">
+      <v-card>
+        <v-card-title class="headline">External Link Confirmation</v-card-title>
+        <v-card-text>
+          You are about to visit an external website. You might need a VPN to access it. Do you want to proceed?
+        </v-card-text>
+        <v-card-actions>
+          <v-spacer></v-spacer>
+          <v-btn color="green darken-1" text @click="goToExternal(externalLink)">Yes</v-btn>
+          <v-btn color="red darken-1" text @click="dialog = false">No</v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
   </v-app-bar>
 </template>
 
@@ -110,6 +122,8 @@ export default {
         { name: "Rising Stage", link: "https://www.dlsite.com/home/dlaf/=/t/s/link/work/aid/DenshaOrg/locale/en_US/id/RJ242924.html/?locale=en_US" },
         { name: "Shining Stage", link: "https://www.youtube.com/watch?v=fJqgXqwIlMs" },
       ],
+      dialog: false,
+      externalLink: "",
     };
   },
   watch: {
@@ -135,6 +149,10 @@ export default {
     },
     changeLanguage(lang) {
       this.$i18n.locale = lang;
+    },
+    confirmNavigation(link) {
+      this.externalLink = link;
+      this.dialog = true;
     },
   },
 };

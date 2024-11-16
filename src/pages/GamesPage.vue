@@ -34,14 +34,14 @@
         <div v-if="game.characters.length" class="text-center">
           <div v-for="(character, index) in game.characters" :key="index" class="d-flex justify-center">
             <!-- Character img -->
-            <img :src="getCharacterImagePath(character.name)" v-if="(index%2)===0" />
+            <img :src="getCharacterImagePath(character.name)" v-if="(index%2)===0" class="img"/>
             <!-- Character data -->
             <div :class="[{'align-right': (index%2)!==0}, {'align-left': (index%2)===0}]">
-              <h2>{{ character.name }}</h2>
+              <h2>{{ character.alias }}</h2>
               <div v-for="(desc, index) in character.description" :key="index" v-html="desc"></div>
             </div>
             
-            <img :src="getCharacterImagePath(character.name)" v-if="(index%2)!==0" />
+            <img :src="getCharacterImagePath(character.name)" v-if="(index%2)!==0" class="img" />
           </div>
         </div>
       </v-tabs-window-item>
@@ -51,18 +51,18 @@
         <div v-if="game.trains.length" class="text-center">
           <div v-for="(train, index) in game.trains" :key="index" class="d-flex justify-center">
             <!-- Train img on the right -->
-            <img :src="getTrainImagePath(train.name)" v-if="(index%2)===0" />
+            <img :src="getTrainImagePath(train.name)" v-if="(index%2)===0" class="img" />
             <!-- Train data -->
             <div :class="[{'align-right': (index%2)!==0}, {'align-left': (index%2)===0}]">
-              <h2 style="margin: 1rem 1rem 1rem 1rem ;">{{ train.name }}</h2>
+              <h2 style="margin: 1rem 1rem 1rem 1rem;">{{ train.alias }}</h2>
               
 
-              <div v-for="(desc, index) in train.description" :key="index" v-html="desc" style="margin: 1rem 1rem 1rem 1rem ;"></div>
+              <div v-for="(desc, index) in train.description" :key="index" v-html="desc" style="margin: 1rem 1rem 1rem 1rem;"></div>
             </div>
             
 
             <!-- Train image on the left -->
-            <img :src="getTrainImagePath(train.name)" v-if="(index%2)!==0" />
+            <img :src="getTrainImagePath(train.name)" v-if="(index%2)!==0" class="img" />
           </div>
         </div>
       </v-tabs-window-item>
@@ -137,11 +137,18 @@ export default {
 
 .align-right {
   text-align: right;
+  margin-right: 1rem;
 }
 .align-left
 {
   text-align: left;
+  margin-left: 1rem;
 }
 
+.img {
+  margin-top: 2rem;
+  height: fit-content;
+  width: fit-content;
+}
 
 </style>

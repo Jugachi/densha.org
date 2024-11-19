@@ -6,6 +6,7 @@
       <v-tab value="game">Game</v-tab>
       <v-tab value="characters">Characters</v-tab>
       <v-tab value="trains">Trains</v-tab>
+      <v-tab value="buy" @click="confirmNavigation()">Buy</v-tab>
     </v-tabs>
 
     <v-tabs-window v-model="activeTab">
@@ -65,8 +66,15 @@
             <img :src="getTrainImagePath(train.name)" v-if="(index%2)!==0" class="img" />
           </div>
         </div>
+
+      </v-tabs-window-item>
+      <v-tabs-window-item value="buy">
+        <div class="text-center">
+          <v-btn color="primary" @click="buyGame">Buy the Game</v-btn>
+        </div>
       </v-tabs-window-item>
     </v-tabs-window>
+    
   </div>
 </template>
 
@@ -81,6 +89,15 @@ export default {
         characters: [],
         trains: [],
       },
+
+      buyGames: [
+        { name: "Lightning Stage", link: "https://www.dlsite.com/home/dlaf/=/t/s/link/work/aid/DenshaOrg/locale/en_US/id/RJ217271.html/?locale=en_US" },
+        { name: "Burning Stage", link: "https://www.dlsite.com/home/dlaf/=/t/s/link/work/aid/DenshaOrg/locale/en_US/id/RJ227913.html/?locale=en_US" },
+        { name: "Climax Stage", link: "https://www.dlsite.com/home/dlaf/=/t/s/link/work/aid/DenshaOrg/locale/en_US/id/RJ242866.html/?locale=en_US" },
+        { name: "Rising Stage", link: "https://www.dlsite.com/home/dlaf/=/t/s/link/work/aid/DenshaOrg/locale/en_US/id/RJ242921.html/?locale=en_US" },
+        { name: "Shining Stage", link: "https://www.dlsite.com/home/dlaf/=/t/s/link/work/aid/DenshaOrg/locale/en_US/id/RJ293227.html/?locale=en_US" },
+      ],
+      
     };
   },
   computed: {
@@ -111,6 +128,14 @@ export default {
         this.game.description = gameData.description;
         this.game.characters = gameData.characters || [];
         this.game.trains = gameData.trains || [];
+      }
+    },
+    buyGame() {
+      const game = this.buyGames.find(game => game.name.toLowerCase().includes(this.slug));
+      if (game) {
+        window.open(game.link, "_blank");
+      } else {
+        alert('No purchase link available for this game.');
       }
     },
   },

@@ -1,5 +1,5 @@
 {
-	"welcomeMessage": "Welcome to the unoffical Densha de D Website",
+	"welcomeMessage": "Welcome to the unofficial Densha de D Website",
 	"description": "For help and collaboration with the Densha de D Community please join our Discord Server",
 	"games": {
 		"lightning": {
@@ -248,6 +248,20 @@
 						"<p>The voice actor for *El Shaddai*’s protagonist, Enoch, is Shinichiro Miki, the same actor who voices Takumi Fujiwara. The phrase 'Get me the best one' leads to 'the best car' appearing, referencing *Initial D*.</p>",
 						"<p>In *Densha de D*, its performance is excellent, particularly in single-track drifting. When used in various storylines, certain lines are replaced with Takumi-san’s exclusive dialogue.</p>"
 					]
+				}
+			],
+			"guides": [
+				{
+					"name": "",
+					"link": "",
+					"description": ""
+				}
+			],
+			"speedrunning": [
+				{
+					"name": "",
+					"link": "",
+					"description": ""
 				}
 			]
 				
@@ -824,26 +838,10 @@
 			"name": "In Development",
 			"description": "A new Densha de D game is under development! Release date is still unknown",
 			"characters": [
-				{
-					"name": "icon_86",
-					"alias": "",
-					"description": 
-					[
-						"",
-						"<br>"
-					]
-				}
+
 			],
 			"trains":[
-				{
-					"name": "86",
-					"alias": "",
-					"description": 
-					[
-						"",
-						"<br>"
-					]
-				}
+
 			]
 		}
 	}

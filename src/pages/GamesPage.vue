@@ -54,18 +54,36 @@
         </div>
       </v-tabs-window-item>
 
+      <!-- TODO: style the text and video -->
       <v-tabs-window-item value="guides">
         <div v-if="game.guides.length" class="text-center">
           <div v-for="(guide, index) in game.guides" :key="index" class="d-flex justify-center">
-            {{ guide.description }}
+            
+            <div style="width: 100%; height: 100%;">
+              <iframe style="width: 100%; height: 100%;" :src="guide.link" title="Densha de D: Lightning Stage - How to beat Keisuke" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            
+            <div>
+              <h2 style="margin: 1rem 1rem 1rem 1rem;">{{ guide.title }}</h2>
+              <div v-for="(desc, index) in guide.description" :key="index" v-html="desc" style="margin: 1rem 1rem 1rem 1rem; text-align: left;"></div>
+            </div>
+
           </div>
         </div>
       </v-tabs-window-item>
 
+      <!-- TODO: style the text and video -->
       <v-tabs-window-item value="speedrunning">
         <div v-if="game.guides.length" class="text-center">
           <div v-for="(speedrun, index) in game.speedrunning" :key="index" class="d-flex justify-center">
-            {{ speedrun.description }}
+            <div style="width: 100%; height: 100%;">
+              <iframe style="width: 100%; height: 100%;" :src="speedrun.link" title="Densha de D: Lightning Stage - How to beat Keisuke" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            
+            <div>
+              <h2 style="margin: 1rem 1rem 1rem 1rem;">{{ speedrun.title }}</h2>
+              <div v-for="(desc, index) in speedrun.description" :key="index" v-html="desc" style="margin: 1rem 1rem 1rem 1rem; text-align: left;"></div>
+            </div>
           </div>
         </div>
       </v-tabs-window-item>
@@ -88,6 +106,7 @@ import WarningDialog from '@/components/WarningDialog.vue';
 import variables from '@/locales/variables.json';
 
 export default {
+  
   data() {
     return {
       activeTab: 'game',

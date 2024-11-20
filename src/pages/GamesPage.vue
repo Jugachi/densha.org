@@ -3,8 +3,10 @@
 
     <v-tabs v-model="activeTab" grow :color="thisgame.color" style="margin-bottom: 1rem;">
       <v-tab value="game">Game</v-tab>
-      <v-tab value="characters">Characters</v-tab>
-      <v-tab value="trains">Trains</v-tab>
+      <v-tab v-if="game.characters.length" value="characters">Characters</v-tab>
+      <v-tab v-if="game.trains.length" value="trains">Trains</v-tab>
+      <v-tab v-if="game.guides.length" value="guides">Guides</v-tab>
+      <v-tab v-if="game.speedrunning.length" value="speedrunning">Speedrunning</v-tab>
       <div class="text-center">
           <v-btn :color="thisgame.color" style="height: 100%;" @click="buyGameDialog" variant="text">Buy the Game</v-btn>
       </div>
@@ -52,6 +54,22 @@
         </div>
       </v-tabs-window-item>
 
+      <v-tabs-window-item value="guides">
+        <div v-if="game.guides.length" class="text-center">
+          <div v-for="(guide, index) in game.guides" :key="index" class="d-flex justify-center">
+            {{ guide.description }}
+          </div>
+        </div>
+      </v-tabs-window-item>
+
+      <v-tabs-window-item value="speedrunning">
+        <div v-if="game.guides.length" class="text-center">
+          <div v-for="(speedrun, index) in game.speedrunning" :key="index" class="d-flex justify-center">
+            {{ speedrun.description }}
+          </div>
+        </div>
+      </v-tabs-window-item>
+
     </v-tabs-window>
 
 
@@ -78,6 +96,8 @@ export default {
         description: "",
         characters: [],
         trains: [],
+        guides: [],
+        speedrunning: [],
       },
       buyGameLink: "",
     
@@ -122,6 +142,8 @@ export default {
         this.game.description = gameData.description;
         this.game.characters = gameData.characters || [];
         this.game.trains = gameData.trains || [];
+        this.game.guides = gameData.guides || [];
+        this.game.speedrunning = gameData.speedrunning || [];
       }
     },
     buyGameDialog() {

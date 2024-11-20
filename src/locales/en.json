@@ -249,6 +249,20 @@
 						"<p>In *Densha de D*, its performance is excellent, particularly in single-track drifting. When used in various storylines, certain lines are replaced with Takumi-san’s exclusive dialogue.</p>"
 					]
 				}
+			],
+			"guides": [
+				{
+					"name": "",
+					"link": "",
+					"description": ""
+				}
+			],
+			"speedrunning": [
+				{
+					"name": "",
+					"link": "",
+					"description": ""
+				}
 			]
 				
 		},
@@ -824,26 +838,10 @@
 			"name": "In Development",
 			"description": "A new Densha de D game is under development! Release date is still unknown",
 			"characters": [
-				{
-					"name": "icon_86",
-					"alias": "",
-					"description": 
-					[
-						"",
-						"<br>"
-					]
-				}
+
 			],
 			"trains":[
-				{
-					"name": "86",
-					"alias": "",
-					"description": 
-					[
-						"",
-						"<br>"
-					]
-				}
+
 			]
 		}
 	}

@@ -12,6 +12,7 @@ import '@fortawesome/fontawesome-free/css/all.css'
 import App from './App.vue'
 import router from './router'
 import { createI18n } from 'vue-i18n'
+
 //import i18n from './i18n';
 import en from './locales/en.json'
 import jp from './locales/jp.json'
@@ -40,6 +41,8 @@ router.beforeEach((to, from, next) => {
   next();
 });
 
+
 const app = createApp(App)
+
 app.component('font-awesome-icon', FontAwesomeIcon)
 app.use(router).use(i18n).use(vuetify).mount('#app')

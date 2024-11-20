@@ -252,16 +252,29 @@
 			],
 			"guides": [
 				{
-					"name": "",
-					"link": "",
-					"description": ""
+					"name": "Stage 1 - Keisuke",
+					"link": "https://www.youtube.com/embed/opSg6-tos5M",
+					"description": [
+						"Starting out, you should multi-track drift until you reach a specific station (name on screen : 雲雀丘花屋敷) where the tracks should end in a sharp turn to the right.",
+						"It's recommended you use the brake key and spam it in order to slow yourself down and not lose too much speed in the process. The timing can be tricky so if you don't feel safe using it, you can use the emergency brake to hard brake. The braking method does not matter as long as Keisuke does not drift too far away from you and you do not derail. After this section, the best course of action would be to multi-track drift at every opportunity you get but do keep in mind of track splits (and conjoining tracks) that may cause you to derail.",
+						"Shortly after leaving the 2 stations, You will see a green bridge. Take note of this green bridge as you cannot multi-track through it and it will cause you to derail if you try. The station that is right after the green bridge (name on screen : 石橋) does not require you to brake so you can keep going at full speed without any worries.",
+						"At this stage, Keisuke should be beside you all the time so multi-track drifting should not be possible but do keep a look out for opportunities to gain speed. After some time, you will reach a section where the tracks will split on a large brown/grey bridge. The station you are about to reach (name on screen : 豊中) requires you to brake a couple of times to not derail so make sure to do that.",
+						"The next station that requires you to brake is 1 station ahead (name on screen : 曽根) and is very important. Again, the timing for braking in this turn can be tricky so if you are not comfortable, you can use the emergency brake to slow down even more although it is still recommended you use the normal brakes as it saves you some speed and you will lose alot of speed around this corner. After that turn, you will start to go downhill and a long turn will come into view. That turn goes into the next station (name on screen : 服部) and does not require you to brake. It should be smooth sailing for now as Keisuke will surpass you in terms of speed and basically leave you in the dust for some time. Use this chance to multi-track drift and catch up to him.",
+						"However, it won't be long until you reach a point where the track will once again have a sharp turn to the right. That station (name on screen : 三国) requires you to brake. It does not matter how you brake (normal braking recommended) but do not let Keisuke get too far.",
+						"It will be just straight line driving from this point on until you reach the bridge after the station (name on screen : 十三): The upcoming turn might seem the same as all the other sharp turns but it actually does not require you to brake at all. Just keep going at full speed. You will reach the station (name on screen : 中津). You are almost at the end.",
+						"After the small bridge, depending on what you are going for, you can either just drive straight and time your brakes at the turns (this is for the any% speedrun) or you can multi-track drift which will show a cutscene (this will unlock the 100% route and the method we recommend to beat the stage) The stage will end once you have crossed into the final station (name on screen : 梅田). Congratulations, you have beat Keisuke!"
+					
+					]
+					
 				}
 			],
 			"speedrunning": [
 				{
 					"name": "",
 					"link": "",
-					"description": ""
+					"description": [
+						""
+					]
 				}
 			]
 				

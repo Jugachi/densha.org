@@ -35,5 +35,15 @@
             "name": "In Developement",
             "color": "#FFFFFF"
         }
+    ],
+    "languages": [
+        {
+            "name": "🇬🇧 English",
+            "code": "en"
+        },
+        {
+            "name": "🇯🇵 日本語",
+            "code": "jp"
+        }
     ]
 }

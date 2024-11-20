@@ -69,13 +69,18 @@
     <v-menu>
       <template v-slot:activator="{ props }">
         <v-btn v-bind="props">
-          <v-icon start icon="fas fa-language"></v-icon>
-          Language
+          <!-- <v-icon start icon="fas fa-language"></v-icon> -->
+
+          {{ getLanguageTag() }}
         </v-btn>
       </template>
       <v-list>
+        <v-list-item v-for="lang in languages" :key="lang.code" @click="changeLanguage(lang.code)">
+          {{ lang.name }}
+        </v-list-item>
+<!-- 
         <v-list-item @click="changeLanguage('en')">🇬🇧 English</v-list-item>
-        <v-list-item @click="changeLanguage('jp')">🇯🇵 Japanese</v-list-item>
+        <v-list-item @click="changeLanguage('jp')">🇯🇵 Japanese</v-list-item> -->
       </v-list>
     </v-menu>
 
@@ -96,6 +101,9 @@
 </template>
 
 <script>
+
+import variables from "@/locales/variables.json";
+
 export default {
   data() {
     return {
@@ -122,6 +130,9 @@ export default {
         { name: "Rising Stage", link: "https://www.dlsite.com/home/dlaf/=/t/s/link/work/aid/DenshaOrg/locale/en_US/id/RJ242924.html/?locale=en_US" },
         { name: "Shining Stage", link: "https://www.youtube.com/watch?v=fJqgXqwIlMs" },
       ],
+
+      languages: variables.languages,
+
       dialog: false,
       externalLink: "",
     };
@@ -153,6 +164,9 @@ export default {
     confirmNavigation(link) {
       this.externalLink = link;
       this.dialog = true;
+    },
+    getLanguageTag() {
+      return variables.languages.find((lang) => lang.code === this.$i18n.locale).name;
     },
   },
 };

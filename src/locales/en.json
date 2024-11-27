@@ -252,7 +252,7 @@
 			],
 			"guides": [
 				{
-					"name": "Stage 1 - Keisuke",
+					"title": "Stage 1 - Keisuke",
 					"link": "https://www.youtube.com/embed/opSg6-tos5M",
 					"description": [
 						"Starting out, you should multi-track drift until you reach a specific station (name on screen : 雲雀丘花屋敷) where the tracks should end in a sharp turn to the right.",
@@ -263,17 +263,106 @@
 						"However, it won't be long until you reach a point where the track will once again have a sharp turn to the right. That station (name on screen : 三国) requires you to brake. It does not matter how you brake (normal braking recommended) but do not let Keisuke get too far.",
 						"It will be just straight line driving from this point on until you reach the bridge after the station (name on screen : 十三): The upcoming turn might seem the same as all the other sharp turns but it actually does not require you to brake at all. Just keep going at full speed. You will reach the station (name on screen : 中津). You are almost at the end.",
 						"After the small bridge, depending on what you are going for, you can either just drive straight and time your brakes at the turns (this is for the any% speedrun) or you can multi-track drift which will show a cutscene (this will unlock the 100% route and the method we recommend to beat the stage) The stage will end once you have crossed into the final station (name on screen : 梅田). Congratulations, you have beat Keisuke!"
-					
 					]
-					
+				},
+				{
+					"title": "Stage 2 - Nakazato",
+					"link": "https://www.youtube.com/embed/TD71DI62hRk",
+					"description": [
+						"The way to beat Nakazato is not too dissimilar to beating Keisuke. At the start, Nakazato will overtake you and you will basically be left alone for the majority of the race. You should play the stage as per you did in Keisuke.",
+						"However, take note that you will still need to brake at certain points: The sharp right turn on the tracks after the station (name on screen : 雲雀丘花屋敷) The station after the track split at the large grey/brown bridge (name on screen : 豊中)",
+						"The actual difference from Keisuke comes in the next station (name on screen : 岡町) A slowdown cutscene will play after the mentioned station and both of you will enter the sharp left turn of the tracks after the station (name on screen : 曽根) The crucial thing that will be tested here is your braking. Time your brake correctly and you should not derail or lose too much speed. Doing everything correctly will mean you will likely close into Nakazato's front carriage after the turn and the stage will end after both of you reach the long turn leading into the station (name on screen : 服部) If you fail the first trigger, just keep playing normally until the next station (name on screen : 三国) where the trigger to end the stage will activate once more. Congratulations, you have beaten Nakazato!"
+					]
+				},
+				{
+					"title": "Stage 3 - Shingo",
+					"link": "https://www.youtube.com/embed/YnRz_eRRncY",
+					"description": [
+						"Shingo is a tricky guy to beat. His stage has many twists and turns and is probably one of the hardest stages to complete without derailing. Start off by managing your speed. Brake at every turn possible as every turn in this stage no matter how minor can potentially cause a derail. Try to also multi-track drift when its possible however there are barriers and obstacles that prevent you from doing this so be careful.",
+						"Once you reach this part (name on screen : 蹴上) or when you see the first dirt track up ahead, you must not multi-track drift because of the barrier and you must brake harshly to not derail. The next section (the dirt track) allows you to multi-track drift and you should do that until you see the cement road. Once you do, you must quickly shift back to your main track and brake as much as you can to prevent yourself from derailing as you are turning right into the cement track. There will be a barrier and a car here after you sucessfully turned to prevent you from multi-track drifting so adjust yourself as per the video.",
+						"Play as per normal. Gain as much speed as you need to keep up with Shingo but do not derail. After you reach this <a href='https://i.imgur.com/8ggkiWu.png' target='_blank'>station</a>. You must stop multi-track drifting as the track splits from here and it will cause you to completely derail if you don't. Remember to brake at the turn right after the track split. After the turn, you are allowed to multi-track drift once more so adjust your train accordingly.",
+						"Try to stay as close to him as possible for whatever of the stage is left to trigger cutscenes that can help you win. There are 2 cutscenes that need to play and they only unlock if you are close enough to him on the final turns. If you did everything correctly, you will pass Shingo on the final stretch and win the stage. Congratulations, you have beaten Shingo!"
+					]
+				},
+				{
+					"title": "Stage 4 - Ryousuke",
+					"link": "https://www.youtube.com/embed/0mGqWjRyaAY",
+					"description": [
+						"Your fight with Ryosuke takes place on the same track as Keisuke and Nakazato. At the beginning, Ryosuke will let you overtake him so use this chance to multi-track drift. Play as per usual until the station (name on screen : 雲雀丘花屋敷) where you meet the sharp right turn again into the next station Brake like you did in the Keisuke/Nakazato stage and as you enter the station after the turns (name on screen : 川西能勢口) take note that you must not multi-track drift between this station and the next station (name on screen : 池田) This is to not trigger a cutscene which reveals to Ryosuke about what you are going to do in the final section of the stage.",
+						"After those 2 stations, continue to play as per normal until the green bridge. Cease any multi-track drifting and go into the next station (name on screen : 石橋) Whilst turning into the station, press the emergency brake (You must not be multi-track drifting). This is a trigger you need to do in order to win the stage. Ryosuke at this point will go past you and you should try to keep up with him as much as possible. Play as you will for now however you will still need to brake at these stations/tracks: The station after the large/grey bridge (name on screen : 豊中) The sharp left turn on the tracks after the station (name on screen : 曽根) (disclaimer : If you have done everything correctly, you should get a cutscene right after the long turn into the station (name on screen : 服部). If you don't, your chances of winning have become very slim and you might not win the stage.) The last right sharp turn after the station (name on screen : 三国)",
+						"After all of that, you will reach the station (name on screen : 十三). If a cutscene plays out here, you have just secured your victory over Ryosuke. There's only one remaining thing to do. Both of you will cross the bridge but you will lag behind by just a certain amount. Just before you reach the next station (name on screen : 中津), You will need to multi-track drift to the outer track on the right while turning. Doing this will make Ryosuke completely slowdown and you will breeze past him without even trying. Remember to stop multi-track drifting once the turn is over or you will derail You can resume mult-track drifting at the small bridges after the 2nd last station (name on screen : 中津) Congratulations, you have beaten Ryosuke and completed the game!"
+					]
+				},
+				{
+					"title": "Bonus Stage 1 - Masked Driver",
+					"link": "https://www.youtube.com/embed/y1X5cbMlgIA",
+					"description": [
+						"The Masked Driver stage is a special one. Instead of the normal train which is capable of multi-track drifting, you will be playing with a train that can only lean. Yes lean, as in tilting your train just a little onto one direction. This race will be purely decided by how fast you can react and read the situation. Lean left and right as needed when the track goes left or right. One thing to take note is: A cutscene will play before the end where it slows down the game. You need to lean left here in order to complete the turn. The stage should be completed after your train overtakes the Masked Driver's train Congratulations, you have beaten the Masked Driver!"
+						]
+				},
+				{
+					"title": "Bonus Stage 2 - Takumi-san",
+					"link": "https://www.youtube.com/embed/WDza8yyemu8",
+					"description": [
+						"'Takumi-san' or Meme Takumi is considered a joke stage. You will be driving a car on the train tracks and you can drift your car on the tracks by pressing the multi-track drift key once. Pressing it twice on a certain direction will cause you to jump onto the corresponding track in the direction you were pressing. All you need to do for this stage is to drift your car in any direction you desire and accelerate. That's it. You win. Along the stage, unique trivia and lore about the Densha de D series will be playing out in cutscenes. Many of them are highly amusing and I recommend you don't sleep on them just because this stage is an automatic win. The stage will end after you pass the final station (name on screen : 梅田) Congratulations, you have beaten Takumi-san!"
+						]
+				},
+				{
+					"title": "Bonus Stage 3 - Bunta",
+					"link": "https://www.youtube.com/embed/64hJLQZvt9E",
+					"description": [
+						"We recommend using Nakatatos train, since this is the easiest to win this race with. It is possible to win with the other trains, but this requires a lot of practice and some 'glitches'. You should drive as good as possible and don't try to derail too much. Basically you are re-doing the Nakazato race but this time you are Nakazato. This means at the point where he blew up his engine cause he still hold the accelerator down, you will simply let off the accelerator. With that you gain a speedboost if you have done it correctly. From now on just keep multi-track drifting and you should easily win the race."
+						]
 				}
 			],
 			"speedrunning": [
 				{
-					"name": "",
-					"link": "",
+					"title": "Stage 1 - Keisuke",
+					"link": "https://www.youtube.com/embed/WwZz1Yxz5ho",
 					"description": [
-						""
+						"You start multi-track drifting as soon as possible, just spam the multi-track button. After you have done that, just keep multi-track drifting till a specific station. After the station a turn is coming up and you want to keep multi-track drifting until you see a yellow light on the left. At that moment you go back to your default position. As soon as the left turn starts, you start with spamming the brake button a bit until the track is straight again. From there you can just go full speed into the station without derailing. The moment you have the chance to multi-track drift again do it! Keep an eye out on the track splits otherwise you derail. After the green bridges a station is coming up, just go trough it with full throttle. Follow the tracks until you see a grey bridge. After that bridge another station appears. As soon as you enter it you will notice a grey block, from that point on let off the accelerator. You will not derail now! The critical part is coming up after you split up with Keisuke. Right after that station is a sharp left turn, make sure to brake just a little as possible. If you are not careful enough you can derail! Just wait that he passes you and now you can easily multi-track drift again, till you see the second bridge! Behind that bridge will be a sharp right turn, make sure to be on your line again and brake as little as possible to maintain your speed. In the second of last turn you can just go full speed through it. (Optional - for the 100% Category) In the last turn of the stage make sure to multi-track drift. This unlocks the Bonus Stage of the Masked Driver."
+					]
+				},
+				{
+					"title": "Stage 2 - Nakazato",
+					"link": "https://www.youtube.com/embed/_OS5bAK3gZc",
+					"description": [
+						"As soon as you enter the stage make sure to multi-track drift as much as possible. Just follow him until the first dangerous turn. If you enter the right turn make sure to bump into him a few times until you can safely go back to your line. Immediately start braking a few times. After the station make sure to multi-track again as much as possible. Until this point you follow him until you see the grey bridge. After the bridge is a station you want to take with care. After you see the second grey block in the station brake once. This prevents you from derailing. In the second cutscene that appears make sure to hold the accelerator down until the cutscene fully played. The moment it ends you want to start spamming the brake button until your train is stable again. After you have done that you can go full speed again. Now we can end up with two possible outcomes. The first will be we get early Nakazato that means we win during the next turn. The second will be we will get late Nakazato, that means we still need to drive next to him till we win."
+					]
+				},
+				{
+					"title": "Stage 3 - Shingo",
+					"link": "https://www.youtube.com/embed/fdP4_itYimw",
+					"description": [
+						"We can't provide a fast strat to this stage yet other than playing it casually. We are working on a new updated version of Shingo right now."
+					]
+				},
+				{
+					"title": "Stage 4 - Ryousuke",
+					"link": "https://www.youtube.com/embed/Qj9_apUMuvk",
+					"description": [
+						"Since we show you the old strat of Ryousuke here there is not really much so say about it. Make sure to multi-track drift as much as possible and remember that you need to use the emergency brake in the entry of the station right after the green bridges. To fully defeat him you also need to outside drift at the second to last turn of this stage! After that you will just need to drive to the last station and you finished the race!"
+					]
+				},
+				{
+					"title": "Bonus Stage 1 - Masked Driver",
+					"link": "https://www.youtube.com/embed/U2g-qvEtsuY",
+					"description": [
+						"This stage is also pretty simple. Just make sure not to derail. There is a speedstrat for this stage, but we will be working on a release of it."
+					]
+				},
+				{
+					"title": "Bonus Stage 2 - Takumi-san",
+					"link": "https://www.youtube.com/embed/28oU3ra69cU",
+					"description": [
+						"You basically just hold down the accelerator to win the stage. There is a small time save but the strats is really precise and will be added to this guide at a later point."
+					]
+				},
+				{
+					"title": "Bonus Stage 3 - Bunta",
+					"link": "https://www.youtube.com/embed/c3QP2vaiu0o",
+					"description": [
+						"Make sure to use Nakazatos Train. We are also working on an updated guide to beat this stage as fast as possible. For now we recommend beating him like in a casual playthrough."
 					]
 				}
 			]

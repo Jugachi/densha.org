@@ -17,8 +17,9 @@
 
     <v-tabs-window v-model="activeTab">
       <v-tabs-window-item value="game">
-        <div class="text-center">
-          <div class="d-flex justify-center">
+        <v-card class="d-flex flex-wrap flex-1-0 ma-2 pa-2" :style="cardStyle">
+        <div class="text-left">
+          <div class="d-flex">
             <img :src="gameImagePath" class="gameCover"/>
             <div>
               <h1>{{ game.name }}</h1>
@@ -26,11 +27,13 @@
             </div>
           </div>
         </div>
+      </v-card>
       </v-tabs-window-item>
 
       <v-tabs-window-item value="characters">
+        <v-card class="d-flex flex-wrap flex-1-0 ma-2 pa-2" :style="cardStyle">
         <div v-if="game.characters.length" class="text-center">
-          <div v-for="(character, index) in game.characters" :key="index" class="d-flex justify-center">
+          <div v-for="(character, index) in game.characters" :key="index" class="d-flex">
             <img :src="getCharacterImagePath(character.name)" v-if="(index%2)===0" class="img"/>
             <div :class="[{'align-right': (index%2)!==0}, {'align-left': (index%2)===0}]">
               <h2>{{ character.alias }}</h2>
@@ -39,63 +42,70 @@
             <img :src="getCharacterImagePath(character.name)" v-if="(index%2)!==0" class="img"/>
           </div>
         </div>
+        </v-card>
       </v-tabs-window-item>
 
       <v-tabs-window-item value="trains">
-        <div v-if="game.trains.length" class="text-center">
-          <div v-for="(train, index) in game.trains" :key="index" class="d-flex justify-center">
-            <img :src="getTrainImagePath(train.name)" v-if="(index%2)===0" class="img"/>
-            <div :class="[{'align-right': (index%2)!==0}, {'align-left': (index%2)===0}]">
-              <h2 style="margin: 1rem 1rem 1rem 1rem;">{{ train.alias }}</h2>
-              <div v-for="(desc, index) in train.description" :key="index" v-html="desc" style="margin: 1rem 1rem 1rem 1rem;"></div>
+        <v-card class="d-flex flex-wrap flex-1-0 ma-2 pa-2" :style="cardStyle">
+            <div v-if="game.trains.length" class="text-center">
+              <div v-for="(train, index) in game.trains" :key="index" class="d-flex">
+                <v-responsive :aspect-ratio="4/3">
+                  <img :src="getTrainImagePath(train.name)" v-if="(index%2)===0" class="img"/>
+                </v-responsive>
+                <div :class="[{'align-right': (index%2)!==0}, {'align-left': (index%2)===0}]">
+                  <h2 style="margin: 1rem 1rem 1rem 1rem;">{{ train.alias }}</h2>
+                  <div v-for="(desc, index) in train.description" :key="index" v-html="desc" style="margin: 1rem 1rem 1rem 1rem;"></div>
+                </div>
+                <v-responsive :aspect-ratio="4/3">
+                  <img :src="getTrainImagePath(train.name)" v-if="(index%2)!==0" class="img"/>
+                </v-responsive>
+              </div>
             </div>
-            <img :src="getTrainImagePath(train.name)" v-if="(index%2)!==0" class="img"/>
-          </div>
-        </div>
+        </v-card>
       </v-tabs-window-item>
 
-      <!-- TODO: style the text and video -->
       <v-tabs-window-item value="guides">
-        <div v-if="game.guides.length" class="text-center">
-          <div v-for="(guide, index) in game.guides" :key="index" class="d-flex justify-center">
-            
-            <div style="width: 100%; height: 100%;">
-              <iframe style="width: 100%; height: 100%;" :src="guide.link" title="Densha de D: Lightning Stage - How to beat Keisuke" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <v-card class="d-flex flex-wrap" :style="cardStyle">
+            <div v-if="game.guides.length" class="text-center">
+              <div v-for="(guide, index) in game.guides" :key="index" class="d-flex">
+                <v-sheet class ="flex-1-0 ma-2 pa-2">
+                    <v-responsive :aspect-ratio="1280/720">
+                      <iframe style="width: 100%; height: 100%;" :src="guide.link" title="Densha de D: Lightning Stage - How to beat Keisuke" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </v-responsive>
+                </v-sheet>
+                
+                <v-sheet class="ma-2 pa-2 text-left">
+                    <h2>{{ guide.title }}</h2>
+                    <div v-for="(desc, index) in guide.description" :key="index" v-html="desc" style="margin: 0 0 1rem 0;"></div>
+                </v-sheet>
+              </div>
             </div>
-            
-            <div>
-              <h2 style="margin: 1rem 1rem 1rem 1rem;">{{ guide.title }}</h2>
-              <div v-for="(desc, index) in guide.description" :key="index" v-html="desc" style="margin: 1rem 1rem 1rem 1rem; text-align: left;"></div>
-            </div>
-
-          </div>
-        </div>
+          </v-card>
       </v-tabs-window-item>
 
-      <!-- TODO: style the text and video -->
       <v-tabs-window-item value="speedrunning">
-        <div v-if="game.guides.length" class="text-center">
-          <div v-for="(speedrun, index) in game.speedrunning" :key="index" class="d-flex justify-center">
-            <div style="width: 100%; height: 100%;">
-              <iframe style="width: 100%; height: 100%;" :src="speedrun.link" title="Densha de D: Lightning Stage - How to beat Keisuke" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            
-            <div>
-              <h2 style="margin: 1rem 1rem 1rem 1rem;">{{ speedrun.title }}</h2>
-              <div v-for="(desc, index) in speedrun.description" :key="index" v-html="desc" style="margin: 1rem 1rem 1rem 1rem; text-align: left;"></div>
+        <v-card class="d-flex flex-wrap" :style="cardStyle">
+          <div v-if="game.guides.length" class="text-center">
+            <div v-for="(speedrun, index) in game.speedrunning" :key="index" class="d-flex">
+                <v-sheet class ="flex-1-0 ma-2 pa-2">
+                  <v-responsive :aspect-ratio="1280/720">
+                    <iframe style="width: 100%; height: 100%;" :src="speedrun.link" title="Densha de D: Lightning Stage - How to beat Keisuke" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  </v-responsive>
+                </v-sheet>
+              
+                <v-sheet class="ma-2 pa-2 text-left">
+                    <h2>{{ speedrun.title }}</h2>
+                    <div v-for="(desc, index) in speedrun.description" :key="index" v-html="desc" style="margin: 0 0 1rem 0;"></div>
+                </v-sheet>
             </div>
           </div>
-        </div>
+        </v-card>
       </v-tabs-window-item>
-
     </v-tabs-window>
-
 
     <v-snackbar v-model="error" location="center" :timeout="2000" color="red" variant="outlined">
       {{ errorMessage }}
-      
     </v-snackbar>
-
 
     <WarningDialog ref="warningDialog" :link="buyGameLink" />
   </div>
@@ -137,6 +147,11 @@ export default {
     },
     thisgame() {
       return variables.games.find(game => game.name.toLocaleLowerCase().includes(this.slug)) || {};
+    },
+    cardStyle() {
+      return {
+        border: `0.1rem solid ${this.thisgame.color}`
+      };
     }
   },
   methods: {
@@ -218,7 +233,7 @@ export default {
 }
 
 .img {
-  margin-top: 2rem;
+  margin: 1rem;
   height: fit-content;
   width: fit-content;
 }

@@ -24,6 +24,9 @@
             <div>
               <h1>{{ game.name }}</h1>
               <p>{{ game.description }}</p>
+              <v-responsive v-if="game.name === 'Gleaming Stage'" :aspect-ratio="16/9">
+                <iframe style="width: 100%; height: 100%;" src="https://www.youtube.com/embed/n3Q6H3C-SJI" title="Densha de D: Gleaming Stage - Soundtrack" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </v-responsive>
             </div>
           </div>
         </div>
@@ -69,7 +72,7 @@
             <div v-if="game.guides.length" class="text-center">
               <div v-for="(guide, index) in game.guides" :key="index" class="d-flex">
                 <v-sheet class ="flex-1-0 ma-2 pa-2">
-                    <v-responsive :aspect-ratio="1280/720">
+                    <v-responsive :aspect-ratio="16/9">
                       <iframe style="width: 100%; height: 100%;" :src="guide.link" title="Densha de D: Lightning Stage - How to beat Keisuke" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </v-responsive>
                 </v-sheet>
@@ -88,7 +91,7 @@
           <div v-if="game.guides.length" class="text-center">
             <div v-for="(speedrun, index) in game.speedrunning" :key="index" class="d-flex">
                 <v-sheet class ="flex-1-0 ma-2 pa-2">
-                  <v-responsive :aspect-ratio="1280/720">
+                  <v-responsive :aspect-ratio="16/9">
                     <iframe style="width: 100%; height: 100%;" :src="speedrun.link" title="Densha de D: Lightning Stage - How to beat Keisuke" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                   </v-responsive>
                 </v-sheet>
@@ -218,7 +221,7 @@ export default {
 <style scoped>
 .gameCover {
   width: 256px;
-  height: auto;
+  height: 100%;
   margin: 10px;
 }
 

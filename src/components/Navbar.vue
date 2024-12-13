@@ -114,7 +114,7 @@ export default {
         { name: "Climax Stage", route: "/games/climax" },
         { name: "Rising Stage", route: "/games/rising" },
         { name: "Shining Stage", route: "/games/shining" },
-        { name: "In Development Stage", route: "/games/dev" },
+        { name: "Gleaming Stage", route: "/games/gleaming" },
       ],
       buyGames: [
         { name: "Lightning Stage", link: "https://www.dlsite.com/home/dlaf/=/t/s/link/work/aid/DenshaOrg/locale/en_US/id/RJ217271.html/?locale=en_US" },

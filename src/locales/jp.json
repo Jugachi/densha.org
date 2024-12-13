@@ -820,8 +820,8 @@
 			]
 		},
 
-		"dev": {
-			"name": "In Development",
+		"gleaming": {
+			"name": "Gleaming Stage",
 			"description": "新しい「Densha de D」ゲームが開発中です！リリース日についてはまだ不明です。",
 			"characters": [
 				{

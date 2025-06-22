@@ -2,25 +2,42 @@
 <template>
   <v-app-bar dark app>
     <!-- Left Logo -->
-      <!-- Left Logo for Desktop -->
-      <v-img
-        src="/src/assets/DDD_Logo.png"
-        max-height="50"
-        max-width="150"
-        class="ml-2 d-none d-sm-flex"
-      />
+    <!-- Left Logo for Desktop -->
+    <v-img
+      src="/src/assets/DDD_Logo.png"
+      max-height="50"
+      max-width="150"
+      class="ml-2 d-none d-sm-flex"
+    />
 
       <!-- Mobile: Menu Icon Left -->
-      <v-app-bar-nav-icon @click="drawer = !drawer" class="d-sm-none" />
+    <v-app-bar-nav-icon @click="drawer = !drawer" class="d-sm-none" />
 
 
       <!-- Mobile: Logo on Right -->
-      <v-img
-        src="/src/assets/DDD_Logo.png"
-        max-height="50"
-        max-width="150"
-        class="mr-2 d-sm-none"
-      />
+    <v-img
+      src="/src/assets/DDD_Logo.png"
+      max-height="50"
+      max-width="150"
+      class="mr-2 d-sm-none"
+    />
+
+    <v-spacer/>
+
+    <v-list-item class="mr-2 d-sm-none ml-auto">
+      <v-menu>
+        <template v-slot:activator="{ props }">
+          <v-btn v-bind="props" text>
+            {{ getLanguageTag() }}
+          </v-btn>
+        </template>
+        <v-list>
+          <v-list-item v-for="lang in languages" :key="lang.code" @click="changeLanguage(lang.code)">
+            {{ lang.name }}
+          </v-list-item>
+        </v-list>
+      </v-menu>
+    </v-list-item>
 
 
     <!-- Desktop Menu -->
@@ -117,7 +134,7 @@
   <!-- Mobile Drawer -->
   <v-navigation-drawer v-model="drawer" app temporary class="d-sm-none">
 
-    
+
 
     <v-list style="padding: 1rem;">
 
@@ -155,21 +172,6 @@
         Discord
         <v-icon icon="fab fa-discord" class="ml-2" />
       </v-btn>
-    </v-list-item>
-
-    <v-list-item>
-      <v-menu>
-        <template v-slot:activator="{ props }">
-          <v-btn v-bind="props" text>
-            {{ getLanguageTag() }}
-          </v-btn>
-        </template>
-        <v-list>
-          <v-list-item v-for="lang in languages" :key="lang.code" @click="changeLanguage(lang.code)">
-            {{ lang.name }}
-          </v-list-item>
-        </v-list>
-      </v-menu>
     </v-list-item>
   </v-navigation-drawer>
 

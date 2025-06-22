@@ -3,7 +3,7 @@
   class="d-flex flex-column align-center justify-center text-center"
   fill-height
   >
-    <v-img src="/src/assets/DDD_Logo.png" min-width="600" min-height="200" class="mb-6 mt-6" />
+    <v-img src="/src/assets/DDD_Logo.png" max-width="600" aspect-ratio="16/9" width="100%" cover class="mb-6 mt-6" />
     <div>
       <h1>{{ $t("welcomeMessage") }}</h1>
       <p>{{ $t("description") }}</p>

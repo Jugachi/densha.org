@@ -5,6 +5,7 @@ node_modules
 # lockfiles of unsupported package managers
 package-lock.json
 pnpm-lock.yaml
+bun.lock
 
 # local env files
 .env.local

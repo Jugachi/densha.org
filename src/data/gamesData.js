@@ -5,7 +5,7 @@ export const games = [
 	{ slug: 'climax' },
 	{ slug: 'rising' },
 	{ slug: 'shining' },
-	{ slug: 'dev' },
+	{ slug: 'gleaming' },
 	// Add more games here
   ];
   

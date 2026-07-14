@@ -27,7 +27,7 @@
     <v-list-item class="mr-2 d-sm-none ml-auto">
       <v-menu>
         <template v-slot:activator="{ props }">
-          <v-btn v-bind="props" text>
+          <v-btn v-bind="props" variant="text">
             {{ getLanguageTag() }}
           </v-btn>
         </template>
@@ -42,7 +42,7 @@
 
     <!-- Desktop Menu -->
     <v-toolbar-items class="d-none d-sm-flex">
-      <v-btn @click="$router.push('/')" rounded="0" text>
+      <v-btn @click="$router.push('/')" rounded="0" variant="text">
         <v-icon start icon="fas fa-home" />
         Home
       </v-btn>
@@ -50,7 +50,7 @@
       <!-- Games Menu -->
       <v-menu>
         <template v-slot:activator="{ props }">
-          <v-btn v-bind="props" rounded="0" text>
+          <v-btn v-bind="props" rounded="0" variant="text">
             <v-icon start icon="fas fa-train" />
             Games
           </v-btn>
@@ -104,21 +104,21 @@
 
     </v-toolbar-items>
 
-    <v-spacer />
+    <v-spacer class="d-none d-sm-flex" />
 
     <!-- Language & External Buttons -->
     <v-toolbar-items class="d-none d-sm-flex">
-      <v-btn @click="goToExternal('https://x.com/jinushi')" text>
+      <v-btn @click="goToExternal('https://x.com/jinushi')" variant="text">
         Jinushi on
         <v-icon icon="fab fa-x-twitter" class="ml-2" />
       </v-btn>
-      <v-btn @click="goToExternal('https://discord.gg/HQpWW2v')" text>
+      <v-btn @click="goToExternal('https://discord.gg/HQpWW2v')" variant="text">
         Discord
         <v-icon icon="fab fa-discord" class="ml-2" />
       </v-btn>
       <v-menu>
         <template v-slot:activator="{ props }">
-          <v-btn v-bind="props" text>
+          <v-btn v-bind="props" variant="text">
             {{ getLanguageTag() }}
           </v-btn>
         </template>
@@ -141,7 +141,8 @@
       <v-list-item @click="$router.push('/')">
         <v-list-item-title>Home</v-list-item-title>
       </v-list-item>
-      <v-subheader>Games</v-subheader>
+      <v-divider class="my-2" />
+      <v-list-subheader>Games</v-list-subheader>
       <v-list-item
         v-for="game in games"
         :key="game.name"
@@ -149,9 +150,19 @@
       >
         <v-list-item-title>{{ game.name }}</v-list-item-title>
       </v-list-item>
-      <v-subheader>Buy the Games</v-subheader>
+      <v-divider class="my-2" />
+      <v-list-subheader>Buy the Games</v-list-subheader>
       <v-list-item
         v-for="site in buyGames"
+        :key="site.name"
+        @click="confirmNavigation(site.link)"
+      >
+        <v-list-item-title>{{ site.name }}</v-list-item-title>
+      </v-list-item>
+      <v-divider class="my-2" />
+      <v-list-subheader>Buy the OST</v-list-subheader>
+      <v-list-item
+        v-for="site in buyOst"
         :key="site.name"
         @click="confirmNavigation(site.link)"
       >
@@ -161,14 +172,14 @@
 
 
     <v-list-item>
-      <v-btn @click="goToExternal('https://x.com/jinushi')" text>
+      <v-btn @click="goToExternal('https://x.com/jinushi')" variant="text">
         Jinushi on
         <v-icon icon="fab fa-x-twitter" class="ml-2" />
       </v-btn>
     </v-list-item>
 
     <v-list-item>
-      <v-btn @click="goToExternal('https://discord.gg/HQpWW2v')" text>
+      <v-btn @click="goToExternal('https://discord.gg/HQpWW2v')" variant="text">
         Discord
         <v-icon icon="fab fa-discord" class="ml-2" />
       </v-btn>
@@ -186,8 +197,8 @@
       </v-card-text>
       <v-card-actions>
         <v-spacer></v-spacer>
-        <v-btn color="green darken-1" text @click="goToExternal(externalLink)">Yes</v-btn>
-        <v-btn color="red darken-1" text @click="dialog = false">No</v-btn>
+        <v-btn color="green darken-1" variant="text" @click="goToExternal(externalLink)">Yes</v-btn>
+        <v-btn color="red darken-1" variant="text" @click="dialog = false">No</v-btn>
       </v-card-actions>
     </v-card>
   </v-dialog>

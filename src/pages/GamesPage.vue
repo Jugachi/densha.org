@@ -11,7 +11,7 @@
           <v-tab v-if="game.speedrunning.length" value="speedrunning">Speedrunning</v-tab>
         </v-tabs>
 
-        <v-row class="mb-4" justify="center" align="center" dense>
+        <v-row class="mb-4" justify="center" align="center" density="comfortable">
           <v-col cols="12" sm="6" md="3" class="text-center">
             <v-btn block :color="thisgame.color" @click="buyGameDialog" variant="text">Buy the Game</v-btn>
           </v-col>

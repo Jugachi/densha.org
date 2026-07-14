@@ -36,9 +36,8 @@ const i18n = createI18n({
   messages: { en, jp }
 })
 
-router.beforeEach((to, from, next) => {
+router.beforeEach((to) => {
   document.title = to.meta.title || 'Densha De D'; // Default title if none is set
-  next();
 });
 
 

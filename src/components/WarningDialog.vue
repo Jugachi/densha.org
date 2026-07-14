@@ -7,8 +7,8 @@
       </v-card-text>
       <v-card-actions>
         <v-spacer></v-spacer>
-        <v-btn color="green darken-1" text @click="confirm">Yes</v-btn>
-        <v-btn color="red darken-1" text @click="dialog = false">No</v-btn>
+        <v-btn color="green darken-1" variant="text" @click="confirm">Yes</v-btn>
+        <v-btn color="red darken-1" variant="text" @click="dialog = false">No</v-btn>
       </v-card-actions>
     </v-card>
   </v-dialog>

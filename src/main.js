@@ -16,6 +16,16 @@ import { createI18n } from 'vue-i18n'
 //import i18n from './i18n';
 import en from './locales/en.json'
 import jp from './locales/jp.json'
+import zh from './locales/zh.json'
+import es from './locales/es.json'
+import fr from './locales/fr.json'
+import ru from './locales/ru.json'
+import de from './locales/de.json'
+import ko from './locales/ko.json'
+import nl from './locales/nl.json'
+import tl from './locales/tl.json'
+import el from './locales/el.json'
+import th from './locales/th.json'
 import { aliases, fa } from 'vuetify/iconsets/fa'
 
 library.add(fas, fab)
@@ -33,7 +43,8 @@ const vuetify = createVuetify({
 
 const i18n = createI18n({
   locale: 'en',
-  messages: { en, jp }
+  fallbackLocale: 'en',
+  messages: { en, jp, zh, es, fr, ru, de, ko, nl, tl, el, th }
 })
 
 router.beforeEach((to) => {

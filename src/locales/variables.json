@@ -44,6 +44,46 @@
         {
             "name": "🇯🇵 日本語",
             "code": "jp"
+        },
+        {
+            "name": "🇨🇳 中文",
+            "code": "zh"
+        },
+        {
+            "name": "🇪🇸 Español",
+            "code": "es"
+        },
+        {
+            "name": "🇫🇷 Français",
+            "code": "fr"
+        },
+        {
+            "name": "🇷🇺 Русский",
+            "code": "ru"
+        },
+        {
+            "name": "🇩🇪 Deutsch",
+            "code": "de"
+        },
+        {
+            "name": "🇰🇷 한국어",
+            "code": "ko"
+        },
+        {
+            "name": "🇳🇱 Nederlands",
+            "code": "nl"
+        },
+        {
+            "name": "🇵🇭 Tagalog",
+            "code": "tl"
+        },
+        {
+            "name": "🇬🇷 Ελληνικά",
+            "code": "el"
+        },
+        {
+            "name": "🇹🇭 ไทย",
+            "code": "th"
         }
     ]
 }

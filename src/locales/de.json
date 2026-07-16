@@ -1,0 +1,949 @@
+{
+	"welcomeMessage": "Willkommen auf der inoffiziellen Densha de D Website",
+	"description": "Für Hilfe und Zusammenarbeit mit der Densha de D Community tritt bitte unserem Discord-Server bei",
+	"games": {
+		"lightning": {
+			"name": "Lightning Stage",
+			"description": "Densha de D: Lightning Stage (Train D Lightning Stage) ist ein dreidimensionales Zug-Battle-Spiel, das auf Initial D basiert, der populären Manga-Serie von Shuichi Shigeno. Der Protagonist Takumi Fujiwara kehrt zusammen mit vier weiteren Charakteren der Serie in einem rasanten Arcade-Rennspiel zurück, bei dem statt Autos densha (japanische Züge) zum Einsatz kommen. Jeder Zug tritt auf seine eigene Weise an, und das Spiel ermutigt die Spieler, ihren Zug durch Kurven zu powersliden, um das Tempo zu halten. Es gibt drei Spielmodi: den Dramatic Mode, einen Story-Modus für einen Spieler; den Battle Mode, ein Duell für zwei Spieler im Splitscreen; und den Replay Mode, mit dem man sich seine denkwürdigsten Duelle noch einmal ansehen kann. Densha de D: Lightning Stage ist der erste Teil der Serie und erschien am 14. August 2010 auf der Comiket 78.",
+			"characters": [
+				{
+					"name": "Takumi Fujiwara",
+					"alias": "Takumi Fujiwara",
+					"description":
+					[
+						"Takumi Fujiwara (藤原拓海, Fujiwara Takumi; in der Tokyopop-Version 'Tak' genannt) ist der Hauptprotagonist von Initial D, Mitglied von Project D und mit den Akina SpeedStars befreundet. Er fährt den Toyota Sprinter AE86 Trueno GT Apex, kurz den Eight-Six, der ursprünglich seinem Vater Bunta gehörte. Mehr oder weniger gezwungenermaßen wurde er zum Tofu-Lieferjungen des väterlichen Betriebs und liefert jeden Morgen am Mount Akina aus.",
+						"<br>",
+						"Obwohl er scheinbar keine Ahnung von Autos hat – er wusste nicht einmal, dass sein Wagen 'Eight-Six' genannt wird –, ist Takumi ein extrem talentierter Fahrer, der schon seit der Mittelstufe auf dem Akina unterwegs ist. Das weckte die Aufmerksamkeit anderer Racing-Teams wie der Akagi RedSuns und der Myogi NightKids, die sich alle ein Rennen gegen Takumi wünschten.",
+						"<br>",
+						"Auf seinem Weg nach oben fuhr er gegen Keisuke Takahashi, die NightKids-Mitglieder Takeshi Nakazato und Shingo Shoji, das weibliche Racing-Duo Impact Blue, Kenta Nakamura und schließlich gegen Ryosuke Takahashi, dessen Siegesserie er damit beendete. Zur gleichen Zeit war er mit Natsuki Mogi zusammen.",
+						"<br>",
+						"Seine Siegesserie fand angeblich ihr Ende, als er gegen Kyoichi Sudo antrat, den Anführer von Emperor am Mount Akagi. Kyoichi erklärte jedoch, dass er das Rennen gar nicht als richtiges Rennen wertete – er wollte Takumi lediglich beweisen, dass der Eight-Six seinem Evo III nicht gewachsen ist. Bunta reparierte den Eight-Six anschließend mit einem neuen Motor und einigen Verbesserungen. Mit dem überholten Eight-Six trat Takumi dann gegen Wataru Akiyama an, einen Fahrer aus der Region Saitama, der ebenfalls einen Eight-Six fährt.",
+						"<br>",
+						"Nach einem Rückkampf gegen Kyoichi und einem Rennen gegen Kai Kogashiwa versöhnte er sich mit Natsuki, bevor sich ihre Wege trennten. Er schloss sich Ryosukes neuem Team Project D an, das ein ähnliches Ziel verfolgte wie zuvor die RedSuns. Als Downhill-Fahrer von Project D verbesserten sich seine Fähigkeiten enorm, während er gegen immer stärkere Gegner aus verschiedenen Regionen antrat. In dieser Zeit lernte er auch seine zweite Freundin Mika Uehara kennen, eine Golferin.",
+						"<br>",
+						"Sein letztes Rennen innerhalb von Project D bestritt er gegen Shinji Inui von Sidewinder. Er gewann zwar, doch dabei ging der Motor des Eight-Six kaputt. Inzwischen fährt er Buntas Subaru Impreza, tritt weiterhin am Mount Akina an und plant, Profi-Rennfahrer zu werden.",
+						"<br>"
+					]
+				},
+				{
+					"name": "Keisuke Takahashi",
+					"alias": "Keisuke Takahashi",
+					"description":
+					[
+						"Keisuke Takahashi (高橋 啓介, Takahashi Keisuke, K.T.) ist der zweitbeste Fahrer der RedSuns. Keisuke fährt einen efini RX-7 Type R (FD3S) und ist ein hervorragender Fahrer, übertroffen nur von seinem älteren Bruder Ryosuke. Er ist ein ziemlicher Hitzkopf und hasst es zu verlieren. Bekanntlich fährt er sehr emotional: Merkt er, dass er nicht gewinnen kann, leidet sein Fahrstil, führt er dagegen, ist er entspannt und gelassen. Früher rebellierte er gegen seine Eltern und geriet oft mit ihnen aneinander, bis sie es schließlich aufgaben, auf ihn einzuwirken. Ryosuke verstand sehr gut, wie Keisuke sich fühlte, nahm ihn eines Tages mit auf eine Bergabfahrt – und das veränderte sein Leben. Bevor Ryosuke ihn zum Straßenrennsport brachte, war Keisuke Anführer einer Bōsōzoku-Gang. Er schließt sich dem neuen Team seines Bruders an und liefert sich eine Rivalität mit Takumi. Bei den meisten Rennen fährt Keisuke den Hillclimb (bergauf), während Takumi den Downhill übernimmt.",
+						"<br>",
+						"Keisuke ist nicht so analytisch veranlagt wie sein älterer Bruder, und Ryosukes Fähigkeit, alles zu berechnen und zu analysieren, beeindruckt ihn sehr. Umgekehrt fasziniert Ryosuke aber auch, wie wenig Keisuke beim Fahren nachdenkt und einfach nur seinem Gefühl folgt. Während Ryosuke beschlossen hat, nicht mehr lange Rennen zu fahren und stattdessen Arzt zu werden, hat Keisuke sein Leben ganz dem Rennsport verschrieben – sein Ziel ist es, Profi-Rennfahrer zu werden. Doch zuerst muss er Takumi besiegen. Auch wenn die beiden sichtlich gut miteinander auskommen, gibt es immer noch eine Art Wettstreit darüber, wer das Ass ist, wobei Keisuke durchaus Respekt vor Takumi hat. Einmal sagte er, er sei nicht so mental stark wie Takumi, weil dieser vor einem großen Rennen einfach blitzschnell einschlafen konnte – was Keisuke fragen ließ, ob Takumi überhaupt wisse, was Druck bedeutet.",
+						"<br>",
+						"Gegen Ende des Fourth-Stage-Animes haben sich Keisukes Fähigkeiten so drastisch verbessert, dass ihm die Kontaktdaten eines Profi-Racing-Teams angeboten werden. Keisuke lehnt das Angebot ab, da er glaubt, noch einen weiten Weg vor sich zu haben, bevor er für eine Profikarriere bereit ist. Takumi merkt zur gleichen Zeit an, dass Keisuke ihn in einem ernsthaften Rennen wahrscheinlich schlagen könnte.",
+						"<br>",
+						"Nach der Final Stage wird er mit seinem RX-7 hauptberuflicher Profi-Rennfahrer, mit Tomiguchi als seinem persönlichen Mechaniker",
+						"<br>"
+					]
+				},
+				{
+					"name": "Takeshi Nakazato",
+					"alias": "Takeshi Nakazato",
+					"description":
+					[
+						"Takeshi Nakazato (中里 毅, Nakazato Takeshi, 'Zack'), auch bekannt als der Schwarze Blitz (黒い稲妻, Kuroi Inazuma), ist der Anführer der Myogi NightKids. Sein erster Auftritt ist beim Rennen am Akina, bei dem Keisuke Takahashi von den RedSuns gegen Takumi Fujiwara antritt. Überrascht davon, dass Takumi Keisuke schlagen kann, beschließt Takeshi, dass er derjenige sein wird, der den Downhill-Spezialisten vom Akina herausfordert und besiegt – und dass die RedSuns als Nächstes an der Reihe sind.",
+						"<br>",
+						"Er ist ein kluger und geschickter Fahrer und erkennt als einer der ersten Takumis Gutter-Hook-Technik, als er dessen erstes Duell zwischen dem Eight-Six und Keisukes FD beobachtet. Sein Verhängnis ist jedoch, dass ihm Wut und Emotionen den klaren Kopf rauben, was zu schlechter Gaskontrolle führt. Außerdem fährt er stets am Limit und vernachlässigt dabei oft den Reifenverschleiß, sodass er das Rennen am Ende verliert, manchmal sogar mit einem Unfall. Er ist ausgezeichnet in der Beschleunigung und bekannt für seine Grip-Fahrphilosophie. Sein vorheriges Auto war ein Nissan Silvia (S13), mit dem er Drift-Techniken einsetzte. Nach einer vernichtenden Niederlage gegen einen weißen (beziehungsweise silbernen) R32 auf seiner Heimstrecke Myogi wechselte er zum Nissan Skyline GT-R (R32). Nach dieser Niederlage änderte sich seine Philosophie: Er bevorzugt seitdem Grip-Fahrtechniken gegenüber schwachem und effekthascherischem Driften. Außerdem glaubt er, dass ein Auto unabhängig vom fahrerischen Können niemals über seine eigenen Grenzen hinauswachsen kann.",
+						"<br>",
+						"Takeshi ist der Anführer des NightKids-Teams am Mount Myogi und hat Interesse an Sayuki von Impact Blue gezeigt.",
+						"<br>",
+						"Er ist, genau wie Kunimitsu Takahashi, ein großer Fan des GT-R.",
+						"<br>"
+					]
+				},
+				{
+					"name": "Shingo Shoji",
+					"alias": "Shingo Shoji",
+					"description":
+					[
+						"Shingo Shoji (庄司 慎吾, Shōji Shingo) ist ein Mitglied der NightKids und fährt einen roten Honda Civic SiR-II (EG6). Shingo fährt gefährlich und rammt notfalls das Auto seines Gegners, um ihn aus der Kontrolle zu bringen, wenn er sich seines Sieges nicht sicher ist. Normale Downhill-Rennen findet er langweilig, er bevorzugt Rennen mit Handicap. Bei einem solchen Handicap-Rennen klebt sich Shingo für die Dauer des Rennens die rechte Hand ans Lenkrad und schränkt so seine eigene Lenkfähigkeit ein. Was das fahrerische Können angeht, ist Shingo der beste Fahrer im Night-Kids-Team. Außerdem ist er ein Jugendfreund von Impact Blues Navigatorin Sayuki.",
+						"<br>",
+						"Eigentlich teilt Shingo viele Ansichten mit Takeshi, doch wenn sie sich andere Duelle ansehen, halten sie sich bewusst voneinander fern, damit niemand denkt, sie wären befreundet – auch wenn sie sich in der Extra Stage durchaus wie Kumpel verhalten. Es gab auch Momente, in denen er seinen Teamkollegen im Namen der Night Kids unterstützte, etwa beim Duell gegen Seiji Iwaki und dessen Evo IV.",
+						"<br>"
+					]
+				},
+				{
+					"name": "Ryosuke Takahashi",
+					"alias": "Ryosuke Takahashi",
+					"description":
+					[
+						"Ryosuke Takahashi (高橋 涼介, Takahashi Ryōsuke; in der Tokyopop-Version 'Ry' genannt) ist einer der Hauptcharaktere von Initial D und der Gründer und Anführer sowohl der Akagi RedSuns als auch von Project D. Ursprünglich ein Einzelfahrer mit dem Spitznamen 'Weißer Komet vom Akagi', gründete er die RedSuns mit dem Ziel, die Straßenrennszene in ganz Japan zu dominieren, und rekrutierte Fahrer, darunter auch seinen Bruder Keisuke – was den beiden den Spitznamen 'Rotary Brothers' einbrachte.",
+						"<br>",
+						"Der Plan der RedSuns wurde vorerst auf Eis gelegt, nachdem Keisuke verlor und Takumi Fujiwara, der Fahrer des Toyota AE86, in Erscheinung trat. Vor seinem Rennen gegen Fujiwara war er bereits von einem Profi-Team eingeladen worden, lehnte jedoch ab, da ihn nur der Straßenrennsport interessierte. Seine Siegesserie endete, als er gegen Fujiwara verlor. Nach dieser Niederlage zog er sich vorübergehend aus dem Rennsport zurück, bis er ein Comeback feierte, um sich der Bedrohung durch Team Emperor und dessen Anführer und Rivalen Kyoichi Sudo zu stellen. Außerdem fuhr er gegen Takeshi Nakazato, den Anführer der Myogi NightKids, und besiegte ihn.",
+						"<br>",
+						"Kurz nachdem Takumi gegen Wataru Akiyama gefahren war, gründete Ryosuke ein neues Team namens Project D und löste damit die RedSuns faktisch auf. Das Ziel blieb ähnlich – die Dominanz der Straßenrennszene –, allerdings nur für ein Jahr, bevor er zurück an die Medizinschule geht.",
+						"<br>",
+						"Während der Project-D-Rennen in Kanagawa stellt sich heraus, dass Ryosuke eine Verbindung zu Rin Hojo hat, einem Kommilitonen aus dem Medizinstudium und Straßenrennfahrer aus Kanagawa. Die beiden hatten früher Streit wegen eines Mädchens namens Kaori, die zu jener Zeit Rins Verlobte war, sich aber nach verbalen Übergriffen durch Rin das Leben nahm – woraufhin Rin aus der Rennszene verschwand. Da er weiß, dass er der Vergangenheit nicht entkommen kann, tunt Ryosuke sein Auto heimlich zusammen mit Shuichi Matsumoto und fordert Rin auf dem Toyo Tires Turnpike heraus. Dank der Unterstützung von Ryuji Ikeda, dem Anführer von Team Spiral, der im Hintergrund zusah, kann Ryosuke Rin vor einem Unfall bewahren, und die beiden klären anschließend ihre Differenzen.",
+						"<br>",
+						"Nach der Auflösung von Project D bleibt Ryosuke weiterhin als stiller Beobachter bei Straßenrennen präsent und erklärt, dass er irgendwann neue talentierte Fahrer entdecken werde. Es wird zudem angedeutet, dass er sein Medizinstudium parallel fortsetzt.",
+						"<br>"
+					]
+				},
+				{
+					"name": "Hukumen",
+					"alias": "Hukumen",
+					"description":
+					[
+						"Hukumen betreibt einen Tofu-Laden in Gunma und ist Takumis Vater. Vor Jahren war er der Downhill-Fahrer Nummer eins am Mount Akina, tritt heute aber nicht mehr selbst an – stattdessen leitet er lieber Takumis fahrerische Entwicklung an. Er ist der eigentliche Fahrer des mysteriösen weißen Geists vom Akina, des AE86 Sprinter Trueno, der den Rekord für die schnellste Downhill-Zeit am Akina hält. Bunta trainiert seinen Sohn auf eigenwillige Weise: Jeden Morgen, wenn Takumi Tofu ausliefert, gibt ihm Bunta einen Becher Wasser in den Getränkehalter – Takumi darf während der Fahrt keinen einzigen Tropfen verschütten. Offiziell soll das verhindern, dass der Tofu im Kofferraum beschädigt wird, tatsächlich zwingt es Takumi aber dazu, extrem sauber zu fahren. Bunta selbst gilt weiterhin als der stärkste Downhill-Fahrer am Akina, was schon früh in der Serie gezeigt wird, als er den Trueno mit Yuichi auf dem Beifahrersitz volles Tempo durch eine Kurve driftet und sich dabei noch eine Zigarette anzündet.",
+						"<br>",
+						"Später in der Serie nutzt Takumi den Trueno ohnehin häufiger als Bunta, weshalb dieser ihm das Auto überlässt. Während einer Testfahrt mit einem Subaru Impreza WRX STi Type R Version V am Akina besiegt Bunta seinen Sohn und löst damit bei Takumi einen regelrechten Allradantrieb-Komplex aus. Bunta beschließt, den Wagen zu kaufen, hält diese Tatsache jedoch zunächst vor Takumi geheim. Nachdem er sich als der Fahrer zu erkennen gibt, weist er Takumi an, für die Lieferungen abwechselnd den Impreza und den Eight-Six zu nutzen – eine weitere Trainingsstrategie, um Takumi das Potenzial moderner Autos und die Eigenheiten des Allradantriebs zu zeigen. Auch das ist Teil seiner Trainingsstrategie, doch vor allem zeigt es einmal mehr, dass Bunta der stärkste Gegner am Akina ist.",
+						"<br>",
+						"Man geht davon aus, dass Bunta während seiner Zeit als Straßenrennfahrer nie besiegt wurde. Ein Dialog zwischen Tachibana und Iketani könnte dem zwar widersprechen, doch die vage Beschreibung der Ereignisse lässt die tatsächlichen Ergebnisse offen für Spekulationen. Konkret findet dieser Dialog während des Tochigi-Handlungsbogens statt (Band 15 des Mangas beziehungsweise der Third-Stage-Film), als Tachibana die Rivalität zwischen Bunta und Ken Kogashiwa erklärt. Laut Tachibana bestritten Bunta und Ken mehrere Rennen auf der Irohazaka-Straße, um herauszufinden, wer wirklich der schnellste Straßenrennfahrer war, und im letzten entscheidenden Rennen gewann Bunta. Das könnte bedeuten, dass Bunta möglicherweise die eine oder andere Runde verlor, doch dieser Gedanke wird nie weiter vertieft, da der Dialog nur dazu diente, dem Sohn von Ken eine rennfahrerische Abstammung zu verleihen – dieser hatte Takumi kurz zuvor zu einem Rennen auf derselben Straße herausgefordert.",
+						"<br>"
+					]
+				},
+				{
+					"name": "Takumi-san",
+					"alias": "Takumi-san",
+					"description":
+					[
+						"Takumi-san ist ein schräger Charakter, der eigens für den Densha de D Manga erschaffen wurde. Weitere Informationen folgen, sobald wie möglich.",
+						"<br>"
+					]
+				},
+				{
+					"name": "Bunta Fujiwara",
+					"alias": "Bunta Fujiwara",
+					"description":
+					[
+						"Bunta Fujiwara (藤原 文太, Fujiwara Bunta) betreibt einen Tofu-Laden in Gunma und ist Takumis Vater. Vor Jahren war er der Downhill-Fahrer Nummer eins am Mount Akina, tritt heute aber nicht mehr selbst an – stattdessen leitet er lieber Takumis fahrerische Entwicklung an. Er ist der eigentliche Fahrer des mysteriösen weißen Geists vom Akina, des AE86 Sprinter Trueno, der den Rekord für die schnellste Downhill-Zeit am Akina hält. Bunta trainiert seinen Sohn auf eigenwillige Weise: Jeden Morgen, wenn Takumi Tofu ausliefert, gibt ihm Bunta einen Becher Wasser in den Getränkehalter – Takumi darf während der Fahrt keinen einzigen Tropfen verschütten. Offiziell soll das verhindern, dass der Tofu im Kofferraum beschädigt wird, tatsächlich zwingt es Takumi aber dazu, extrem sauber zu fahren. Bunta selbst gilt weiterhin als der stärkste Downhill-Fahrer am Akina, was schon früh in der Serie gezeigt wird, als er den Trueno mit Yuichi auf dem Beifahrersitz volles Tempo durch eine Kurve driftet und sich dabei noch eine Zigarette anzündet.",
+						"<br>",
+						"Später in der Serie nutzt Takumi den Trueno ohnehin häufiger als Bunta, weshalb dieser ihm das Auto überlässt. Während einer Testfahrt mit einem Subaru Impreza WRX STi Type R Version V am Akina besiegt Bunta seinen Sohn und löst damit bei Takumi einen regelrechten Allradantrieb-Komplex aus. Bunta beschließt, den Wagen zu kaufen, hält diese Tatsache jedoch zunächst vor Takumi geheim. Nachdem er sich als der Fahrer zu erkennen gibt, weist er Takumi an, für die Lieferungen abwechselnd den Impreza und den Eight-Six zu nutzen – eine weitere Trainingsstrategie, um Takumi das Potenzial moderner Autos und die Eigenheiten des Allradantriebs zu zeigen. Auch das ist Teil seiner Trainingsstrategie, doch vor allem zeigt es einmal mehr, dass Bunta der stärkste Gegner am Akina ist.",
+						"<br>",
+						"Man geht davon aus, dass Bunta während seiner Zeit als Straßenrennfahrer nie besiegt wurde. Ein Dialog zwischen Tachibana und Iketani könnte dem zwar widersprechen, doch die vage Beschreibung der Ereignisse lässt die tatsächlichen Ergebnisse offen für Spekulationen. Konkret findet dieser Dialog während des Tochigi-Handlungsbogens statt (Band 15 des Mangas beziehungsweise der Third-Stage-Film), als Tachibana die Rivalität zwischen Bunta und Ken Kogashiwa erklärt. Laut Tachibana bestritten Bunta und Ken mehrere Rennen auf der Irohazaka-Straße, um herauszufinden, wer wirklich der schnellste Straßenrennfahrer war, und im letzten entscheidenden Rennen gewann Bunta. Das könnte bedeuten, dass Bunta möglicherweise die eine oder andere Runde verlor, doch dieser Gedanke wird nie weiter vertieft, da der Dialog nur dazu diente, dem Sohn von Ken eine rennfahrerische Abstammung zu verleihen – dieser hatte Takumi kurz zuvor zu einem Rennen auf derselben Straße herausgefordert.",
+						"<br>"
+					]
+				}
+			],
+			"trains": [
+				{
+					"name": "Hankyu 2000",
+					"alias": "Hankyu 2000",
+					"description":
+					[
+						"<a href='https://ja.wikipedia.org/wiki/%E9%98%AA%E6%80%A52000%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'>Hankyu-Baureihe 2000</a>",
+						"<b>Der Fahrer ist Takumi Fujiwara</b>",
+						"<p>Die Takarazuka-Linie der Hankyu Electric Railway wird von der Baureihe 2000 betrieben.</p>",
+						"<p>In einem Schaukampf zwischen den Takarazuka Speed Stars, angeführt von Takumis Senior Iketani, und den Kobe Line RedSuns, angeführt von Ryosuke Takahashi von der Hankyu-Kobe-Linie, hat er seinen dramatischen ersten Auftritt. (Folge 1)</p>",
+						"<p>Seine Spezialität ist das Dual-Track-Drifting. Das Geheimnis dahinter wird in Band 1 der Doujinshi-Anthologie, 'Tak-chans Zug-Kampfschule', erklärt.</p>",
+						"<p>Bis einschließlich Lightning Stage und Burning Stage verkehrte er als achtteilige Zugeinheit mit vier Fahrstufen.</p>",
+						"<p>In Folge 9 der Burning Stage wurde er schwer beschädigt, jedoch mit neuen Fahrmotoren und einem neuen Fahrschalter wieder aufgebaut, in '2000 Kai' umbenannt und taucht in der Climax Stage erneut auf. Die Anzahl der Fahrstufen stieg auf 12, und seine Höchstgeschwindigkeit wurde deutlich gesteigert.</p>",
+						"<p>Beim Austausch der Fahrmotoren nach der Beschädigung (Folge 10) wurde anstelle einer Modernisierung auf nicht identifizierte Motoren zurückgegriffen, was die Leistung der Widerstandssteuerung erhöhte. (Ryosuke Takahashi erfährt davon in Folge 13.)</p>",
+						"<p>Bahnexperten zufolge sind Dual-Track-Drifting und Widerstandssteuerung unter Volllast höchst problematisch – angeblich würden dabei „die Schienen über Nacht ruiniert“ und „das Unterwerk explodieren“.</p>",
+						"<p>Der echte Zug wurde 1960 in Dienst gestellt. <a href='https://www.youtube.com/watch?v=tJuEoau5GaA' target='_blank'>（YouTube）</a></p>",
+						"<p>1991 fand seine Abschiedsfahrt statt, <a href='https://www.youtube.com/watch?v=Jvh4lrPZe_s' target='_blank'>（YouTube）</a>, und einige Wagen wurden in andere Züge integriert oder als Baureihe 1700 bei der Tochtergesellschaft Nose Electric Railway weiterverwendet. <a href='https://www.youtube.com/watch?v=q-FWLQl17-E' target='_blank'>（YouTube）</a></p>",
+						"<p>Der schwere Stahlkörper mit Widerstandssteuerung <a href='https://ja.wikipedia.org/wiki/%E9%9B%BB%E6%B0%97%E8%BB%8A%E3%81%AE%E9%80%9F%E5%BA%A6%E5%88%B6%E5%BE%A1#%E6%8A%B5%E6%8A%97%E5%88%B6%E5%BE%A1' target='_blank'>（（Wikipedia））</a>, ein altmodisches Design mit veraltetem Steuerungssystem, weist Parallelen zum originalen AE86 aus der Geschichte auf. Es war ein über 50 Jahre alter, technisch überholter Zug.</p>"
+					]
+				},
+				{
+					"name": "Hankyu 8200",
+					"alias": "Hankyu 8200",
+					"description":
+					[
+						"<b>Der Fahrer ist Keisuke Takahashi</b>",
+						"<p>Die Kobe-Linie der Hankyu Electric Railway wird von der Baureihe 8200 betrieben. Er ist die Nummer zwei der 'Kobe Line RedSuns'.</p>",
+						"<p>Dank Leichtbau-Aluminiumkarosserie und individuell verteilter VVVF-Wechselrichtersteuerung ermöglicht er scharfe Beschleunigung und Verzögerung.</p>",
+						"<p>Bei Regen ist er jedoch anfällig und erfordert präzises Fahren, um ein Durchdrehen der Räder auf nassen Schienen zu vermeiden. (Wenn ein VVVF-Zug im Regen durchdreht, ist das amüsante Motorgeräusch 'Hyu-uuu↑↑↑n' zu hören.)</p>",
+						"<p>Die Schwierigkeiten im Regen werden in den Folgen 6 und 41 gezeigt, in denen Ryosuke Takahashi Keisuke typischerweise auch im Umgang mit dem Fahrschalter (Beschleunigungstechnik) unterweist.</p>",
+						"<p>Die Baureihe 8200 wurde ursprünglich als Zusatzeinheit konzipiert, die morgens und abends zur Stoßzeit an einen achtteiligen Zug angekoppelt wird, um als zehnteilige Einheit zu verkehren. <a href='https://www.youtube.com/watch?v=VDooBWun41o' target='_blank'>（YouTube）</a></p>",
+						"<p>Deshalb verkehrt er in dieser Serie als zweiteilige Einheit.</p>",
+						"<p>Ein Mitarbeiter der Hankyu Electric Railway, der auf dem Comic Market das Spiel *Densha de D* gekauft hat, meinte dazu: „Der 8200 hat enorm viel Leistung, und ihn als zweiteilige Einheit zu fahren ist eine echte Herausforderung. Da ist es kein Wunder, dass sich Keisuke Takahashi so auf die Fahrschalterarbeit konzentriert.“</p>"
+					]
+				},
+				{
+					"name": "Hankyu 21000",
+					"alias": "Hankyu 21000",
+					"description":
+					[
+						"<a href='https://ja.wikipedia.org/wiki/%E8%BF%91%E9%89%8421000%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'>((Wikipedia))</a>",
+						"<p>Der Fahrer ist Takeshi Nakazato, Anführer der NightKids.</p>",
+						"<p>Dieser Zug debütierte als 'Meihan-Nonstop-Schnellzug' zwischen Osaka und Nagoya und war, anders als gewöhnliche Nahverkehrszüge, ganz auf die Leistung eines Schnellzugs ausgelegt.</p>",
+						"<p>Nahverkehrszüge haben in der Regel drei angetriebene und fünf nicht angetriebene (rein mitgezogene) Wagen, doch beim Urban Liner sind sämtliche Wagen angetrieben.</p>",
+						"<p>Schnellzüge werden mit längeren Wagen gebaut (21 Meter gegenüber 19 Metern bei Hankyu-Zügen), um den Fahrgästen mehr Komfort zu bieten. Die größere Wagenlänge führt jedoch zu höherem Gewicht, was die Räder stärker belastet.</p>",
+						"<p>Nakazato schaltete das 'Schleuderschutzsystem' bevorzugt ab und fuhr mit voller Leistung. Es überrascht daher wenig, dass er in den technischen Kurven der Takarazuka-Linie und in den Regenduellen, die präzise Beschleunigung und Verzögerung erforderten, verlor.</p>",
+						"<p>Der Hochgeschwindigkeits-Urban-Liner bietet einen spektakulären Ausblick. Seine großen Fenster sorgen für ein weites, erfrischendes Sichtfeld. <a href='https://www.youtube.com/watch?v=9Rjsn03gQPI' target='_blank'>（YouTube）</a></p>",
+						"<p>…Allerdings verläuft die Strecke mitten durchs Gebirge. (Daher stammt Nakazatos Spruch in Folge 6: „Da landest du noch in den Reisfeldern.“)</p>",
+						"<p>Im Duell der Lightning Stage gegen Deki 3 konnte er unter bestimmten Bedingungen die 300-km/h-Marke überschreiten.</p>",
+						"<p>Die 'Kintetsu'-Linie, zu der Nakazato gehört, ist von 'Hankyu' getrennt, und zur Zeit der Entstehung des Doujinshi waren die Gleise noch nicht miteinander verbunden.</p>",
+						"<p>In Folge 2 sagt Nakazato: „Ich habe keine Ahnung, wie ich überhaupt hierhergekommen bin“, doch heutzutage ist es möglich, von Kintetsu → Hanshin-Namba-Linie → Hanshin-Hauptlinie → Kobe Rapid Railway bis zur Hankyu-Station Shinkaichi durchzufahren. Ob die großen Schnellzüge diese Strecke tatsächlich befahren können, ist allerdings unklar.</p>",
+						"<p>Hankyu (Hankyu Electric Railway) <a href='https://ja.wikipedia.org/wiki/%E9%98%AA%E6%80%A5%E9%9B%BB%E9%89%84' target='_blank'>((Wikipedia))</a> Kintetsu (Kinki Nippon Railway) <a href='https://ja.wikipedia.org/wiki/%E8%BF%91%E7%95%BF%E6%97%A5%E6%9C%AC%E9%89%84%E9%81%93' target='_blank'>((Wikipedia))</a></p>"
+					]
+				},
+				{
+					"name": "Hankyu 800",
+					"alias": "Hankyu 800",
+					"description":
+					[
+						"<a href='https://ja.wikipedia.org/wiki/%E4%BA%AC%E9%98%AA800%E7%B3%BB%E9%9B%BB%E8%BB%8A_(2%E4%BB%A3)' target='_blank'>((Wikipedia))</a>",
+						"<p>Der Fahrer ist Shingo Shoji, wie Nakazato ein Mitglied der NightKids, mit dem er sich allerdings nicht versteht.</p>",
+						"<p>Der Schauplatz des Duells, die 'Keihan-Keishin-Linie', ist die einzige Strecke Japans, die U-Bahn-Abschnitte, scharfe Kurven und steile Steigungen wie im Bergland sowie Straßenbahngleise (Schienen, die gemeinsam mit Autos auf der Straße verlegt sind) miteinander kombiniert.</p>",
+						"<p>In Folge 3 verspottet Shingo Takumi, der von den 'hängenden Fahrleitungen' und den 'Straßengleisen, auf denen kein hohes Tempo möglich ist' überfordert ist, als „verwöhnten Jungen, groß geworden auf exklusiven Betonschwellen und Oberleitungen“ – ein Verweis auf die Besonderheiten der Keihan-Keishin-Linie.</p>",
+						"<p>Die Baureihe 800 wurde mit einer Vielzahl fortschrittlicher Features entwickelt, um eine derart anspruchsvolle Strecke zu meistern.</p>",
+						"<p>Er verfügt über eine automatische Fahrfunktion für Kyotos U-Bahn, 16 Meter lange, kompakte Wagen für hervorragende Manövrierfähigkeit in scharfen Kurven, eine Leichtbauweise für exzellente Beschleunigung, kleine Raddurchmesser für steile Steigungen sowie durchgängigen Antrieb an allen vier Wagen, der es sogar mit 'Schnellzügen' aufnehmen kann. Ein vielseitiger 'Nahverkehrszug' also.</p>",
+						"<p>Diese Vielseitigkeit hat allerdings ihren Preis: Die Baukosten pro Meter übersteigen sogar die des Shinkansen, was ihn zum teuersten Zug Japans macht.</p>",
+						"<p>Ausgerechnet diesen unglaublich teuren Zug wählt sich Shingo für einen Doppelcrash in der Nähe von Japans größtem See, dem 'Biwa-See', aus …</p>",
+						"<p>Im letzten Abschnitt wartet kurz vor der Station Hamaotsu eine scharfe rechtwinklige Kurve, so eng, dass sie eher zu einer Modelleisenbahn zu passen scheint.</p>",
+						"<p><a href='https://www.youtube.com/watch?v=_ETwW020L8U' target='_blank'>（YouTube）</a></p>",
+						"<p>Festivals gehen eben vor Zügen. <a href='https://www.youtube.com/watch?v=uhRVt-03H0U' target='_blank'>（YouTube）</a></p>"
+					]
+				},
+				{
+					"name": "Hankyu 7001",
+					"alias": "Hankyu 7001",
+					"description":
+					[
+						"<a href='https://ja.wikipedia.org/wiki/%E9%98%AA%E6%80%A57000%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'>((Wikipedia))</a>",
+						"<p>Der Fahrer ist Ryosuke Takahashi.</p>",
+						"<p>Der auf der Hankyu-Kobe-Linie verkehrende Zug der Baureihe 7000 wird von Ryosuke Takahashi geführt, dem Anführer der 'Kobe Line RedSuns', der sich für Takumi Fujiwara interessiert, um seine 'Theorie der schnellsten Schiene' zu vervollständigen.</p>",
+						"<p>Anders als die VVVF-Wechselrichtersteuerung der Baureihe 8200 seines jüngeren Bruders Keisuke nutzt die Baureihe 7000 eine Feldstromrichter-Steuerung (Chopper) mit Nutzbremsung. Das ermöglicht schnelles, materialschonendes und energieeffizientes Abbremsen aus hohem Tempo – ideal für die Hankyu-Kobe-Linie mit ihren langen Geraden und schnellen Kurven.</p>",
+						"<p>Technisch betrachtet folgt die Steuerungstechnik einer klaren Entwicklungslinie: von der Widerstandssteuerung der Baureihe 2000 über die Feldstromrichter-Steuerung des 7001 bis zur individuell verteilten VVVF-Wechselrichtersteuerung der Baureihe 8200.</p>",
+						"<p>Ryosuke verbindet eine schicksalhafte Rivalität mit Kyoichi Sudo von der Keikyu Railway, den er auf der Hankyu-Kobe-Linie bereits herausgefordert und besiegt hat (Folge 10).</p>",
+						"<p>Er beobachtet Takumis Entwicklung und rekrutiert ihn für das überregionale Expeditionsteam (Project D). Ab der Rising Stage verlagern sich die Duelle von der Region Kansai in Gegenden wie Nagoya und Tokio.</p>"
+					]
+				},
+				{
+					"name": "JR 223",
+					"alias": "JR 223",
+					"description":
+					[
+						"<a href='https://ja.wikipedia.org/wiki/JR%E8%A5%BF%E6%97%A5%E6%9C%AC223%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'>((Wikipedia))</a>",
+						"<p>Der Fahrer ist der Maskierte Zugführer.</p>",
+						"<p>Dieser Zug, der auf der 'JR West Kyoto-Linie' verkehrt, die parallel zur 'Hankyu-Kyoto-Linie' verläuft, forderte Takumi, der im regulären Fahrgastbetrieb einen Zug der Baureihe 2300 führte, zu einem Duell heraus.</p>",
+						"<p>Über die seitliche Anzeigetafel verspottete er Takumis Hankyu 2300 als „kackfarben“ und „Schrotthaufen“. Empört darüber begannen die Fahrgäste des Hankyu-Zugs das Duell. Um die Chancen gegen den voll besetzten 2300er auszugleichen, gab er vor, sich mit Eisengewichten selbst zu handicapen.</p>",
+						"<p>Dieser 'Nahverkehrszug' erreicht bis zu 130 km/h und macht damit selbst 'Schnellzügen' Konkurrenz – ganz seinem Namen 'Special Rapid Service' entsprechend.</p>",
+						"<p>(Mit unverkennbarem Signalhorn: Tenko-Tenko-Tenko-Ten♪) <a href='https://www.youtube.com/watch?v=WeAGCs98vGQ' target='_blank'>((YouTube))</a></p>",
+						"<p>Sein Einsatzgebiet ist riesig, weshalb er in ganz Kansai ein vertrauter Anblick ist. Er bietet scharfe Beschleunigung, hohe Spitzengeschwindigkeit, ruhigen Lauf und zuverlässige Stabilität. <a href='https://www.youtube.com/watch?v=bc1VHIT2yxg' target='_blank'>((YouTube))</a></p>",
+						"<p>Auch wenn es nicht dieselbe Zugnummer ist, kann man ihn ebenfalls am Kansai International Airport antreffen.</p>"
+					]
+				},
+				{
+					"name": "Hankyu 2300",
+					"alias": "Hankyu 2300",
+					"description":
+					[
+						"<a href='https://ja.wikipedia.org/wiki/JR%E8%A5%BF%E6%97%A5%E6%9C%AC223%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'>((Wikipedia))</a>",
+						"<p>Der Fahrer ist der Maskierte Schaffner.</p>",
+						"<p>Ein Zug, der auf der 'JR West Kyoto-Linie' verkehrt, die parallel zur 'Hankyu-Kyoto-Linie' verläuft, forderte Takumi, der im regulären Fahrgastbetrieb die Baureihe 2300 fuhr, zu einem Duell heraus.</p>",
+						"<p>Über die seitliche Anzeigetafel verspottete er den von Takumi gefahrenen Hankyu 2300 mit Nachrichten wie „kackfarben“ und „Schrotthaufen“ und provozierte damit die Fahrgäste des vollbesetzten Hankyu-Zugs zum Duell. Um die Sache auszugleichen, belud er sich mit Eisengewichten – als angebliches Handicap gegen den voll besetzten 2300er.</p>",
+						"<p>Dieser 'Nahverkehrszug' verbindet Kyoto und Osaka in nur 30 Minuten, macht damit 'Schnellzügen' Konkurrenz und rast mit 130 km/h ganz im Sinne seines Namens 'Special Rapid Service'.</p>",
+						"<p>(Mit unverkennbarem Signalhorn: *Tenko Tenko Tenko Tēn*) <a href='https://www.youtube.com/watch?v=WeAGCs98vGQ' target='_blank'>((YouTube))</a></p>",
+						"<p>Sein Einsatzgebiet ist sehr weitläufig, und man sieht ihn überall in der Region Kansai. Er punktet mit scharfer Beschleunigung, hoher Spitzengeschwindigkeit, ruhigem Lauf und exzellenter Stabilität. <a href='https://www.youtube.com/watch?v=bc1VHIT2yxg' target='_blank'>((YouTube))</a></p>",
+						"<p>Auch wenn die Wagennummern abweichen, sind ähnliche Züge auch am Kansai International Airport zu sehen.</p>"
+					]
+				},
+				{
+					"name": "AE 86",
+					"alias": "AE86?",
+					"description":
+					[
+						"<a href='https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A8%E3%82%BF%E3%83%BBAE86' target='_blank'>((Wikipedia))</a>",
+						"<p>Der Fahrer ist Takumi-san.</p>",
+						"<p>Ein Zweiwegefahrzeug für Schiene und Straße, auf dessen Seite 'Fujiwara Model Shop' steht.</p>",
+						"<p>Es wird freigeschaltet, nachdem alle Hauptstorylines abgeschlossen und das Bonusszenario durchgespielt wurden.</p>",
+						"<p>Die Erzählstimme zu Beginn des Duells, die mit „Lass mich dir eine Geschichte erzählen“ beginnt, ist eine Anspielung auf das damals in Japan populäre Werbevideo zu *El Shaddai*. <a href='https://www.youtube.com/watch?v=pj2WS_vZJoY' target='_blank'>((YouTube))</a></p>",
+						"<p>Der Sprecher des *El-Shaddai*-Protagonisten Enoch ist Shinichiro Miki, derselbe Sprecher, der auch Takumi Fujiwara seine Stimme leiht. Der Satz „Gib mir das beste“ führt dazu, dass „das beste Auto“ erscheint – eine Anspielung auf *Initial D*.</p>",
+						"<p>In *Densha de D* überzeugt er vor allem beim Single-Track-Drifting mit hervorragender Leistung. Wird er in verschiedenen Storylines eingesetzt, werden manche Dialogzeilen durch exklusive Sprüche von Takumi-san ersetzt.</p>"
+					]
+				}
+			],
+			"guides": [
+				{
+					"title": "Stage 1 - Keisuke",
+					"link": "https://www.youtube.com/embed/opSg6-tos5M",
+					"description": [
+						"Zu Beginn solltest du Multi-Track-Drift einsetzen, bis du eine bestimmte Station erreichst (Name im Bild: 雲雀丘花屋敷), an der die Gleise in eine scharfe Rechtskurve münden.",
+						"Es empfiehlt sich, die Bremstaste mehrfach hintereinander zu drücken, um abzubremsen, ohne dabei zu viel Tempo zu verlieren. Das Timing kann knifflig sein – wenn du dir unsicher bist, kannst du stattdessen die Notbremse für eine harte Bremsung nutzen. Die Bremsmethode ist letztlich egal, solange Keisuke dir nicht zu weit davonzieht und du nicht entgleist. Danach solltest du bei jeder Gelegenheit Multi-Track-Drift einsetzen, aber auf Gleisverzweigungen (und zusammenlaufende Gleise) achten, die dich sonst zum Entgleisen bringen können.",
+						"Kurz nach den beiden Stationen siehst du eine grüne Brücke. Merk sie dir gut, denn du kannst auf ihr nicht multi-tracken – ein Versuch führt garantiert zur Entgleisung. Die Station direkt nach der grünen Brücke (Name im Bild: 石橋) erfordert kein Bremsen, du kannst also sorglos mit Vollgas durchfahren.",
+						"An dieser Stelle sollte Keisuke ständig neben dir fahren, sodass Multi-Track-Drift eigentlich nicht möglich ist – halte trotzdem Ausschau nach Gelegenheiten, Tempo zu gewinnen. Nach einer Weile erreichst du einen Abschnitt, an dem sich die Gleise auf einer großen braun-grauen Brücke teilen. An der folgenden Station (Name im Bild: 豊中) musst du mehrmals bremsen, um nicht zu entgleisen – vergiss das nicht.",
+						"Die nächste Station, an der du bremsen musst, liegt eine Station weiter (Name im Bild: 曽根) und ist sehr wichtig. Auch hier kann das Timing der Bremsung in der Kurve knifflig sein – falls du unsicher bist, kannst du zusätzlich die Notbremse nutzen, auch wenn die normale Bremse empfehlenswerter ist, da sie dir etwas Tempo erhält, das du in dieser Kurve sonst stark verlierst. Nach der Kurve geht es bergab, und eine lange Kurve kommt in Sicht. Diese führt zur nächsten Station (Name im Bild: 服部) und erfordert kein Bremsen. Ab hier läuft es erst einmal ruhig, da Keisuke dich an Tempo überholt und dich eine Weile hinter sich lässt. Nutze diese Gelegenheit, um mit Multi-Track-Drift wieder aufzuschließen.",
+						"Es dauert allerdings nicht lange, bis wieder eine scharfe Rechtskurve auftaucht. An dieser Station (Name im Bild: 三国) musst du bremsen. Wie du bremst ist egal (normale Bremse empfohlen), aber lass Keisuke nicht zu weit davonziehen.",
+						"Ab hier geht es nur noch geradeaus, bis du die Brücke nach der Station (Name im Bild: 十三) erreichst: Die kommende Kurve wirkt zwar wie alle anderen scharfen Kurven, erfordert aber tatsächlich überhaupt kein Bremsen. Fahr einfach mit Vollgas weiter. Du erreichst die Station (Name im Bild: 中津). Du bist fast am Ziel.",
+						"Nach der kleinen Brücke kannst du je nach Ziel entweder einfach geradeaus fahren und deine Bremsungen in den Kurven timen (das ist die Route für den Any%-Speedrun), oder du setzt Multi-Track-Drift ein, was eine Zwischensequenz auslöst (das schaltet die 100%-Route frei und ist die von uns empfohlene Methode, um die Stage zu schlagen). Die Stage endet, sobald du die letzte Station erreichst (Name im Bild: 梅田). Glückwunsch, du hast Keisuke besiegt!"
+					]
+				},
+				{
+					"title": "Stage 2 - Nakazato",
+					"link": "https://www.youtube.com/embed/TD71DI62hRk",
+					"description": [
+						"Nakazato zu schlagen ist Keisuke gar nicht so unähnlich. Zu Beginn überholt dich Nakazato, und für den Großteil des Rennens bist du praktisch auf dich allein gestellt. Spiel die Stage im Grunde so, wie du es bei Keisuke getan hast.",
+						"Beachte aber, dass du an bestimmten Stellen trotzdem bremsen musst: die scharfe Rechtskurve nach der Station (Name im Bild: 雲雀丘花屋敷) und die Station nach der Gleisverzweigung an der großen grau-braunen Brücke (Name im Bild: 豊中). Der eigentliche Unterschied zu Keisuke zeigt sich an der nächsten Station (Name im Bild: 岡町): Nach dieser Station läuft eine Verlangsamungs-Zwischensequenz ab, und ihr beide fahrt in die scharfe Linkskurve nach der Station (Name im Bild: 曽根). Entscheidend ist hier deine Bremstechnik. Timst du die Bremsung richtig, solltest du weder entgleisen noch zu viel Tempo verlieren. Machst du alles richtig, schließt du nach der Kurve wahrscheinlich zum vorderen Wagen von Nakazato auf, und die Stage endet, sobald ihr beide die lange Kurve zur Station (Name im Bild: 服部) erreicht. Falls der erste Trigger nicht auslöst, spiel einfach normal weiter bis zur nächsten Station (Name im Bild: 三国), wo der Trigger zum Stage-Ende erneut aktiviert wird. Glückwunsch, du hast Nakazato besiegt!"
+					]
+				},
+				{
+					"title": "Stage 3 - Shingo",
+					"link": "https://www.youtube.com/embed/YnRz_eRRncY",
+					"description": [
+						"Shingo zu schlagen ist knifflig. Seine Stage ist voller Kurven und Wendungen und vermutlich eine der schwersten, um sie ohne Entgleisung zu meistern. Achte von Anfang an auf dein Tempo. Brems in praktisch jeder Kurve, denn selbst die kleinste Kurve dieser Stage kann zur Entgleisung führen. Versuch außerdem, wo möglich Multi-Track-Drift einzusetzen – aber Vorsicht, es gibt Barrieren und Hindernisse, die das verhindern.",
+						"Sobald du diese Stelle erreichst (Name im Bild: 蹴上) oder die erste Schotterstrecke vor dir siehst, darfst du wegen der Barriere kein Multi-Track-Drift mehr einsetzen und musst hart bremsen, um nicht zu entgleisen. Im nächsten Abschnitt (die Schotterstrecke) kannst du wieder multi-tracken, und das solltest du tun, bis die Betonstraße erscheint. Sobald du sie siehst, musst du schnell auf dein Hauptgleis zurückwechseln und so stark wie möglich bremsen, um beim Abbiegen auf die Betonstraße nicht zu entgleisen. Nach der erfolgreichen Kurve stehen dort eine Barriere und ein Auto im Weg, die weiteres Multi-Track-Drift verhindern – pass dich also entsprechend dem Video an.",
+						"Spiel danach ganz normal weiter. Hol dir so viel Tempo wie nötig, um mit Shingo mitzuhalten, ohne zu entgleisen. Sobald du diese <a href='https://i.imgur.com/8ggkiWu.png' target='_blank'>Station</a> erreichst, musst du das Multi-Track-Drift beenden, da sich die Gleise ab hier teilen – tust du das nicht, entgleist du garantiert. Denk daran, in der Kurve direkt nach der Gleisverzweigung zu bremsen. Nach der Kurve darfst du wieder multi-tracken, also stell deinen Zug entsprechend um.",
+						"Versuch, für den restlichen Streckenverlauf so nah wie möglich an ihm dranzubleiben, um die Zwischensequenzen auszulösen, die dir zum Sieg verhelfen. Es müssen zwei Zwischensequenzen ablaufen, und die schalten sich nur frei, wenn du in den letzten Kurven nah genug an ihm dran bist. Wenn du alles richtig gemacht hast, überholst du Shingo auf der Zielgeraden und gewinnst die Stage. Glückwunsch, du hast Shingo besiegt!"
+					]
+				},
+				{
+					"title": "Stage 4 - Ryousuke",
+					"link": "https://www.youtube.com/embed/0mGqWjRyaAY",
+					"description": [
+						"Dein Duell gegen Ryosuke findet auf derselben Strecke wie bei Keisuke und Nakazato statt. Zu Beginn lässt dich Ryosuke überholen – nutze diese Chance für Multi-Track-Drift. Spiel wie gewohnt weiter bis zur Station (Name im Bild: 雲雀丘花屋敷), wo dich erneut die scharfe Rechtskurve zur nächsten Station erwartet. Brems wie schon bei Keisuke und Nakazato, und achte darauf, dass du beim Einfahren in die Station nach den Kurven (Name im Bild: 川西能勢口) zwischen dieser und der nächsten Station (Name im Bild: 池田) kein Multi-Track-Drift einsetzt. Sonst löst du eine Zwischensequenz aus, die Ryosuke verrät, was du im letzten Abschnitt der Stage vorhast.",
+						"Nach diesen beiden Stationen spiel ganz normal weiter bis zur grünen Brücke. Beende jegliches Multi-Track-Drift und fahr in die nächste Station ein (Name im Bild: 石橋). Während du in die Station einbiegst, drück die Notbremse (du darfst dabei nicht multi-tracken). Das ist ein notwendiger Trigger, um die Stage zu gewinnen. Ryosuke wird dich an dieser Stelle überholen, und du solltest versuchen, so gut es geht mit ihm mitzuhalten. Spiel ansonsten frei weiter, musst aber an folgenden Stationen/Gleisabschnitten trotzdem bremsen: die Station nach der großen grauen Brücke (Name im Bild: 豊中) und die scharfe Linkskurve nach der Station (Name im Bild: 曽根) (Hinweis: Wenn du alles richtig gemacht hast, solltest du direkt nach der langen Kurve zur Station (Name im Bild: 服部) eine Zwischensequenz bekommen. Falls nicht, sind deine Siegchancen sehr gering, und du gewinnst die Stage womöglich nicht mehr) sowie die letzte scharfe Rechtskurve nach der Station (Name im Bild: 三国).",
+						"Danach erreichst du die Station (Name im Bild: 十三). Läuft hier eine Zwischensequenz ab, hast du dir den Sieg über Ryosuke bereits gesichert. Es bleibt nur noch eine Sache zu erledigen. Ihr beide überquert die Brücke, wobei du nur knapp zurückliegst. Kurz bevor du die nächste Station erreichst (Name im Bild: 中津), musst du beim Abbiegen mit Multi-Track-Drift auf das äußere Gleis rechts wechseln. Dadurch verlangsamt sich Ryosuke komplett, und du ziehst mühelos an ihm vorbei. Denk daran, das Multi-Track-Drift nach der Kurve sofort zu beenden, sonst entgleist du. An den kleinen Brücken nach der vorletzten Station (Name im Bild: 中津) kannst du wieder multi-tracken. Glückwunsch, du hast Ryosuke besiegt und das Spiel durchgespielt!"
+					]
+				},
+				{
+					"title": "Bonus Stage 1 - Masked Driver",
+					"link": "https://www.youtube.com/embed/y1X5cbMlgIA",
+					"description": [
+						"Die Stage des Maskierten Fahrers ist etwas Besonderes. Statt des normalen Zugs, der Multi-Track-Drift beherrscht, spielst du hier mit einem Zug, der nur lehnen kann. Ja, wirklich lehnen – der Zug neigt sich nur ein kleines Stück in eine Richtung. Dieses Rennen wird rein durch deine Reaktionsgeschwindigkeit und dein Situationsverständnis entschieden. Lehn nach links oder rechts, je nachdem wohin die Strecke führt. Eine Sache solltest du beachten: Kurz vor dem Ende läuft eine Zwischensequenz ab, die das Spiel verlangsamt. Hier musst du nach links lehnen, um die Kurve zu schaffen. Die Stage ist abgeschlossen, sobald dein Zug den des Maskierten Fahrers überholt. Glückwunsch, du hast den Maskierten Fahrer besiegt!"
+						]
+				},
+				{
+					"title": "Bonus Stage 2 - Takumi-san",
+					"link": "https://www.youtube.com/embed/WDza8yyemu8",
+					"description": [
+						"'Takumi-san', auch bekannt als Meme-Takumi, gilt als Spaß-Stage. Du fährst hier ein Auto auf den Gleisen und kannst es durch einmaliges Drücken der Multi-Track-Drift-Taste driften lassen. Drückst du sie zweimal in eine bestimmte Richtung, springst du auf das entsprechende Gleis in dieser Richtung. Alles, was du in dieser Stage tun musst, ist dein Auto in eine beliebige Richtung zu driften und Gas zu geben. Das war's schon. Du gewinnst. Während der Stage laufen einzigartige Trivia und Lore zur Densha-de-D-Serie in Zwischensequenzen ab. Viele davon sind sehr amüsant, und wir empfehlen dir, sie dir anzusehen, auch wenn diese Stage ein automatischer Sieg ist. Die Stage endet, sobald du die letzte Station passierst (Name im Bild: 梅田). Glückwunsch, du hast Takumi-san besiegt!"
+						]
+				},
+				{
+					"title": "Bonus Stage 3 - Bunta",
+					"link": "https://www.youtube.com/embed/64hJLQZvt9E",
+					"description": [
+						"Wir empfehlen, Nakazatos Zug zu verwenden, da du das Rennen damit am einfachsten gewinnst. Ein Sieg mit den anderen Zügen ist zwar möglich, erfordert aber viel Übung und einige 'Glitches'. Fahr so sauber wie möglich und versuch, nicht ständig zu entgleisen. Im Grunde wiederholst du das Nakazato-Rennen, nur dass du diesmal selbst Nakazato bist. Das heißt: An der Stelle, wo er sich früher den Motor zerschossen hat, weil er das Gas durchgehend gedrückt hielt, lässt du diesmal einfach los. Machst du das richtig, bekommst du dadurch einen Geschwindigkeitsschub. Von da an musst du nur noch weiter multi-tracken und solltest das Rennen problemlos gewinnen."
+						]
+				}
+			],
+			"speedrunning": [
+				{
+					"title": "Stage 1 - Keisuke",
+					"link": "https://www.youtube.com/embed/WwZz1Yxz5ho",
+					"description": [
+						"Du startest so schnell wie möglich mit Multi-Track-Drift, spamm einfach die Multi-Track-Taste. Danach hältst du das Multi-Track-Drift bis zu einer bestimmten Station durch. Nach der Station kommt eine Kurve, und du solltest weiter multi-tracken, bis du links ein gelbes Licht siehst. In diesem Moment wechselst du zurück auf deine Standardposition. Sobald die Linkskurve beginnt, spammst du kurz die Bremstaste, bis die Strecke wieder gerade ist. Von dort kannst du mit Vollgas in die Station fahren, ohne zu entgleisen. Sobald du wieder die Chance zum Multi-Track-Drift hast, nutze sie! Achte dabei auf Gleisverzweigungen, sonst entgleist du. Nach den grünen Brücken kommt eine Station, die du einfach mit Vollgas durchfährst. Folge den Gleisen, bis du eine graue Brücke siehst. Nach dieser Brücke erscheint eine weitere Station. Sobald du einfährst, bemerkst du einen grauen Block – ab diesem Punkt lässt du das Gas los. Jetzt entgleist du garantiert nicht mehr! Der kritische Teil kommt, nachdem du dich von Keisuke getrennt hast. Direkt nach dieser Station folgt eine scharfe Linkskurve, brems dabei so wenig wie möglich. Bist du nicht vorsichtig genug, kannst du hier entgleisen! Warte einfach, bis er an dir vorbeizieht, dann kannst du wieder problemlos multi-tracken, bis die zweite Brücke kommt! Hinter dieser Brücke folgt eine scharfe Rechtskurve – achte darauf, wieder auf deiner Linie zu sein und so wenig wie möglich zu bremsen, um dein Tempo zu halten. In der zweitletzten Kurve kannst du einfach mit Vollgas durchfahren. (Optional – für die 100%-Kategorie) In der letzten Kurve der Stage solltest du unbedingt multi-tracken. Das schaltet die Bonus-Stage des Maskierten Fahrers frei."
+					]
+				},
+				{
+					"title": "Stage 2 - Nakazato",
+					"link": "https://www.youtube.com/embed/_OS5bAK3gZc",
+					"description": [
+						"Sobald du die Stage betrittst, solltest du so viel wie möglich multi-tracken. Folg ihm einfach bis zur ersten gefährlichen Kurve. Fährst du in die Rechtskurve, rempel ihn ein paar Mal an, bis du sicher wieder auf deine Linie zurückkannst. Beginn sofort damit, mehrmals zu bremsen. Nach der Station solltest du wieder so viel wie möglich multi-tracken. Bis hierhin folgst du ihm, bis die graue Brücke erscheint. Nach der Brücke kommt eine Station, die du vorsichtig nehmen solltest. Sobald du den zweiten grauen Block in der Station siehst, brems einmal. Das bewahrt dich vor einer Entgleisung. In der zweiten Zwischensequenz musst du das Gas gedrückt halten, bis die Sequenz vollständig abgelaufen ist. Sobald sie endet, spamm die Bremstaste, bis dein Zug wieder stabil ist. Danach kannst du wieder Vollgas geben. Jetzt gibt es zwei mögliche Ausgänge: Entweder bekommen wir 'frühen Nakazato' – dann gewinnen wir bereits in der nächsten Kurve – oder wir bekommen 'späten Nakazato', dann müssen wir bis zum Sieg weiter neben ihm herfahren."
+					]
+				},
+				{
+					"title": "Stage 3 - Shingo",
+					"link": "https://www.youtube.com/embed/fdP4_itYimw",
+					"description": [
+						"Für diese Stage können wir aktuell noch keine schnelle Strategie anbieten, außer sie ganz normal zu spielen. Wir arbeiten gerade an einer aktualisierten Version für Shingo."
+					]
+				},
+				{
+					"title": "Stage 4 - Ryousuke",
+					"link": "https://www.youtube.com/embed/Qj9_apUMuvk",
+					"description": [
+						"Da wir hier die alte Strategie für Ryousuke zeigen, gibt es dazu nicht allzu viel zu sagen. Setz so viel wie möglich Multi-Track-Drift ein und denk daran, dass du beim Einfahren in die Station direkt nach den grünen Brücken die Notbremse brauchst. Um ihn vollständig zu schlagen, musst du außerdem in der zweitletzten Kurve dieser Stage außen driften! Danach musst du nur noch zur letzten Station fahren, und das Rennen ist beendet!"
+					]
+				},
+				{
+					"title": "Bonus Stage 1 - Masked Driver",
+					"link": "https://www.youtube.com/embed/U2g-qvEtsuY",
+					"description": [
+						"Auch diese Stage ist ziemlich simpel. Achte einfach darauf, nicht zu entgleisen. Es gibt eine Speed-Strategie für diese Stage, an deren Veröffentlichung wir aber noch arbeiten."
+					]
+				},
+				{
+					"title": "Bonus Stage 2 - Takumi-san",
+					"link": "https://www.youtube.com/embed/28oU3ra69cU",
+					"description": [
+						"Im Grunde musst du nur das Gas gedrückt halten, um die Stage zu gewinnen. Es gibt eine kleine Zeitersparnis, doch die Strategie dafür ist sehr präzise und wird zu einem späteren Zeitpunkt in diesen Guide aufgenommen."
+					]
+				},
+				{
+					"title": "Bonus Stage 3 - Bunta",
+					"link": "https://www.youtube.com/embed/c3QP2vaiu0o",
+					"description": [
+						"Verwende unbedingt Nakazatos Zug. Wir arbeiten außerdem an einem aktualisierten Guide, um diese Stage so schnell wie möglich zu schlagen. Bis dahin empfehlen wir, ihn wie in einem normalen Durchgang zu besiegen."
+					]
+				}
+			]
+
+		},
+		"burning": {
+			"name": "Burning Stage",
+			"description": "Densha de D: Burning Stage (Train D Burning Stage) ist ein dreidimensionales Zug-Battle-Spiel, das auf Initial D basiert, der populären Manga-Serie von Shuichi Shigeno, sowie auf Densha de Go!, einer japanischen Zugsimulations-Reihe, die ursprünglich von Taito stammt. Die Spieler treten in einem rasanten Arcade-Rennspiel mit densha (japanischen Zügen) gegeneinander an, wobei jeder Zug einzigartig ist und das Spiel dazu ermutigt, durch Powersliden in Kurven das Tempo zu halten. Neu im Spiel sind die Baureihe Keihan 800, neun neue Strecken sowie eine Optimierung für schwächere PCs. Es gibt drei Spielmodi: den Dramatic Mode, einen Story-Modus für einen Spieler; den Battle Mode, ein Duell für zwei Spieler im Splitscreen; und den Replay Mode zum erneuten Ansehen denkwürdiger Duelle. Densha de D: Burning Stage ist der zweite Teil der Serie und erschien am 4. August 2011 auf der Comiket 80.",
+			"characters":[
+				{
+					"name": "Mako Sato",
+					"alias": "Mako Sato",
+					"description":
+					[
+						"Mako Sato (佐藤 真子, Satō Mako, 'Maya') fährt im Usui-Duo, einer Fahrweise ähnlich der bei der WRC, und ist eine von Takumi Fujiwaras Gegnerinnen, bevor er zu Project D wechselt. Sie fährt einen Nissan SilEighty und galt zusammen mit ihrer Navigatorin Sayuki als die schnellste am Usui-Pass, bevor sie am Ende der Final Stage Profi-Rennfahrerin wird.",
+						"<br>",
+						"In der First Stage gilt Mako Sato zusammen mit ihrer Navigatorin Sayuki als die schnellste Fahrerin am Usui-Pass. Über ihre Vergangenheit ist nur sehr wenig bekannt, doch sie hat eine Schwäche für Autos und für Männer, die Autos mögen. In der First Stage wird sie zu einer von Takumi Fujiwaras Gegnerinnen, bevor er zu Project D wechselt. Das Rennen endet, als Mako eine Kurve zu schnell anfährt, ins Schleudern gerät und dabei fast einen Unfall zwischen den beiden Autos verursacht.",
+						"<br>",
+						"Mako interessiert sich für Iketani von den Akina SpeedStars. Ursprünglich näherte sie sich ihm nur, um ein Rennen gegen Takumis Eight-Six am Usui zu bekommen, und bot ihm im Gegenzug ihre Unschuld an. Im Laufe der Serie entwickeln Mako und Iketani jedoch echte Gefühle füreinander. Leider hält sie ein Missverständnis voneinander fern.",
+						"<br>",
+						"Mako ist zusammen mit Sayuki auch bei Takumis letztem Rennen gegen Shinji Inui von Sidewinder dabei und unterhält sich während des Hillclimb-Rennens zwischen Keisuke Takahashi und Go Hojo mit Shinji, ohne zu wissen, dass er Takumis Gegner im Downhill ist – bis er es selbst preisgibt.",
+						"<br>"
+					]
+				},
+				{
+					"name": "Sayuki",
+					"alias": "Sayuki",
+					"description":
+					[
+						"Sayuki (沙雪, 'Simone') ist Mako Satos Beifahrerin und Navigatorin und unterstützt sie in der First Stage bei ihrem Duell gegen Takumi Fujiwara.",
+						"<br>",
+						"Über ihre Vergangenheit ist extrem wenig bekannt, nicht einmal ihr Nachname wird in Manga oder Anime verraten. Bekannt ist, dass sie Mako Sato schon früh im Leben kennen- und liebenlernte und daraus eine gemeinsame Leidenschaft für Autos und Rennsport entstand. Irgendwann – wann genau, ist unklar – nehmen sich die beiden ihre Heimstrecke, den Usui-Pass, vor, wobei Sayuki als Makos Navigatorin fungiert und Mako selbst fährt. Offiziell besitzt Sayuki kein eigenes Auto, sagt aber, der Nissan SilEighty, den sie und Mako fahren, gehöre ihnen beiden gemeinsam.",
+						"<br>",
+						"Irgendwann fordern die beiden Takumi Fujiwara, das damals neue Downhill-Ass vom Akina, zu einem Rennen am Usui-Pass heraus. Sie verlieren, nachdem Mako eine der Kurven zu schnell anfährt und Sayuki ihr rät, ins Schleudern zu gehen, da sie den Wagen nicht mehr unter Kontrolle bringen können. Takumi weicht ihnen geschickt aus und verhindert so einen Unfall.",
+						"<br>",
+						"Nach dem Rennen lädt Sayuki Takumi und seine Freunde Itsuki, Iketani und Kenji zu einer Pool-Party ein und entwickelt dabei nach und nach einen Schwarm für Takumi, den sie auch gar nicht zu verbergen versucht – sie nennt ihn süß und liebenswert. Außerdem neckt sie Mako und Iketani, die beide Gefühle füreinander haben, obwohl ein Missverständnis sie auseinanderhält. Später in der Serie ist Sayuki zusammen mit Mako bei Takumis letztem Rennen gegen Shinji Inui von Sidewinder dabei und meint, Mako ähnele Takumi in vielerlei Hinsicht extrem stark.",
+						"<br>"
+					]
+				},
+				{
+					"name": "Kenta Nakamaura",
+					"alias": "Kenta Nakamaura",
+					"description":
+					[
+						"Kenta Nakamura (中村 賢太, Nakamura Kenta) ist eines der jüngsten Mitglieder der Akagi RedSuns und der drittbeste Fahrer des Teams. Kenta bewundert Keisuke Takahashi über alle Maßen und möchte sich ihm stets beweisen. Keisuke selbst erkannte Kentas fahrerisches Talent an, weshalb dieser gewissermaßen unter seine Fittiche genommen wurde. Kenta ist auf Regenbedingungen spezialisiert, da er es sich angewöhnt hatte, bei Regen zu üben – nasse Straßen nutzen seine Reifen schließlich weniger stark ab.",
+						"<br>",
+						"In der First Stage fordert er Takumi arrogant zu einem Regenrennen heraus und verliert. Das war zu der Zeit, als Takumi Itsuki als Ballast einsetzte, um eine Tofu-Ladung zu simulieren. (Zur Erinnerung: Takumi liefert jeden Tag Tofu aus, auch wenn es regnet.) ",
+						"<br>",
+						"In der Fourth Stage fährt er den Van Nummer 2 für Project D und übernimmt meist die Streckenaufklärung, bevor das Team tatsächlich vor Ort eintrifft – ob er dafür seinen S14 nutzt, ist allerdings unbekannt. Bevor er den Akagi RedSuns beitrat, wartete er absichtlich auf Regentage, um Drift zu üben.",
+						"<br>",
+						"In der Fifth Stage hilft Kenta Keisuke dabei, gegen Ende an Ryuji Ikeda von Spiral Zero vorbeizuziehen, zu Beginn eines neblig-schnellen Streckenabschnitts.",
+						"<br>"
+					]
+				},
+				{
+					"name": "Takeshi Nakazato",
+					"alias": "Takeshi Nakazato",
+					"description":
+					[
+						"Takeshi Nakazato (中里 毅, Nakazato Takeshi, 'Zack'), auch bekannt als der Schwarze Blitz (黒い稲妻, Kuroi Inazuma), ist der Anführer der Myogi NightKids. Sein erster Auftritt ist beim Rennen am Akina, bei dem Keisuke Takahashi von den RedSuns gegen Takumi Fujiwara antritt. Überrascht davon, dass Takumi Keisuke schlagen kann, beschließt Takeshi, dass er derjenige sein wird, der den 'Downhill-Spezialisten vom Akina' herausfordert und besiegt – und dass die RedSuns als Nächstes an der Reihe sind.",
+						"<br>",
+						"Er ist ein kluger und geschickter Fahrer und erkennt als einer der ersten Takumis Gutter-Hook-Technik, als er dessen erstes Duell zwischen dem Eight-Six und Keisukes FD beobachtet. Sein Verhängnis ist jedoch, dass ihm Wut und Emotionen den klaren Kopf rauben, was zu schlechter Gaskontrolle führt. Außerdem fährt er stets am Limit und vernachlässigt dabei oft den Reifenverschleiß, sodass er das Rennen am Ende verliert, manchmal sogar mit einem Unfall. Er ist ausgezeichnet in der Beschleunigung und bekannt für seine Grip-Fahrphilosophie. Sein vorheriges Auto war ein Nissan Silvia (S13), mit dem er Drift-Techniken einsetzte. Nach einer vernichtenden Niederlage gegen einen weißen (beziehungsweise silbernen) R32 auf seiner Heimstrecke Myogi wechselte er zum Nissan Skyline GT-R (R32). Nach dieser Niederlage änderte sich seine Philosophie: Er bevorzugt seitdem Grip-Fahrtechniken gegenüber 'schwachem' und 'effekthascherischem' Driften. Außerdem glaubt er, dass ein Auto unabhängig vom fahrerischen Können niemals über seine eigenen Grenzen hinauswachsen kann.",
+						"<br>",
+						"Takeshi ist der Anführer des NightKids-Teams am Mount Myogi und hat Interesse an Sayuki von Impact Blue gezeigt.",
+						"<br>",
+						"Er ist, genau wie Kunimitsu Takahashi, ein großer Fan des GT-R.",
+						"<br>"
+					]
+				},
+				{
+					"name": "Kyoichi Sudo",
+					"alias": "Kyoichi Sudo",
+					"description":
+					[
+						"Kyoichi Sudo (須藤 京一, Sudō Kyōichi, 'Kyle') ist Teamchef und Fahr-Ass des reinen Lancer-Evolution-Teams Emperor aus Gunma (laut Kennzeichen, das in späteren Serien allerdings auf Tochigi geändert wird) und einer der besten Fahrer der Serie. Er fährt einen auf 350 PS aufgemotzten Mitsubishi Lancer Evolution III mit einem WRC-typischen Anti-Lag-System. Seiner Philosophie nach braucht ein Auto einen starken Turbo und Allradantrieb.",
+						"<br>",
+						"Als alter Bekannter von Ryosuke Takahashi von den Akagi RedSuns ist Kyoichi Ryosuke sehr ähnlich: Im Vergleich zu seinem Teamkollegen Seiji ist er ein ruhiger und besonnener Fahrer. Um Ryosuke zu beweisen, dass er und sein Team die Besten sind, besiegen Kyoichi und Team Emperor nach und nach die verschiedenen Teams aus Gunma, darunter auch die NightKids. Er glaubt fest an die Überlegenheit seiner Rundstrecken-Techniken, während Ryosuke der Meinung ist, dass Straßenrennen ihre ganz eigenen Anforderungen haben. Seine Heimstrecke ist eine Einbahnstraße, weshalb er unübersichtliche Kurven auf zweispurigen Straßen nicht mit voller Kraft angreifen kann – was Ryosukes Sichtweise stützt. Er gilt zudem oft als der erste Fahrer, der Takumi je besiegt hat, als diesem am Akagi der Motor durchbrannte, verlor jedoch beim Rückkampf auf der Irohazaka. Es sei jedoch angemerkt, dass das Ergebnis eigentlich bestenfalls als Unentschieden zu werten ist und das Rennen selbst nicht länger als eine Runde dauerte. Kyoichi erklärte Takumi zum Sieger, allein weil dieser es geschafft hatte, im letzten Streckenabschnitt nicht überholt zu werden – dort, wo andere Fahrer ihm zuvor zum Opfer gefallen waren. Für Kyoichi, der stolz auf seine Fähigkeit zu gewinnen ist, kommt ein Unentschieden auf seiner Heimstrecke einer Niederlage gleich.",
+						"<br>",
+						"Er ist außerdem Absolvent der Todo-Fahrschule, obwohl er zuvor nie erkennbar mit dieser Institution in Verbindung gebracht wurde: Sein Evo III steht in starkem Kontrast zu den FWD-Hondas, die die Schüler sonst fahren, und Sudo verbaut keine Spoon-Sports-Teile in seinem Fahrzeug.",
+						"<br>",
+						"Er und die 'Two Guys From Tokyo' sind vermutlich die Einzigen in der Serie, deren Autos noch eine Serieninnenausstattung besitzen. Die einzigen Modifikationen am Fahrzeug sind die Leistungssteigerung auf 310 PS und ein WRC-Anti-Lag-System gegen Turboloch.",
+						"<br>"
+					]
+				},
+				{
+					"name": "Seiji Iwaki",
+					"alias": "Seiji Iwaki",
+					"description":
+					[
+						"Seiji Iwaki (岩城 清次, Iwaki Seiji, 'Hawk') ist der zweitbeste Fahrer im reinen Lancer-Evolution-Team Emperor und fährt entsprechend einen Lancer Evolution IV. Seiji ist ein fahrerisch starker, aber ziemlich arroganter, übermütiger und gelegentlich unvorsichtiger Typ. Für Emperor hat er zahlreiche Rennen gegen andere Teams gewonnen, darunter gegen Takeshi Nakazato von den NightKids und ein Mitglied von Thunder.",
+						"<br>",
+						"Als Team Emperor damals in der Präfektur Gunma auftauchte, um die lokalen Racing-Teams herauszufordern, wurde Seiji gegen praktisch jedes einzelne von ihnen geschickt. Bekanntlich besiegte er unter anderem mühelos einen 180SX von Team Thunderfires sowie Takeshi Nakazato von den Myogi NightKids, nahm sich anschließend jeweils den Team-Aufkleber des besiegten Autos, schnitt ihn in der Mitte durch und klebte ihn kopfüber an die Seite seines Evo-Heckflügels – ganz ähnlich, wie Kampfpiloten Abschussmarkierungen auf ihre Flugzeuge malen.",
+						"<br>",
+						"Nachdem Team Emperor mehrere Teams in Gunma besiegt hatte, nahmen sie sich die Akina Speed Stars vor, mit dem Ziel, den berüchtigten Eight-Six vom Akina zu schlagen. Seiji meldete sich freiwillig, um in seinem Evo IV gegen Takumis Eight-Six anzutreten. Kyoichi war sich durchaus bewusst, dass das kein leichtes Unterfangen werden würde, und wies Seiji ausdrücklich an, 'Simulation 3' zu befolgen – einen Plan, der nur zum Einsatz kommt, wenn der Sieg unsicher ist. Dieser Plan bedeutete: hinter dem Gegner bleiben und erst kurz vor dem Ziel überholen. Doch Seijis Selbstüberschätzung und Ungeduld führten zu seinem blamablen Untergang, sodass Kyoichi, der Teamchef, selbst gegen den Eight-Six antreten musste, bevor sich das Team dem nächsten Gegner zuwenden konnte. Es wurde auch erwähnt, dass Seiji gegen Kai Kogashiwa auf der Irohazaka verlor, wobei dieses Duell in der Serie nie tatsächlich gezeigt wurde. In der Battle Stage trat sein Evo IV zudem gegen Keisukes FD an – und verlor.",
+						"<br>",
+						"Eines von Seijis Markenzeichen ist es, den Team-Aufkleber besiegter Gegner zu entfernen, ihn in der Mitte durchzuschneiden und kopfüber an die Seitenblende seines Spoilers zu kleben – ganz nach dem Vorbild der Abschussmarkierungen, die Kampfpiloten auf ihre Flugzeuge malen.",
+						"<br>"
+					]
+				}
+			],
+			"trains":[
+				{
+					"name": "21",
+					"alias": "京急２１００形",
+					"description":
+					[
+						"<a href='https://ja.wikipedia.org/wiki/%E4%BA%AC%E6%80%A52100%E5%BD%A2%E9%9B%BB%E8%BB%8A' target='_blank'>((Wikipedia))</a>",
+						"<p>Die Baureihe 2100 der Keikyu Corporation, ein Nahverkehrszug, wurde 1998 in Dienst gestellt. Im Vergleich zu anderen Zügen ist er relativ neu.</p>",
+						"<p>Er verfügt über eine Aluminiumkarosserie und eine VVVF-Wechselrichtersteuerung mit Siemens-GTO-Elementen, die beim Beschleunigen einen unverkennbaren, an Musiknoten erinnernden Klang erzeugt. <a href='https://www.youtube.com/watch?v=sFNSyH9mpP4' target='_blank'>((YouTube))</a></p>",
+						"<p>Auf dem Herstelleraufkleber im Zuginneren steht unter dem Herstellernamen der Schriftzug 'Powered by SIEMENS' – eine Erinnerung an die Exzellenz deutscher Ingenieurskunst.</p>",
+						"<p>Bekannt als 'Do-Re-Mi-Inverter' oder 'singender Zug', finden sich seine einzigartigen Wechselrichter-Klänge auch in der Keikyu-Kampfmusik wieder.</p>",
+						"<p><a href='https://www.youtube.com/watch?v=sFNSyH9mpP4' target='_blank'>((YouTube))</a></p>",
+						"<p>Der von Kyoichi gefahrene 21XX-Zug verfügt über ein Keyboard und externe Lautsprecher, vermutlich um genau diese Klänge zu betonen.</p>",
+						"<p>Ungewöhnlich für eine Bahngesellschaft besitzt Keikyu ein Maskottchen namens 'Keikyu♪Do-Re-Mi-tan', das in einer Pappkarton-Version des Keikyu 2100 mitfährt. <a href='https://www.youtube.com/watch?v=jDRfqRhpFqA' target='_blank'>((YouTube))</a></p>",
+						"<p>BGM zu Folge 8: Out of Site <a href='https://www.youtube.com/watch?v=ul6ArVnVvkQ' target='_blank'>((YouTube))</a>. BGM zu Folge 14-15: MassDriver <a href='https://www.youtube.com/watch?v=wl5yEmao7GY' target='_blank'>((YouTube))</a></p>",
+						"<p>Wie die Keihan Railway begann auch Keikyu als Straßenbahnsystem, entwickelte sich mit dem Bevölkerungswachstum Tokios aber schnell zu einer stark frequentierten Nahverkehrslinie, die schließlich sogar die Flughäfen Haneda und Narita anbindet.</p>",
+						"<p>Die 'Keikyu-Hauptlinie', Schauplatz der Duelle in der Climax Stage, beginnt an der Station Keikyu-Kurihama, führt über die Station Yokohama und endet an der Station Shinagawa. Der Charakter der Strecke ändert sich in Yokohama drastisch.</p>",
+						"<p>Von Keikyu-Kurihama bis Yokohama schlängelt sich die Strecke durch hügeliges Gelände mit ununterbrochenen Kurven und Tunneln. Sobald die Hochbahnstrecke beginnt, verläuft sie durch enge Lücken zwischen Gebäuden.</p>",
+						"<p>Kurz vor der Endstation Shinagawa wartet eine enge Kurve mit einem Tempolimit von 40 km/h, gefolgt von einer Eisenbahnbrücke über die Gleise von JR East und einer scharfen Kurve mit einem Limit von 25 km/h.</p>",
+						"<p>Die Keikyu-Hauptlinie verbindet urbane Zentren wie Yokohama und Shinagawa und tritt in den Folgen 14-15 der Climax Stage in Erscheinung. <a href='https://ja.wikipedia.org/wiki/%E4%BA%AC%E6%80%A5%E6%9C%AC%E7%B7%9A' target='_blank'>((Wikipedia))</a></p>",
+						"<p>Wegen begrenzter Bahnsteiglänge an Stationen wie Yokohama kämpft die Strecke mit Überfüllung, was zu Betriebspraktiken wie dem Koppeln und Entkoppeln von 4- und 8-Wagen-Einheiten zu 12-Wagen-Formationen während der Stoßzeiten führt.</p>",
+						"<p>Als der Keikyu 2100 in Folge 8 sämtliche Bahnsteige der Hankyu-Station Umeda füllte, war Sudo den Tränen nahe, da Keikyu über keine derart gewaltigen Terminal-Anlagen verfügt.</p>",
+						"<p>Keikyu gleicht seine Nachteile durch akrobatische Betriebsabläufe aus, etwa durch verkürzte Kupplungszeiten, parallel geparkte Züge zur Bevorzugung von Schnelldiensten oder das kurzzeitige Zurücksetzen von Zügen auf Nebengleise, um andere passieren zu lassen. Fans lieben diese einzigartigen Praktiken. <a href='https://www.youtube.com/watch?v=VKCVh6Aba2w' target='_blank'>((YouTube))</a></p>",
+						"<p>Ursprünglich rot, wurde die Keikyu-Flotte um den flughafenthematisierten 'KEIKYU BLUE SKY TRAIN' und den 'KEIKYU YELLOW HAPPY TRAIN', eine Kollaboration mit der Seibu Railway, erweitert. Diese Varianten tauchen auch in *Densha de D* auf. <a href='https://www.keikyu.co.jp/train-info/train/index.html' target='_blank'>((Keikyu))</a></p>",
+						"<p>Die BGM 'RedLine' aus Folge 9 wurde nach den roten Zügen benannt.</p>",
+						"<p>Angesichts der zahlreichen Konkurrenten in Tokio ist Keikyu bekannt für 'Überholen durch Tempo' und 'Hochgeschwindigkeitshalte mit anschließender rasanter Beschleunigung', was ihm Spitznamen wie 'Roter Wüterich von Yokohama' und 'Hinterhof-Superexpress' eingebracht hat – Anspielungen auf seine Straßenbahn-Ursprünge und die Routen durch Wohngebiete.</p>",
+						"<p>Klang und Leistung machen ihn zu einem Pendant des Lancer Evolution, den Emperor in *Initial D* fährt – kraftvoll in jeder Hinsicht. <a href='https://www.youtube.com/watch?v=w_FkSzy5Mqs' target='_blank'>((YouTube))</a></p>",
+						"<p>In der Climax Stage verweist Sudos Turbo-Knopf auf das Lied 'MOTORMAN Keikyu VVVF' von SUPERBELL'Z, mit Textzeilen wie 'Rivale in Yokohama gesichtet, Betrieb mit 120 km/h eingeleitet'. <a href='https://www.youtube.com/watch?v=e4tEC2uMFB4' target='_blank'>((YouTube))</a></p>",
+						"<p>Keikyu-Züge sollen angeblich manchmal auch eine Rolle bei Verspätungen spielen … angeblich.</p>"
+					]
+				},
+				{
+					"name": "8000",
+					"alias": "京阪８０００",
+					"description":
+					[
+						"<a href='https://ja.wikipedia.org/wiki/%E4%BA%AC%E9%98%AA8000%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'>((Wikipedia))</a>",
+						"<p>Die 'Keihan-Hauptlinie', die am gegenüberliegenden Flussufer der Hankyu-Kyoto-Linie verläuft und Kyoto mit Osaka verbindet, ist der Schauplatz von Folge 5.</p>",
+						"<p>Bei ihrer Eröffnung verkehrte die Keihan-Hauptlinie als Straßenbahn, deren Gleise sich am Stadtbild entlangschlängelten. Dadurch weist sie zahlreiche Kurven und klar unterscheidbare Abschnitte auf: langsame Passagen durch die Stadt und schnelle Abschnitte auf Vorort- und Hochbahnstrecken. <a href='https://ja.wikipedia.org/wiki/%E4%BA%AC%E9%98%AA%E6%9C%AC%E7%B7%9A' target='_blank'>((Wikipedia))</a></p>",
+						"<p>Zudem sind die Vordersitze mit Panoramablick stets beliebt, sodass man sich diese Attraktion allein für den Preis eines Fahrscheins gönnen kann.</p>",
+						"<p>Mit hohem Tempo über die 'Keihan-Hauptlinie' rast der sogenannte 'Keihan-Express der Baureihe 8000'. Seit seinem Debüt 1989 ist er wegen seines eleganten Designs und komfortablen Fahrgefühls so beliebt, dass Fahrgäste eigens auf ihn warten – 'mit dem 8000er zu fahren' wurde selbst zum Reiseziel.</p>",
+						"<p>Trotz seines Namens 'Express' verkehrt er als gebührenfreier Nahverkehrszug. (Express-Züge von Hankyu und Keihan sind kostenlos, während die von Kintetsu (Nakazatos Gesellschaft) und Nankai (Mikis Gesellschaft) einen Aufpreis kosten.)</p>",
+						"<p>Später wurden Doppelstockwagen in der Zugmitte ergänzt, und die Anzahl der Formationen stieg stetig.</p>",
+						"<p>Der Keihan-Express ist traditionell zweifarbig in Orange und Zinnoberrot lackiert, bekannt als 'Express-Farben', mit einem Taubenemblem an der Front. <a href='https://www.youtube.com/watch?v=uhcefvStEYI' target='_blank'>((YouTube))</a></p>",
+						"<p>In *Densha de D* ist er jedoch in Grüntönen (hell und dunkel) gehalten und trägt an der Front ein Falkenemblem.</p>",
+						"<p>(Grüne Wagen) <a href='https://www.youtube.com/watch?v=ymtRwD8C8kA' target='_blank'>((YouTube))</a></p>",
+						"<p>Dieses Design ist eine Anspielung auf den SilEighty aus *Initial D*, der die Karosserie eines Nissan 180SX mit der Front eines Silvia kombiniert. <a href='https://ja.wikipedia.org/wiki/%E6%97%A5%E7%94%A3%E3%83%BB%E3%82%B7%E3%83%AB%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3' target='_blank'>((Wikipedia))</a></p>",
+						"<p>Der schnellste Fahrer in Kansai könnte durchaus ein Zugführer der Keihan Railway sein. (Dies wird im Nachwort zu Folge 5 von *Densha de D* von Kiyo〇 erwähnt.)</p>",
+						"<p>Zwischen Keihan Railway und Hankyu Railway besteht eine starke Rivalität, aus der zahlreiche legendäre Züge hervorgegangen sind.</p>",
+						"<p>Der 'Keihan-Express der Baureihe 8000' wurde entwickelt, um mit Hankyu zu konkurrieren – stark in schnellen Abschnitten und mühelos durch die vielen Kurven der langsamen Passagen. Er bewältigt den starken Verkehr zwischen Kyoto und Osaka trotz eines extrem dichten Fahrplans.</p>",
+						"<p>Immer wieder setzt er auf die Technik 'langsam rein, schnell raus' und schmiegt sich in den überhöhten Schienen schneller Kurven eng an die Strecke – ein dynamischer, mitreißender Anblick.</p>",
+						"<p>Der schnellste Fahrer in Kansai könnte durchaus ein Zugführer der Keihan Railway sein. (Dies wird im Nachwort zu Folge 5 von *Densha de D* von Kiyo〇 erwähnt.)</p>",
+						"<p>Um 2010 wurde mit der Einführung neuer Züge auch die Baureihe 8000 zweifarbig in Rot und Gelb umlackiert. Zudem wurden gebührenpflichtige 'Premium Cars' ergänzt.</p>"
+					]
+				},
+				{
+					"name": "8008",
+					"alias": "阪急８００８",
+					"description":
+					[
+						"<p>Er debütierte 1988 und verkehrt, genau wie Keisuke Takahashis 8200er, als Nahverkehrszug auf der Kobe-Linie.</p>",
+						"<p>Die Karosserie besteht aus leichtem Aluminium, mit großem Frontfenster und rollstuhlgerechten Bereichen – ein Ausdruck einer neuen Ära im Hankyu-Design.</p>",
+						"<p>… Trotz seines elektrisierenden Debüts verblasste die Neuheit schnell, als weitere Einheiten eingeführt wurden. Im Vergleich zum Keihan-Express der Baureihe 8000 am gegenüberliegenden Ufer schien seine Frische schneller zu verfliegen.</p>",
+						"<p>Der reale Hankyu 8008 wurde beim Großen Hanshin-Awaji-Erdbeben beschädigt, woraufhin seine Stromabnehmer ersetzt wurden – dadurch ist er die einzige Einheit mit einem Einholmstromabnehmer, ein Erkennungsmerkmal dieser Formation.</p>",
+						"<p>Mit der wachsenden Zahl an Hankyu-8000er-Zügen geriet der 8008 zunehmend in Vergessenheit. Bemerkenswert ist jedoch seine im Vergleich zu anderen Formationen etwas bessere Ausstattung – was irgendwie sehr gut zu Kenta passt …</p>",
+						"<p>Der reale Hankyu 8008 wurde beim Großen Hanshin-Awaji-Erdbeben beschädigt, woraufhin seine Stromabnehmer ersetzt wurden – dadurch ist er die einzige Einheit mit einem Einholmstromabnehmer, ein Erkennungsmerkmal dieser Formation.</p>",
+						"<p>Mit der wachsenden Zahl an Hankyu-8000er-Zügen geriet der 8008 zunehmend in Vergessenheit. Bemerkenswert ist jedoch seine im Vergleich zu anderen Formationen etwas bessere Ausstattung – was irgendwie sehr gut zu Kenta passt …</p>",
+						"<p>Mit etwas Glück erwischt man während der Pendlerzeiten eine zehnteilige Formation des 'Kobe Line RedSuns'-Tag-Teams aus 8200 und 8008. Selbst bei der Arbeit bleibt man Keisuke eben treu …</p>"
+					]
+				}
+			]
+		},
+
+		"climax": {
+			"name": "Climax Stage",
+			"description": "Densha de D: Climax Stage ist der dritte Teil der Densha-de-D-Serie. Ein Zugrennspiel, das die populäre Manga-Serie Initial D parodiert.",
+			"characters": [
+				{
+					"name": "Takumi Fujiwara",
+					"alias": "Takumi Fujiwara",
+					"description":
+					[
+						"Takumi Fujiwara (藤原拓海, Fujiwara Takumi; in der Tokyopop-Version 'Tak' genannt) ist der Hauptprotagonist von Initial D, Mitglied von Project D und mit den Akina SpeedStars befreundet. Er fährt den Toyota Sprinter AE86 Trueno GT Apex, kurz den Eight-Six, der ursprünglich seinem Vater Bunta gehörte. Mehr oder weniger gezwungenermaßen wurde er zum Tofu-Lieferjungen des väterlichen Betriebs und liefert jeden Morgen am Mount Akina aus.",
+						"<br>",
+						"Obwohl er scheinbar keine Ahnung von Autos hat – er wusste nicht einmal, dass sein Wagen 'Eight-Six' genannt wird –, ist Takumi ein extrem talentierter Fahrer, der schon seit der Mittelstufe auf dem Akina unterwegs ist. Das weckte die Aufmerksamkeit anderer Racing-Teams wie der Akagi RedSuns und der Myogi NightKids, die sich alle ein Rennen gegen Takumi wünschten.",
+						"<br>",
+						"Auf seinem Weg nach oben fuhr er gegen Keisuke Takahashi, die NightKids-Mitglieder Takeshi Nakazato und Shingo Shoji, das weibliche Racing-Duo Impact Blue, Kenta Nakamura und schließlich gegen Ryosuke Takahashi, dessen Siegesserie er damit beendete. Zur gleichen Zeit war er mit Natsuki Mogi zusammen.",
+						"<br>",
+						"Seine Siegesserie fand angeblich ihr Ende, als er gegen Kyoichi Sudo antrat, den Anführer von Emperor am Mount Akagi. Kyoichi erklärte jedoch, dass er das Rennen gar nicht als richtiges Rennen wertete – er wollte Takumi lediglich beweisen, dass der Eight-Six seinem Evo III nicht gewachsen ist. Bunta reparierte den Eight-Six anschließend mit einem neuen Motor und einigen Verbesserungen. Mit dem überholten Eight-Six trat Takumi dann gegen Wataru Akiyama an, einen Fahrer aus der Region Saitama, der ebenfalls einen Eight-Six fährt.",
+						"<br>",
+						"Nach einem Rückkampf gegen Kyoichi und einem Rennen gegen Kai Kogashiwa versöhnte er sich mit Natsuki, bevor sich ihre Wege trennten. Er schloss sich Ryosukes neuem Team Project D an, das ein ähnliches Ziel verfolgte wie zuvor die RedSuns. Als Downhill-Fahrer von Project D verbesserten sich seine Fähigkeiten enorm, während er gegen immer stärkere Gegner aus verschiedenen Regionen antrat. In dieser Zeit lernte er auch seine zweite Freundin Mika Uehara kennen, eine Golferin.",
+						"<br>",
+						"Sein letztes Rennen innerhalb von Project D bestritt er gegen Shinji Inui von Sidewinder. Er gewann zwar, doch dabei ging der Motor des Eight-Six kaputt. Inzwischen fährt er Buntas Subaru Impreza, tritt weiterhin am Mount Akina an und plant, Profi-Rennfahrer zu werden.",
+						"<br>"
+					]
+				},
+				{
+					"name": "Keisuke Takahashi",
+					"alias": "Keisuke Takahashi",
+					"description":
+					[
+						"Keisuke Takahashi (高橋 啓介, Takahashi Keisuke, K.T.) ist der zweitbeste Fahrer der RedSuns. Keisuke fährt einen efini RX-7 Type R (FD3S) und ist ein hervorragender Fahrer, übertroffen nur von seinem älteren Bruder Ryosuke. Er ist ein ziemlicher Hitzkopf und hasst es zu verlieren. Bekanntlich fährt er sehr emotional: Merkt er, dass er nicht gewinnen kann, leidet sein Fahrstil, führt er dagegen, ist er entspannt und gelassen. Früher rebellierte er gegen seine Eltern und geriet oft mit ihnen aneinander, bis sie es schließlich aufgaben, auf ihn einzuwirken. Ryosuke verstand sehr gut, wie Keisuke sich fühlte, nahm ihn eines Tages mit auf eine Bergabfahrt – und das veränderte sein Leben. Bevor Ryosuke ihn zum Straßenrennsport brachte, war Keisuke Anführer einer Bōsōzoku-Gang. Er schließt sich dem neuen Team seines Bruders an und liefert sich eine Rivalität mit Takumi. Bei den meisten Rennen fährt Keisuke den Hillclimb (bergauf), während Takumi den Downhill übernimmt.",
+						"<br>",
+						"Keisuke ist nicht so analytisch veranlagt wie sein älterer Bruder, und Ryosukes Fähigkeit, alles zu berechnen und zu analysieren, beeindruckt ihn sehr. Umgekehrt fasziniert Ryosuke aber auch, wie wenig Keisuke beim Fahren nachdenkt und einfach nur seinem Gefühl folgt. Während Ryosuke beschlossen hat, nicht mehr lange Rennen zu fahren und stattdessen Arzt zu werden, hat Keisuke sein Leben ganz dem Rennsport verschrieben – sein Ziel ist es, Profi-Rennfahrer zu werden. Doch zuerst muss er Takumi besiegen. Auch wenn die beiden sichtlich gut miteinander auskommen, gibt es immer noch eine Art Wettstreit darüber, wer das Ass ist, wobei Keisuke durchaus Respekt vor Takumi hat. Einmal sagte er, er sei nicht so mental stark wie Takumi, weil dieser vor einem großen Rennen einfach blitzschnell einschlafen konnte – was Keisuke fragen ließ, ob Takumi überhaupt wisse, was Druck bedeutet.",
+						"<br>",
+						"Gegen Ende des Fourth-Stage-Animes haben sich Keisukes Fähigkeiten so drastisch verbessert, dass ihm die Kontaktdaten eines Profi-Racing-Teams angeboten werden. Keisuke lehnt das Angebot ab, da er glaubt, noch einen weiten Weg vor sich zu haben, bevor er für eine Profikarriere bereit ist. Takumi merkt zur gleichen Zeit an, dass Keisuke ihn in einem ernsthaften Rennen wahrscheinlich schlagen könnte.",
+						"<br>",
+						"Nach der Final Stage wird er mit seinem RX-7 hauptberuflicher Profi-Rennfahrer, mit Tomiguchi als seinem persönlichen Mechaniker",
+						"<br>"
+					]
+				},
+				{
+					"name": "Kai Kogashiwa",
+					"alias": "Kai Kogashiwa",
+					"description":
+					[
+						"Kai Kogashiwa (小柏 カイ, Kogashiwa Kai) ist ein Straßenrennfahrer aus der Präfektur Tochigi und der Sohn eines legendären Downhill-Asses und Buntas Rivalen, Ken Kogashiwa. Ken brachte Kai schon in jungen Jahren den Rennsport bei, unter anderem durch Kart-Wettbewerbe, wodurch er sich auf Midships (umgangssprachlich für Mittelmotor mit Heckantrieb) spezialisierte. Vor seinem Wechsel zum Straßenrennsport war Kai der schnellste Motorradfahrer auf der Irohazaka. Man erkennt Parallelen zwischen Kais Spezialgebiet auf der Irohazaka und Takumis am Akina: Er wohnt am Chuzenji-See (oben auf der Irohazaka) und nimmt die Strecke täglich auf dem Weg nach unten. ",
+						"<br>",
+						"Kai forderte Takumi auf Emperors Heimstrecke, der Irohazaka, heraus. Zuvor hatte er bereits Seiji Iwaki von Emperor besiegt und wollte auch Kyoichi schlagen, richtete sein Augenmerk nach dessen Niederlage aber auf Takumi. Kai wendet einen Trick an, den ihm sein Vater beigebracht hat, um Takumi zu überholen: Er springt in Kurve 33 durch eine Lücke in der Leitplanke. Auf der letzten Geraden verliert sein Auto jedoch die Haftung, als er auf Laub am Straßenrand landet, er gerät ins Schleudern und wird besiegt. ",
+						"<br>",
+						"Kai taucht später als Gegner für Project D in der Präfektur Kanagawa erneut auf. Er tritt als Downhill-Ass von R.T. Katagiri gegen den Eight-Six an. Im letzten Abschnitt gerät er jedoch ins Schleudern, was ihn das Rennen kostet.",
+						"<br>",
+						"Ursprünglich fährt Kai den Toyota SW20 MR2 seines Vaters, wechselt später aber zu einem silbernen Toyota MR-S ZZW30 (einem MR2-Roadster der dritten Generation) und überlässt den SW20 wieder seinem Vater.",
+						"<br>"
+					]
+				},
+				{
+					"name": "Kyoichi Sudo",
+					"alias": "Kyoichi Sudo",
+					"description":
+					[
+						"Kyoichi Sudo (須藤 京一, Sudō Kyōichi, 'Kyle') ist Teamchef und Fahr-Ass des reinen Lancer-Evolution-Teams Emperor aus Gunma (laut Kennzeichen, das in späteren Serien allerdings auf Tochigi geändert wird) und einer der besten Fahrer der Serie. Er fährt einen auf 350 PS aufgemotzten Mitsubishi Lancer Evolution III mit einem WRC-typischen Anti-Lag-System. Seiner Philosophie nach braucht ein Auto einen starken Turbo und Allradantrieb.",
+						"<br>",
+						"Als alter Bekannter von Ryosuke Takahashi von den Akagi RedSuns ist Kyoichi Ryosuke sehr ähnlich: Im Vergleich zu seinem Teamkollegen Seiji ist er ein ruhiger und besonnener Fahrer. Um Ryosuke zu beweisen, dass er und sein Team die Besten sind, besiegen Kyoichi und Team Emperor nach und nach die verschiedenen Teams aus Gunma, darunter auch die NightKids. Er glaubt fest an die Überlegenheit seiner Rundstrecken-Techniken, während Ryosuke der Meinung ist, dass Straßenrennen ihre ganz eigenen Anforderungen haben. Seine Heimstrecke ist eine Einbahnstraße, weshalb er unübersichtliche Kurven auf zweispurigen Straßen nicht mit voller Kraft angreifen kann – was Ryosukes Sichtweise stützt. Er gilt zudem oft als der erste Fahrer, der Takumi je besiegt hat, als diesem am Akagi der Motor durchbrannte, verlor jedoch beim Rückkampf auf der Irohazaka. Es sei jedoch angemerkt, dass das Ergebnis eigentlich bestenfalls als Unentschieden zu werten ist und das Rennen selbst nicht länger als eine Runde dauerte. Kyoichi erklärte Takumi zum Sieger, allein weil dieser es geschafft hatte, im letzten Streckenabschnitt nicht überholt zu werden – dort, wo andere Fahrer ihm zuvor zum Opfer gefallen waren. Für Kyoichi, der stolz auf seine Fähigkeit zu gewinnen ist, kommt ein Unentschieden auf seiner Heimstrecke einer Niederlage gleich.",
+						"<br>",
+						"Er ist außerdem Absolvent der Todo-Fahrschule, obwohl er zuvor nie erkennbar mit dieser Institution in Verbindung gebracht wurde: Sein Evo III steht in starkem Kontrast zu den FWD-Hondas, die die Schüler sonst fahren, und Sudo verbaut keine Spoon-Sports-Teile in seinem Fahrzeug.",
+						"<br>",
+						"Er und die 'Two Guys From Tokyo' sind vermutlich die Einzigen in der Serie, deren Autos noch eine Serieninnenausstattung besitzen. Die einzigen Modifikationen am Fahrzeug sind die Leistungssteigerung auf 310 PS und ein WRC-Anti-Lag-System gegen Turboloch.",
+						"<br>"
+					]
+				},
+				{
+					"name": "Miki",
+					"alias": "Miki",
+					"description":
+					[
+						"Miki (御木) ist ein älterer Schüler im Fußballclub der Schule, die Takumi besuchte. Er fährt einen Celica GT-Four (ST205). In der 1st Stage schlägt Takumi ihn in der Umkleidekabine nieder, weil er mit seinen angeblichen sexuellen Eroberungen bei Natsuki prahlt – zu einer Zeit, als Takumi die Wahrheit noch nicht kannte. Im Winter entführt Miki Natsuki und zwingt sie, mit ihm zum Akina-See zu fahren. Seine Pläne werden von Takumi vereitelt, der Natsukis Hilferuf erhält und Miki mit seinem Trueno verfolgt, bis dieser im Schnee ins Schleudern gerät und Natsuki aus seinem Celica entkommen kann.",
+						"<br>",
+						"Später stellt sich heraus, dass er und Shiraishi Geschwister sind, Kinder eines Mannes, der einen weißen Mercedes fährt – wobei keiner von beiden das je erfährt.",
+						"<br>"
+					]
+				},
+				{
+					"name": "Wataru Akiyama",
+					"alias": "Wataru Akiyama",
+					"description":
+					[
+						"Wataru Akiyama (秋山 渉, Akiyama Wataru, 'Aki') war einer der ersten Fahrer aus Saitama, der tatsächlich mit seinem turbogeladenen Levin gegen Takumi antrat. Später taucht er im Project-D-Handlungsbogen erneut auf, diesmal mit einem Kompressor statt Turbolader für lineareres Beschleunigungsverhalten und ohne Turboloch. Wataru ist ein geschickter Fahrer, der sein Können auf dem tückischen Shomaru-Pass verfeinert hat. Er kam nach Gunma, in der Hoffnung, neue Herausforderer zu finden, und um nach seiner Schwester Kazumi zu sehen, die gerade zusammen mit ihrer Tante einen Job in einem Hotel angetreten hatte. Wataru ist Nobuhikos Cousin, was deutlich wird, als er Takumis Rennen gegen die Northern Saitama Alliance beobachtet, um eine Schwachstelle zu finden.",
+						"<br>",
+						"Mehrmals im Verlauf der Fourth Stage sucht Wataru Takumi auf und gibt ihm Ratschläge, wann immer er sich am Akina aufhält – vor allem hilft er ihm dabei, seinen 'Allradantrieb-Komplex' zu überwinden.",
+						"<br>",
+						"Später tritt Wataru bei einem Regenrennen gegen Keisuke Takahashi an, verliert jedoch, als seine Reifen beim Berühren eines metallenen Gullydeckels die Haftung verlieren, während er gerade seine Scheibenwischer justiert.",
+						"<br>",
+						"Einige Zeit später stellt Wataru irgendwo in Saitama das falsche Project D zur Rede und hilft dem echten Project D dabei, die Hochstapler zu entlarven.",
+						"<br>",
+						"Später verfolgt er zusammen mit Nobuhiko und Sakamoto das letzte Rennen zwischen Project D und Sidewinder.",
+						"<br>"
+					]
+				},
+				{
+					"name": "Tsukamoto",
+					"alias": "Tsukamoto",
+					"description":
+					[
+						"Tsukamoto (塚本) ist ein Nebencharakter, der im Manga etwa zur Zeit von Takumis Rennen gegen Kyoichi von Emperor auftaucht. Tsukamoto war ein Oberstufenschüler, als Takumi und Natsuki noch Neulinge waren, und ist inzwischen locker in die Straßenrennszene am Akagi involviert. Er hält sein eigenes Können für extrem, tatsächlich ist es davon aber weit entfernt. Echtes Extremfahren erlebt er bald am eigenen Leib, als Takumi auf Natsukis Bitte hin mit seinem 180SX den Akagi hinunterfährt, um ein überhebliches Pärchen in einem Silvia S13 zu überholen – woraufhin Tsukamoto in Ohnmacht fällt.",
+						"<br>"
+					]
+				}
+			],
+			"trains":[
+				{
+					"name": "2800",
+					"alias": "阪急２８００系",
+					"description":
+					[
+						"<a href='https://ja.wikipedia.org/wiki/%E9%98%AA%E6%80%A52800%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'>((Wikipedia))</a>",
+						"<p>Der Fahrer ist Wataru Akiyama.</p>",
+						"<p>Bisher hatten die meisten Züge „Longitudinalsitze“, die wie Sitzbänke wirken. (Longitudinalsitze) <a href='https://ja.wikipedia.org/wiki/%E9%89%84%E9%81%93%E8%BB%8A%E4%B8%A1%E3%81%AE%E5%BA%A7%E5%B8%AD#%E3%83%AD%E3%83%B3%E3%82%B0%E3%82%B7%E3%83%BC%E3%83%88%EF%BC%88%E7%B8%A6%E5%BA%A7%E5%B8%AD%EF%BC%89' target='_blank'>((Wikipedia))</a></p>",
+						"<p>Hankyus Rivale, die Keihan Electric Railway, führte die Baureihe Keihan 1900 mit nur zwei Türen pro Wagen ein, um mehr Sitzplätze und in Fahrtrichtung ausgerichtete Quersitze zu ermöglichen, was den Fahrgästen mehr Komfort bot. (Quersitze) <a href='https://ja.wikipedia.org/wiki/%E9%89%84%E9%81%93%E8%BB%8A%E4%B8%A1%E3%81%AE%E5%BA%A7%E5%B8%AD#%E3%82%AF%E3%83%AD%E3%82%B9%E3%82%B7%E3%83%BC%E3%83%88%EF%BC%88%E6%A8%AA%E5%BA%A7%E5%B8%AD%EF%BC%89' target='_blank'>((Wikipedia))</a></p>",
+						"<p>(Keihan-Baureihe 1900) <a href='https://ja.wikipedia.org/wiki/%E4%BA%AC%E9%98%AA1900%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'>((Wikipedia))</a></p>",
+						"<p>Daraufhin wechselten immer mehr Fahrgäste von Hankyu zu Keihan. Als Antwort brachte Hankyu die Baureihe 2800 heraus, mit einer dem 2300er ähnlichen Karosserie, aber weniger Türen – nur zwei pro Wagen – und Quersitzen, als direkte Konkurrenz zu Keihans Zügen.</p>",
+						"<p>Dieser Unterschied zwischen Quer- und Longitudinalsitzen wird in Folge 12 durch eine Szene dargestellt, in der Hürden im Zuginneren aufgestellt sind. Nur echte Bahnfans erkennen die feine Anspielung darauf, dass sich die Innenausstattung der Baureihen 2000 und 2800 unterscheidet.</p>",
+						"<p>Obwohl Hankyu hart mit Keihan um den besten Service konkurrierte, geriet man mit der Einführung der Keihan-Baureihe 3000, die über Farbfernseher verfügte, zunehmend ins Hintertreffen. (Keihan-Baureihe 3000) <a href='https://ja.wikipedia.org/wiki/%E4%BA%AC%E9%98%AA3000%E7%B3%BB%E9%9B%BB%E8%BB%8A_(%E5%88%9D%E4%BB%A3)' target='_blank'>((Wikipedia))</a></p>",
+						"<p>Als der Nachfolger, die Hankyu-Baureihe 6300, eingeführt wurde, war der 2800er bereits vom Express- in den regulären Betrieb zurückgestuft worden. Mit der Zeit wurden die Wagen von zwei- auf dreitürig umgebaut. Ohne technische Modernisierung, nach jahrelangem Expressbetrieb und durch die strukturelle Schwächung infolge des Türumbaus, wurden sie 1995 schließlich ausgemustert – obwohl sie erst nach den Baureihen 2000 und 2300 debütiert hatten.</p>",
+						"<p>In Folge 9 überholt die Hankyu-Baureihe 2800 die Baureihe 6300 mit Iketani und Kenji an Bord und zeigt sich dabei noch einmal in ihrem alten Express-Glanz. Wer diese Ära noch kennt, dem dürften dabei genau wie Iketani und Kenji die Tränen kommen.</p>",
+						"<p>Wataru Akiyamas AE86 Levin in *Initial D* verfügt über einen „Dokkan-Turbo“ und setzt bewusst auf sein Handicap als „altes Auto“, um Gegner an ihre Grenzen zu bringen. Ganz ähnlich sind in *Densha de D* bei der Hankyu-Baureihe 2800 alle Wagen angetrieben, was die schwache Beschleunigung und die mäßige Bergsteigfähigkeit der älteren, widerstandsgesteuerten Hankyu-Baureihe 2000 ausgleicht.</p>",
+						"<p>Das Duell findet auf der Arima-Sanda-Linie der Kobe Electric Railway statt, einer Strecke, die die urbanen Gebiete von Osaka und Kobe in nur wenigen Dutzend Minuten mit dem berühmten Thermalort Arima Onsen verbindet.</p>",
+						"<p>Der Ausgangspunkt, die Station Shinkaichi, wird von Hankyu, Hanshin und Sanyo Railway angefahren, zieht viele Touristen an und bewältigt hohes Fahrgastaufkommen. Je weiter die Strecke jedoch ins Gebirge führt, desto weniger Fahrgäste hat sie. Die Linie wechselt von zwei- auf eingleisig, und die von der Station Suzurandai abzweigende Aō-Linie hat inzwischen so wenige Fahrgäste, dass ihr die Stilllegung droht.</p>",
+						"<p>In *Initial D* ist Wataru Akiyamas Duell-Schauplatz, der Shomaru-Pass, bekannt für häufige Unfälle, wie seine Schwester Kazumi anmerkt. Ganz ähnlich kommt es auf der Arima-Sanda-Linie der Kobe Electric Railway häufig zu Kollisionen mit Wildtieren. So tief führt die Strecke ins Gebirge – die Umgebung ist mancherorts so trostlos, dass der Hintergrund schlicht schwarz bleibt, weil es einfach nichts zu zeigen gibt!</p>"
+					]
+				},
+				{
+					"name": "9000",
+					"alias": "阪神９０００系",
+					"description":
+					[
+						"<a href='https://ja.wikipedia.org/wiki/%E9%98%AA%E7%A5%9E9000%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'>((Wikipedia))</a>",
+						"<p>Der Fahrer ist Tsukamoto.</p>",
+						"<p>Tsukamoto ist Takumis Senior und derjenige, der das Duell zwischen Keisuke und Wataru unterbrach.</p>",
+						"<p>… In der Anime-Adaption wurde dieser Charakter jedoch komplett gestrichen, und die Person, die das Duell unterbrach, wurde durch einen anderen Charakter ersetzt.</p>",
+						"<p>Die Hanshin-Baureihe 9000 wurde gebaut, um den Wagenmangel der Hanshin Electric Railway nach dem Großen Hanshin-Awaji-Erdbeben 1995 auszugleichen. Um die Lücke schnell zu schließen, wurde die Produktion gestrafft und auf Edelstahlkarosserien gesetzt, um die Bauzeit zu verkürzen.</p>",
+						"<p>Die Hanshin Electric Railway, ein Konkurrent von Hankyu, verläuft etwas südlich der Hankyu-Kobe-Linie und liefert sich einen erbitterten Wettbewerb um Fahrgäste. <a href='https://ja.wikipedia.org/wiki/%E9%98%AA%E7%A5%9E%E9%9B%BB%E6%B0%97%E9%89%84%E9%81%93' target='_blank'>((Wikipedia))</a></p>",
+						"<p>Hanshin ist berühmt für seine „Hanshin Jet Cars“, die mit Japans schnellster Beschleunigung aufwarten und eng aufeinanderfolgende Stationen mit rasanter Beschleunigung und Verzögerung verbinden. <a href='https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88%E3%82%AB%E3%83%BC' target='_blank'>((Wikipedia))</a></p>",
+						"<p>2006 wurde die Hanshin Electric Railway jedoch eine Tochtergesellschaft der Hankyu Railway.</p>",
+						"<p>Durch diesen Zusammenschluss entstand die ungewöhnliche Situation, dass Hankyus überfüllte Depots durch Hanshin-Depots für die Wartung ergänzt wurden.</p>",
+						"<p>Das führte dazu, dass tatsächlich „Hankyu-Züge auf Hanshin-Gleisen“ verkehrten – ein Szenario, das an *Densha de D* erinnert und wirklich passiert ist. Das Ereignis ging auf Twitter viral und schaffte es sogar in die Zeitungen. <a href='https://nishinomiya.keizai.biz/headline/182/' target='_blank'>((Keizai))</a></p>",
+						"<p>Es wurde auch in einem Blog vorgestellt. <a href='http://d.hatena.ne.jp/keyboar/20140717/1405554815' target='_blank'>((Hatena))</a></p>",
+						"<p>Außerdem grüßt Tsukamoto in einem Bonus-Manga, das *Densha de D Compilation Band 7* beiliegt, Takumi mit den Worten: „Jetzt, wo wir zur selben Hankyu-Gruppe gehören, lass uns gut miteinander auskommen.“</p>",
+						"<p>Übrigens gilt die Hanshin-Baureihe 9000 als „Rotkörper-Wagen“ und wird als gewöhnlicher Zug eingestuft. Seine Beschleunigungs- und Driftleistung ist unauffällig, wobei auch Tsukamotos fahrerisches Können dabei eine Rolle spielt.</p>",
+						"<p>Heute sind diese Züge umlackiert und verkehren als Fernverkehrsfahrzeuge, die über die Kintetsu Railway Kobe, Osaka und Nara miteinander verbinden.</p>"
+					]
+				},
+				{
+					"name": "2000",
+					"alias": "ＪＲ四国 ２０００ＧＴ",
+					"description":
+					[
+						"<a href='https://ja.wikipedia.org/wiki/JR%E5%9B%9B%E5%9B%BD2000%E7%B3%BB%E6%B0%97%E5%8B%95%E8%BB%8A' target='_blank'>((Wikipedia))</a>",
+						"<p>Der Fahrer ist Kogashiwa Kai.</p>",
+						"<p>Die JR-Shikoku-Baureihe 2000 wurde entwickelt, um auf der Tokushima-Linie mit ihren zahlreichen steilen Steigungen und scharfen Kurven höheres Tempo zu ermöglichen. Es ist weltweit der erste „neigetechnische Dieseltriebwagen“ mit „Neigedrehgestell“, das es dem Zug erlaubt, sich in Kurven zu neigen und diese ohne Tempoverlust zu durchfahren.</p>",
+						"<p>Der neigetechnische Zug der JR-Shikoku-Baureihe 2000 durchfährt Kurven mit hohem Tempo <a href='https://www.youtube.com/watch?v=1uPChEscS8U' target='_blank'>((YouTube))</a></p>",
+						"<p>Ein „Dieseltriebwagen“ ist ein Schienenfahrzeug, das statt elektrisch mit einem Dieselmotor angetrieben wird. Der von Kogashiwa Kai gefahrene 2000 GT besteht aus 4 Dieseltriebwagen der JR-Shikoku-Baureihe 2000, gekoppelt mit 4 Gasturbinenwagen, zusammen eine achtteilige Zugeinheit. (GT steht für Gasturbine.)</p>",
+						"<p>In Japan blieben gasturbinengetriebene Fahrzeuge tatsächlich auf Prototypen beschränkt.</p>",
+						"<p>In den 1960er-Jahren entwickelten die Französische Staatsbahn und die Canadian National Railway Gasturbinenzüge und setzten sie im Rahmen ihrer Hochgeschwindigkeitssysteme ein.</p>",
+						"<p>Auch Japan begann mit der Entwicklung der Gasturbinentechnik und nutzte Flugzeugtriebwerke für Prototypfahrzeuge. Tests zeigten vielversprechende Geschwindigkeiten von bis zu 130 km/h, doch die ursprünglich für Flugzeuge konzipierten Triebwerke waren extrem laut und erzeugten übermäßig viel Hitze.</p>",
+						"<p>Da die Triebwerke für Flugzeuge gedacht waren, waren sie klein, leicht und leistungsstark – um den Lärm zu reduzieren, wurden sie jedoch vergrößert, was wiederum den Platz für Fahrgäste verringerte.</p>",
+						"<p>Zudem wurden die heißen Abgase der Triebwerke in Tunneln von den Triebwerken nachfolgender Wagen angesaugt, was aus Sicherheitsgründen Notstopps auslöste und zu häufigen technischen Problemen führte.</p>",
+						"<p>Die Triebwerke reagierten zudem empfindlich auf Temperaturschwankungen, was die Leistung minderte, und ihr Kraftstoffverbrauch bei niedrigem Tempo war deutlich schlechter als erwartet, besonders an Stationen mit häufigen Halten und engen Kurven.</p>",
+						"<p>Mit der Ölkrise von 1973 verschärfte sich die Lage weiter, und das Konzept der Gasturbinentriebwerke wurde aufgegeben. Die Prototypwagen werden privat im Omiya-Depot von JR East aufbewahrt.</p>",
+						"<p>In Folge 16 unterhalten sich Kyoichi Sudo und Ryosuke Takahashi darüber, dass Gasturbinentriebwerke für den Bahnbetrieb zwar nie praktikabel waren, „aber vielleicht als reine Kampf-Modifikation hätten sie funktionieren können …“ Dieses Gespräch basiert auf der oben beschriebenen Forschung, Entwicklung und den Ergebnissen.</p>",
+						"<p>Schauplatz des Duells ist die Kintetsu-Nara-Linie, eine Gebirgsstrecke von Nara über den Ikoma-Berg bis nach Osaka-Namba. <a href='https://ja.wikipedia.org/wiki/%E8%BF%91%E9%89%84%E5%A5%88%E8%89%AF%E7%B7%9A' target='_blank'>((Wikipedia))</a></p>",
+						"<p>Der Zug fährt an den Ruinen des Heijō-Palasts vorbei, erklimmt eine Steigung und verlässt den langen Ikoma-Tunnel (3,3 km). </p>",
+						"<p>Der besondere Abschnitt der Tokushima-Linie von Ishikiri bis zur Station Nukata weist steile Steigungen und weite Kurven auf, ideal für Abkürzungen durch die Luft. Dieser Bereich liegt hoch oben und bietet einen Panoramablick auf die nächtliche Skyline von Osaka.</p>",
+						"<p>An der Station Fuse mündet die Kintetsu-Osaka-Linie ein, wodurch ein viergleisiger Abschnitt entsteht.</p>",
+						"<p>Von der Endstation Osaka-Namba aus erlaubt die Hanshin-Namba-Linie mittlerweile die direkte Weiterfahrt ins Streckennetz der Hanshin Electric Railway.</p>",
+						"<p>Die heute als überholt geltende Gasturbinentechnik wurde so zur Grundlage eines faszinierenden Duells in *Densha de D* – der brüllende, schwarzen Rauch ausstoßende 2000 GT avancierte damit zu einem der Fan-Lieblinge der Serie.</p>"
+					]
+				},
+				{
+					"name": "50000",
+					"alias": "南海５００００系 ラピート",
+					"description":
+					[
+						"<a href='https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%94%E3%83%BC%E3%83%88' target='_blank'>((Wikipedia))</a>",
+						"<p>Der Fahrer ist Miki.</p>",
+						"<p>Die Nankai Electric Railway betreibt den Flughafen-Express, umgangssprachlich als „Eiserne Maske“ bekannt, der Namba mit dem Kansai International Airport (Kanku) verbindet. <a href='https://ja.wikipedia.org/wiki/%E5%8D%97%E6%B5%B7%E9%9B%BB%E6%B0%97%E9%89%84%E9%81%93' target='_blank'>((Wikipedia))</a></p>",
+						"<p>Der Name „Rapi:t“ stammt vom englischen Wort 'rapid', was auf Deutsch 'schnell' bedeutet. Er debütierte 1994 und verband die Innenstadt Osakas nonstop in nur 29 Minuten mit dem Flughafen.</p>",
+						"<p>Allerdings gelang es ihm nicht, seinen Vorteil gegenüber Limousinenbussen und anderen Expresszügen mit direkter Anbindung nach Kyoto zu halten, was zu sinkenden Fahrgastzahlen führte. Der Zug begann, zusätzliche Halte einzulegen, und der Nonstop-Betrieb wurde eingestellt.</p>",
+						"<p>Ab 2010 stiegen die Fahrgastzahlen mit der wirtschaftlichen Erholung, der wachsenden Zahl ausländischer Reisender und gezielten Marketingmaßnahmen bei ausländischen Reisebüros deutlich. Der Rapi:t wurde als Flughafenzug beliebter und dient werktags zusätzlich als Pendlerzug mit Reservierungspflicht.</p>",
+						"<p>2014 gab es eine Kollaboration mit dem Anime *Gundam UC*, aus der ein tiefroter Rapi:t hervorging. 2015 folgte eine Kollaboration mit *Star Wars* mit einem schwarzen Rapi:t. Seitdem gibt es immer mehr Farbvarianten des Zugs. <a href='https://www.youtube.com/watch?v=2NohInElWGA' target='_blank'>((YouTube))</a> <a href='https://www.youtube.com/watch?v=57fp-YIR5Lk' target='_blank'>((YouTube))</a> <a href='https://www.youtube.com/watch?v=1I8fwXnji7I' target='_blank'>((YouTube))</a></p>",
+						"<p>Was für ein unglaublicher Auftritt …</p>"
+					]
+				}
+			]
+		},
+
+		"rising": {
+			"name": "Rising Stage",
+			"description": "Densha de D: Rising Stage ist der vierte Teil der Densha-de-D-Serie. Ein Zugrennspiel, das die populäre Manga-Serie Initial D parodiert.",
+			"characters": [
+				{
+					"name": "Takumi Fujiwara",
+					"alias": "Takumi Fujiwara",
+					"description":
+					[
+						"Takumi Fujiwara (藤原拓海, Fujiwara Takumi; in der Tokyopop-Version 'Tak' genannt) ist der Hauptprotagonist von Initial D, Mitglied von Project D und mit den Akina SpeedStars befreundet. Er fährt den Toyota Sprinter AE86 Trueno GT Apex, kurz den Eight-Six, der ursprünglich seinem Vater Bunta gehörte. Mehr oder weniger gezwungenermaßen wurde er zum Tofu-Lieferjungen des väterlichen Betriebs und liefert jeden Morgen am Mount Akina aus.",
+						"<br>",
+						"Obwohl er scheinbar keine Ahnung von Autos hat – er wusste nicht einmal, dass sein Wagen 'Eight-Six' genannt wird –, ist Takumi ein extrem talentierter Fahrer, der schon seit der Mittelstufe auf dem Akina unterwegs ist. Das weckte die Aufmerksamkeit anderer Racing-Teams wie der Akagi RedSuns und der Myogi NightKids, die sich alle ein Rennen gegen Takumi wünschten.",
+						"<br>",
+						"Auf seinem Weg nach oben fuhr er gegen Keisuke Takahashi, die NightKids-Mitglieder Takeshi Nakazato und Shingo Shoji, das weibliche Racing-Duo Impact Blue, Kenta Nakamura und schließlich gegen Ryosuke Takahashi, dessen Siegesserie er damit beendete. Zur gleichen Zeit war er mit Natsuki Mogi zusammen.",
+						"<br>",
+						"Seine Siegesserie fand angeblich ihr Ende, als er gegen Kyoichi Sudo antrat, den Anführer von Emperor am Mount Akagi. Kyoichi erklärte jedoch, dass er das Rennen gar nicht als richtiges Rennen wertete – er wollte Takumi lediglich beweisen, dass der Eight-Six seinem Evo III nicht gewachsen ist. Bunta reparierte den Eight-Six anschließend mit einem neuen Motor und einigen Verbesserungen. Mit dem überholten Eight-Six trat Takumi dann gegen Wataru Akiyama an, einen Fahrer aus der Region Saitama, der ebenfalls einen Eight-Six fährt.",
+						"<br>",
+						"Nach einem Rückkampf gegen Kyoichi und einem Rennen gegen Kai Kogashiwa versöhnte er sich mit Natsuki, bevor sich ihre Wege trennten. Er schloss sich Ryosukes neuem Team Project D an, das ein ähnliches Ziel verfolgte wie zuvor die RedSuns. Als Downhill-Fahrer von Project D verbesserten sich seine Fähigkeiten enorm, während er gegen immer stärkere Gegner aus verschiedenen Regionen antrat. In dieser Zeit lernte er auch seine zweite Freundin Mika Uehara kennen, eine Golferin.",
+						"<br>",
+						"Sein letztes Rennen innerhalb von Project D bestritt er gegen Shinji Inui von Sidewinder. Er gewann zwar, doch dabei ging der Motor des Eight-Six kaputt. Inzwischen fährt er Buntas Subaru Impreza, tritt weiterhin am Mount Akina an und plant, Profi-Rennfahrer zu werden.",
+						"<br>"
+					]
+				},
+				{
+					"name": "Keisuke Takahashi",
+					"alias": "Keisuke Takahashi",
+					"description":
+					[
+						"Keisuke Takahashi (高橋 啓介, Takahashi Keisuke, K.T.) ist der zweitbeste Fahrer der RedSuns. Keisuke fährt einen efini RX-7 Type R (FD3S) und ist ein hervorragender Fahrer, übertroffen nur von seinem älteren Bruder Ryosuke. Er ist ein ziemlicher Hitzkopf und hasst es zu verlieren. Bekanntlich fährt er sehr emotional: Merkt er, dass er nicht gewinnen kann, leidet sein Fahrstil, führt er dagegen, ist er entspannt und gelassen. Früher rebellierte er gegen seine Eltern und geriet oft mit ihnen aneinander, bis sie es schließlich aufgaben, auf ihn einzuwirken. Ryosuke verstand sehr gut, wie Keisuke sich fühlte, nahm ihn eines Tages mit auf eine Bergabfahrt – und das veränderte sein Leben. Bevor Ryosuke ihn zum Straßenrennsport brachte, war Keisuke Anführer einer Bōsōzoku-Gang. Er schließt sich dem neuen Team seines Bruders an und liefert sich eine Rivalität mit Takumi. Bei den meisten Rennen fährt Keisuke den Hillclimb (bergauf), während Takumi den Downhill übernimmt.",
+						"<br>",
+						"Keisuke ist nicht so analytisch veranlagt wie sein älterer Bruder, und Ryosukes Fähigkeit, alles zu berechnen und zu analysieren, beeindruckt ihn sehr. Umgekehrt fasziniert Ryosuke aber auch, wie wenig Keisuke beim Fahren nachdenkt und einfach nur seinem Gefühl folgt. Während Ryosuke beschlossen hat, nicht mehr lange Rennen zu fahren und stattdessen Arzt zu werden, hat Keisuke sein Leben ganz dem Rennsport verschrieben – sein Ziel ist es, Profi-Rennfahrer zu werden. Doch zuerst muss er Takumi besiegen. Auch wenn die beiden sichtlich gut miteinander auskommen, gibt es immer noch eine Art Wettstreit darüber, wer das Ass ist, wobei Keisuke durchaus Respekt vor Takumi hat. Einmal sagte er, er sei nicht so mental stark wie Takumi, weil dieser vor einem großen Rennen einfach blitzschnell einschlafen konnte – was Keisuke fragen ließ, ob Takumi überhaupt wisse, was Druck bedeutet.",
+						"<br>",
+						"Gegen Ende des Fourth-Stage-Animes haben sich Keisukes Fähigkeiten so drastisch verbessert, dass ihm die Kontaktdaten eines Profi-Racing-Teams angeboten werden. Keisuke lehnt das Angebot ab, da er glaubt, noch einen weiten Weg vor sich zu haben, bevor er für eine Profikarriere bereit ist. Takumi merkt zur gleichen Zeit an, dass Keisuke ihn in einem ernsthaften Rennen wahrscheinlich schlagen könnte.",
+						"<br>",
+						"Nach der Final Stage wird er mit seinem RX-7 hauptberuflicher Profi-Rennfahrer, mit Tomiguchi als seinem persönlichen Mechaniker",
+						"<br>"
+					]
+				},
+				{
+					"name": "Atsuro Kawai",
+					"alias": "Atsuro Kawai",
+					"description":
+					[
+						"Atsuro Kawai (川井 淳郎, Kawai Atsurō) ist der Hillclimb-Fahrer und Anführer des in Tochigi ansässigen Teams Seven Star Leaf. Er wirkt wie ein solider Fahrer, der ebenfalls auf Grip-Fahrtechniken setzt, sein Können reicht jedoch bei Weitem nicht an das von Takeshi Nakazato heran. Sein Auto ist auf 400 PS aufgemotzt. ",
+						"<br>"
+					]
+				},
+				{
+					"name": "Daiki Ninomiya",
+					"alias": "Daiki Ninomiya",
+					"description":
+					[
+						"Daiki Ninomiya (二宮 大輝, Ninomiya Daiki; in der Tokyopop-Version 'Dice' genannt) ist das Ass und aktueller Schüler der Todo-Fahrschule und einer der besseren Fahrer der Serie. Mit seinem gelben Civic Type R (EK9) tritt Daiki in einem Downhill-Duell gegen Takumi von Project D an. Sein Vater ist Rennfahrer. Er glänzt beim Bremsen und kann das Bremspedal in Kurven jedes Mal exakt am perfekten Punkt loslassen. Daiki gehört außerdem zu den drei besten Downhill-Fahrern in der Geschichte der Schule. Er ist zudem gut befreundet mit Smiley Sakai und Tomoyuki Tachi.",
+						"<br>"
+					]
+				},
+				{
+					"name": "Smiley Sakai",
+					"alias": "Smiley Sakai",
+					"description":
+					[
+						"Smiley Sakai (スマイリー 酒井, Sumairī Sakai) ist Schüler der Todo-Fahrschule, einer von Daikis Freunden, und fährt einen Integra Type R DC2 mit nachgerüstetem Turbolader. Sakai tritt in einem Hillclimb-Duell gegen Keisuke von Project D an.",
+						"<br>",
+						"Er setzt beim Rennen auf zwei Tricks: Zum einen fährt er mit hohem Tempo in eine Kurve, um seinen Gegner zum Gleichen zu verleiten, und korrigiert sein Tempo dann erst mitten in der Kurve. Zum anderen täuscht er ein Bremsmanöver vor, um seinen Gegner zum Abbremsen zu zwingen, während er selbst davonzieht. Beim Fahren verkrampft sich sein Gesicht so, dass es aussieht, als würde er lächeln – daher sein Spitzname Smiley Sakai.",
+						"<br>",
+						"Daran, dass Daiki ihn respektvoll mit 'Sakai-san' anspricht, lässt sich ableiten, dass Smiley ein älterer Schüler der Todo-Fahrschule ist – vermutlich der Grund, warum er über so viel Wissen zu Todos Rennerfahrung verfügt, insbesondere über die Rivalität der Schule mit Purple Shadow und dessen Top-Fahrern.",
+						"<br>"
+					]
+				},
+				{
+					"name": "Toru Suetsugu",
+					"alias": "Toru Suetsugu",
+					"description":
+					[
+						"Toru Suetsugu (末次 トオル, Suetsugu Tōru) ist der Downhill-Fahrer des Teams Seven Star Leaf und bekannt für seinen rücksichtslosen Kamikaze-Fahrstil bergab. Toru ist außerdem der einzige Fahrer der Serie, der tatsächlich eine feste Beziehung führt – seine Freundin heißt Nao. Nao sorgt sich sehr um ihn und ist alles andere als begeistert davon, dass er Rennen fährt, zumal er so gut wie immer pleite ist und sich häufig Geld von ihr leiht.",
+						"<br>",
+						"Als Ryosukes Project D das Team Seven Star Leaf herausfordert, wird Toru für das Rennen gegen Takumi eingeteilt. Wieder einmal leiht er sich von seiner Freundin Geld für einen neuen Reifensatz. Sie stimmt zu, allerdings unter einer Bedingung: Verliert er, muss er entweder mit dem Rennsport aufhören, oder sie trennen sich. Er verliert, als er versucht, Takumis Gewichtsverlagerungstechnik zum Überqueren offener Gullys nachzuahmen: Sein rechtes Vorderrad verfängt sich im offenen Gully, sein Auto überschlägt sich einmal, bevor es zum Stillstand kommt. Am Ende hält er sich an Naos Bitte – nur um herauszufinden, dass sie das Ultimatum nur aus Schuldgefühl-Taktik ausgesprochen hatte. Trotzdem zeigt er sich dankbar dafür, gegen Project D angetreten zu sein.",
+						"<br>"
+					]
+				},
+				{
+					"name": "Tomoyuki Tachi",
+					"alias": "Tomoyuki Tachi",
+					"description":
+					[
+						"Tomoyuki Tachi (舘 智幸, Tachi Tomoyuki; Tokyopop: 'Touch') ist Profi-Rennfahrer und Absolvent, beziehungsweise 'Ehemaliger' (kurz OB), der Todo-Fahrschule. Er wird hinzugeholt, um nach der Niederlage gegen Project D einen Rückkampf auf der Happogahara zu bestreiten. Tomoyuki übernimmt Daikis EK9 und unterbietet Takumis Downhill-Rekord bereits beim ersten Versuch, ohne das Auto überhaupt an seine Grenzen zu bringen. Für die Happogahara erklärt sich Tomoyuki bereit, das Spitzenauto der Schule zu fahren – den von Spoon getunten Vorführ-EK9.",
+						"<br>",
+						"Es wird stark vermutet, dass sein Profi-Renn-Outfit auf dem Rennoutfit basiert, das Keiichi Tsuchiya während seiner aktiven Zeit und bei seinen Auftritten in Best Motoring trug. Der grüne Rennanzug, die Handschuhe und die roten ARD-Asics-Rennschuhe stützen diese Vermutung. Offenbar spielte Tomoyuki auch eine Rolle im CD-Hörspiel-Drama zu Initial D, das auf Tsuchiya als Vorbild basierte. Tomoyuki tunte den Civic so gut er konnte, um auf den Geraden mit dem FD mithalten zu können, doch überraschenderweise entschied sich Ryosuke, stattdessen den Eight-Six ins Rennen zu schicken. Er verliert gegen Takumi, als er kurz vor der Ziellinie von der Straßenmitte abweicht, um eine Katze nicht zu überfahren, die die Straße überquert. Durch dieses Ausweichmanöver schafft er genug Platz, damit Takumi mit seinem Eight-Six an ihm vorbeiziehen kann. Takumi fragt Tomoyuki anschließend, warum er plötzlich Platz gemacht habe. Tachi antwortet, er habe geglaubt, etwas die Straße überqueren zu sehen, und aus reinem Rennreflex sofort ausgewichen. Takumis Scheinwerfer waren dabei als Teil seiner Technik ausgeschaltet.",
+						"<br>"
+					]
+				}
+			],
+			"trains":[
+				{
+					"name": "1720",
+					"alias": "東武１７２０系ＤＲＣ",
+					"description":
+					[
+						"<a href='https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%AD%A61720%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'>((Wikipedia))</a>",
+						"<p>Der Fahrer ist Sato Tomoyuki.</p>",
+						"<p>Dies ist der repräsentative Schnellzug der Tobu Railway, der von 1960 bis 1991 im Einsatz war. Bekannt ist er als „Deluxe Romance Car“ (kurz DRC).</p>",
+						"<p>Die Höchstgeschwindigkeit war auf 165 km/h ausgelegt, was ihn zu einem echten Schnellzug macht.</p>",
+						"<p>Das war Teil eines Plans der Staatsbahn (NR), Tokio und Osaka in 6 Stunden und 30 Minuten zu verbinden, mit der für die „Baureihe 181“ ausgelegten Geschwindigkeit von 160 km/h im Hinterkopf. (Staatsbahn-Baureihe 181) <a href='https://ja.wikipedia.org/wiki/%E5%9B%BD%E9%89%84181%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'>((Wikipedia))</a></p>",
+						"<p>Dieses professionell verarbeitete Fahrzeug passt hervorragend als Vorführwagen der Todo-Fahrschule (Tōdō Juku).</p>",
+						"<p>Schauplatz ist die Tobu-Tojo-Linie, die an der Station Ikebukuro beginnt, durch die Stadt führt und dann durch schnelle Vorortabschnitte rast. Am Signalpunkt Arashiyama, 60 km vom Start entfernt, macht sie kehrt und führt zurück nach Ikebukuro – insgesamt 120 km. <a href='https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%AD%A6%E6%9D%B1%E4%B8%8A%E6%9C%AC%E7%B7%9A' target='_blank'>((Wikipedia))</a></p>",
+						"<p>Ab der Station Ikebukuro hat der erste Abschnitt enge, langsame Kurven, der zweite Abschnitt ab der Station Wakoshi ist viergleisig, der dritte Abschnitt ab der Station Shiki besteht aus einer langen, zweigleisigen Geraden, und der vierte Abschnitt beginnt nach der Station Kitakasato mit langen Geraden und schnellen Kurven.</p>",
+						"<p>Im originalen *Initial D* wird die Strecke der Todo-Fahrschule in vier Abschnitte unterteilt, und ganz ähnlich ist auch die Tobu-Tojo-Linie in *Densha de D* in vier Abschnitte gegliedert. Die Strecke fühlt sich wirklich so an – genieß sie am besten vom vordersten Wagen aus. Bis du zurückkehrst, dürfte es wohl schon Abend sein. (Die Strecke ist lang!)</p>"
+					]
+				},
+				{
+					"name": "2000",
+					"alias": "名鉄２０００系 ミュースカイ",
+					"description":
+					[
+						"<a href='https://ja.wikipedia.org/wiki/%E5%90%8D%E9%89%842000%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'>((Wikipedia))</a>",
+						"<p>Der Fahrer ist Kawai Jun'oro.</p>",
+						"<p>Dies ist ein Schnellzug, der für die Anbindung an den Chubu Centrair International Airport entwickelt wurde. <a href='https://www.youtube.com/watch?v=QDlAVbQzF0s' target='_blank'>((YouTube))</a></p>",
+						"<p>Schauplatz ist die Tokoname-Linie mit ihren vielen Kurven – schnelles Durchfahren dieser kurvigen Abschnitte war für Meitetsu stets eine Herausforderung.</p>",
+						"<p>(Tokoname-Linie) <a href='https://ja.wikipedia.org/wiki/%E5%90%8D%E9%89%84%E5%B8%B8%E6%BB%91%E7%B7%9A' target='_blank'>((Wikipedia))</a></p>",
+						"<p>Um dem entgegenzuwirken, wurde ein „Wagenkasten-Neigemechanismus“ mit „Luftfedern“ verbaut, der das Kurventempo um 5 bis 15 km/h gegenüber bestehenden Zügen verbesserte.</p>",
+						"<p>Der Zug ist überwiegend weiß mit blauen Akzentfarben, es gibt aber auch rote Mehrzweckwagen. <a href='https://ja.wikipedia.org/wiki/%E5%90%8D%E9%89%842200%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'>((Wikipedia))</a></p>",
+						"<p>Diese Variante verfügt nicht über den Neigemechanismus, weshalb Fahrgäste in diesen Wagen auch stehen können.</p>",
+						"<p>Neben den Zug-Duellen treten hier auch Maskottchen gegeneinander an. Viele davon sind bekannte Figuren aus Nagoya. Nagoya ist bekannt für köstliche lokale Gerichte wie Tebasaki (Hühnerflügel) und Tonkatsu (paniertes Schweineschnitzel) – unbedingt probieren!</p>"
+					]
+				},
+				{
+					"name": "1000",
+					"alias": "名鉄１０００系 パノラマハイパー",
+					"description":
+					[
+						"<a href='https://ja.wikipedia.org/wiki/%E5%90%8D%E9%89%841000%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'>((Wikipedia))</a>",
+						"<p>Der Fahrer ist Suetsugu Toru.</p>",
+						"<p>Dies ist ein Schnellzug von Meitetsu (Nagoya Railway), der in der Präfektur Aichi verkehrt – der Heimat der Toyota Motor Corporation, dem Hersteller des AE86.</p>",
+						"<p>Er debütierte 1988, konzipiert als 'High-Amenity-Express' – ganz im Zeichen der damaligen wirtschaftlichen Hochphase in ganz Japan.</p>",
+						"<p>Der vorderste Wagen ist als Hochdecker gebaut, mit erhöht angeordneten Sitzen. Es gibt 'Panoramasitze' mit großen Fenstern und hervorragender Aussicht. Diese Plätze sind reserviert und erfordern ein zusätzliches 'Mew-Ticket'.</p>",
+						"<p>Der Zug verfügt über Meitetsus einzigartiges, lang gezogenes Melodiesignalhorn. <a href='https://www.youtube.com/watch?v=xqBUws9GntA' target='_blank'>((YouTube))</a></p>",
+						"<p>Der Grund für die lange Melodie dieses Horns soll sein, ungeduldige Autofahrer an Bahnübergängen zu vertreiben. Offenbar sind Autos in der Präfektur Aichi, dem Sitz von Toyota, ein Ärgernis für die Eisenbahn?</p>",
+						"<p>In Folge 20 wurde er als 'schäbig' bezeichnet, ist inzwischen aber überholt und leicht umlackiert worden.</p>",
+						"<p>Das Duell findet auf der Meitetsu-Hauptlinie statt, einer rund 100 km langen Strecke. Wäre der Einrad-Drift nicht misslungen, hätte die Geschichte wohl noch viel länger gedauert … <a href='https://ja.wikipedia.org/wiki/%E5%90%8D%E9%89%84%E5%90%8D%E5%8F%A4%E5%B1%8B%E6%9C%AC%E7%B7%9A' target='_blank'>((Wikipedia))</a></p>",
+						"<p>Das Café, das ganz zu Beginn der Geschichte auftaucht, ist ein bekanntes Café namens 'Kissa Mountain'. <a href='https://www.hotpepper.jp/mesitsu/entry/akihiro-ishiguro/18-00087' target='_blank'>((Hotpepper))</a></p>",
+						"<p>Es ist vielleicht nicht jedermanns Sache, aber einen Besuch als Andenken könnte es durchaus wert sein …</p>",
+						"<p>Nachdem eine bei Toyota beschäftigte Person das Video des Meitetsu-Duells auf YouTube gesehen hatte, kam sie zum Comic Market und kaufte die Rising Stage. Offenbar ist sie bei den Einheimischen recht beliebt.</p>"
+					]
+				},
+				{
+					"name": "50000",
+					"alias": "東武５００００系",
+					"description":
+					[
+						"<p>Der Fahrer ist Daiki Ninomiya.</p>",
+						"<p>Dies ist ein Nahverkehrszug der Tobu Railway, der 2004 debütierte. (Tobu Railway)</p>",
+						"<p>Konzipiert nach dem Motto 'Fahrzeug der nächsten Generation, freundlich zu Mensch und Umwelt', strebt er Barrierefreiheit, Energieeffizienz und wartungsarmen Betrieb an. Er wird im modularen 'A-Train'-Bauverfahren aus Aluminium gefertigt.</p>",
+						"<p>(A-Train)</p>",
+						"<p>Dieser Zug besteht aus einer zehnteiligen Formation und ist damit der längste Zug der Densha-de-D-Serie.</p>",
+						"<p>Die Isezaki- und die Nikko-Linie, die als Schauplatz dienen, erstrecken sich über rund 140 km und bilden damit eine sehr lange Strecke. Von der Station 'Kinugawa Onsen' bis zur Station 'Asakusa', eine Distanz, die ein Schnellzug normalerweise in 2 Stunden zurücklegt, dauert die Fahrt hier nur rund 30 Minuten. Unterwegs ist der damals noch im Bau befindliche Tokyo Skytree zu sehen.</p>",
+						"<p>(Isezaki-Linie) (Nikko-Linie)</p>",
+						"<p>Heute verkehrt er im Verbund mit anderen Gesellschaften wie Tokyo Metro und Tokyu. Übrigens tritt Tokyu im nächsten Teil, 'Shining Stage', in Erscheinung – wer an einer Station wartet, kann also schon den Zug des nächsten Teils neben diesem hier sehen. (Tokyu)</p>"
+					]
+				},
+				{
+					"name": "200",
+					"alias": "東武２００系",
+					"description":
+					[
+						"<a href='https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%AD%A6200%E7%B3%BB%E9%9B%BB%E8%BB%8A' target='_blank'>((Wikipedia))</a>",
+						"<p>Der Fahrer ist Smiley Sakai.</p>",
+						"<p>Er debütierte 1990 als Nachfolger der älteren Tobu-Baureihe 1800 'Ryomo' und ist ein Schnellzugfahrzeug.</p>",
+						"<p>Er verwendet Teile des zerlegten 1720er-DRC, wie weiter unten erwähnt.</p>",
+						"<p>Es handelt sich um einen vollelektrischen Zug mit mehrstufiger Vernier-Widerstandssteuerung. Seine Beschleunigung ist hervorragend, und durch sein Gewicht erzeugt er zusätzliche Traktion an den Rädern, was ihn bei Steigungen stark macht. Sein Gewicht wirkt sich jedoch deutlich negativ auf sein Kurvenverhalten aus.</p>",
+						"<p>Schauplatz sind die Isezaki- und die Nikko-Linie, ausgehend von der Station 'Asakusa' mit Ziel 'Tobu-Nikko'.</p>",
+						"<p>Unterwegs, in der Nähe des 'Washi-no-Miya-Schreins' aus 'Lucky Star', gibt es einen Bahnübergang … Ach ja, wer an der Station 'Washi-no-Miya' auf der Isezaki-Linie aussteigt, findet den Schrein gleich in der Nähe.</p>",
+						"<p>Eine Zusammenstellung der BGM-Quellen. Ob das wohl eine Parodie einer Parodie ist …?</p>",
+						"<p>Noizy Tribe (Initial D) <a href='https://www.youtube.com/watch?v=w3rPQO3Q_bg' target='_blank'>((YouTube))</a></p>",
+						"<p>m.o.e.v/Gravity (Lucky Star) <a href='https://www.youtube.com/watch?v=w3rPQO3Q_bg' target='_blank'>((YouTube))</a></p>",
+						"<p>Deadly Smile (Denno D) <a href='https://www.youtube.com/watch?v=w3rPQO3Q_bg' target='_blank'>((YouTube))</a></p>"
+					]
+				}
+			]
+		},
+
+		"shining": {
+			"name": "Shining Stage",
+			"description": "Densha de D: Shining Stage ist der fünfte Teil der Densha-de-D-Serie. Ein Zugrennspiel, das die populäre Manga-Serie Initial D parodiert.",
+			"characters": [
+				{
+					"name": "icon_86",
+					"alias": "",
+					"description":
+					[
+						"",
+						"<br>"
+					]
+				}
+			],
+			"trains":[
+				{
+					"name": "86",
+					"alias": "",
+					"description":
+					[
+						"",
+						"<br>"
+					]
+				}
+			]
+		},
+
+		"gleaming": {
+			"name": "Gleaming Stage",
+			"description": "Ein neues Densha de D Spiel befindet sich in Entwicklung! Der Erscheinungstermin ist noch unbekannt, aber ein erster offizieller Soundtrack wurde bereits angeteasert – hier anschauen:",
+			"characters": [
+
+			],
+			"trains":[
+
+			]
+		}
+	}
+}
